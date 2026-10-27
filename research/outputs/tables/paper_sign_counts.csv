@@ -1,0 +1,8 @@
+model,comparator,cells,model_lower_rmse,sign_test_p_two_sided,note
+sarima,seasonal_naive,20,20,1.9073486328125e-06,"descriptive: the 20 cells share countries and overlapping periods, so they are not independent"
+ets,seasonal_naive,20,18,0.0004024505615234375,"descriptive: the 20 cells share countries and overlapping periods, so they are not independent"
+yu_weighted_fts,seasonal_naive,20,12,0.5034446716308594,"descriptive: the 20 cells share countries and overlapping periods, so they are not independent"
+yu_weighted_fts,sarima,20,0,1.9073486328125e-06,"descriptive: the 20 cells share countries and overlapping periods, so they are not independent"
+yu_weighted_fts,ets,20,4,0.01181793212890625,"descriptive: the 20 cells share countries and overlapping periods, so they are not independent"
+yu_weighted_fts,yu_equal_fts,20,9,0.8238029479980469,"descriptive: the 20 cells share countries and overlapping periods, so they are not independent"
+yu_weighted_fts,chen_fts,20,18,0.0004024505615234375,"descriptive: the 20 cells share countries and overlapping periods, so they are not independent"

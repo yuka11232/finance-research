@@ -1,0 +1,456 @@
+target,analysis,country,coicop,family,spec,val_rmse_mean_h,seconds
+mom,category,AZE,CP02,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",3.1156582059352957,3.1
+mom,category,AZE,CP02,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",3.1541686671179026,0.9
+mom,category,AZE,CP02,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",3.3218442229632412,1.3
+mom,category,AZE,CP02,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",3.0244978238051172,0.4
+mom,category,AZE,CP02,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",3.0646899936449463,1.0
+mom,category,AZE,CP02,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",3.0919390384860663,1.2
+mom,category,AZE,CP02,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",3.5101479219375546,1.5
+mom,category,AZE,CP02,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",3.053045035347867,0.5
+mom,category,AZE,CP02,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",3.0793098531115444,0.9
+mom,category,AZE,CP02,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",3.1108914697430063,1.5
+mom,category,AZE,CP02,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",3.326146336562802,1.5
+mom,category,AZE,CP02,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",3.025879339276436,0.6
+mom,category,AZE,CP02,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",3.0655985264522854,1.3
+mom,category,AZE,CP02,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",3.091640280567227,1.4
+mom,category,AZE,CP02,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",3.5452237409108274,1.9
+mom,category,AZE,CP02,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",3.0315719009415347,0.6
+mom,category,AZE,CP02,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",3.0632581292207197,1.2
+mom,category,AZE,CP02,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",3.0890013799076117,2.3
+mom,category,AZE,CP02,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",3.511595076059217,2.1
+mom,category,AZE,CP02,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",3.0298043064423514,0.8
+mom,category,AZE,CP02,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",3.063863054635575,1.7
+mom,category,AZE,CP02,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",3.0695976456770233,3.5
+mom,category,AZE,CP02,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",3.5550048900783358,2.8
+mom,category,AZE,CP02,ets,"ETS(A,N,N)",3.56893683317162,
+mom,category,AZE,CP02,ets,"ETS(A,N,A)",3.734525523881476,
+mom,category,AZE,CP02,ets,"ETS(A,A,N)",3.7058129245134586,
+mom,category,AZE,CP02,ets,"ETS(A,A,A)",3.8292893725697055,
+mom,category,AZE,CP02,ets,"ETS(A,Ad,N)",4.395469368099313,
+mom,category,AZE,CP02,ets,"ETS(A,Ad,A)",4.503812846272998,
+mom,category,AZE,CP02,fts,chen[average],6.332325227271976,
+mom,category,AZE,CP02,fts,chen[distribution],6.6716666584660835,
+mom,category,AZE,CP02,fts,yu_equal[average],6.028915502473662,
+mom,category,AZE,CP02,fts,yu_equal[distribution],5.919433914604422,
+mom,category,AZE,CP02,fts,yu_weighted[average],6.039176852870092,
+mom,category,AZE,CP02,fts,yu_weighted[distribution],5.936311945475815,
+mom,category,AZE,CP01,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",1.5723866715852557,3.1
+mom,category,AZE,CP01,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",1.476746248730341,1.1
+mom,category,AZE,CP01,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",1.1849318061539837,2.6
+mom,category,AZE,CP01,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",1.6764769153365597,0.6
+mom,category,AZE,CP01,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",1.5324772508940918,1.0
+mom,category,AZE,CP01,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",1.4600834460244423,1.1
+mom,category,AZE,CP01,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",1.1572982854521956,3.9
+mom,category,AZE,CP01,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",1.725256069259618,0.8
+mom,category,AZE,CP01,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",1.58004443540139,1.0
+mom,category,AZE,CP01,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",1.5004794687339182,1.5
+mom,category,AZE,CP01,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",1.1793217536941627,3.5
+mom,category,AZE,CP01,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",1.684909677857473,0.6
+mom,category,AZE,CP01,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",1.5627647086417853,1.1
+mom,category,AZE,CP01,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",1.4939502278217862,1.5
+mom,category,AZE,CP01,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",1.1801263874035166,6.2
+mom,category,AZE,CP01,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",1.661274014484702,0.6
+mom,category,AZE,CP01,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",1.5556111628754952,1.3
+mom,category,AZE,CP01,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",1.492938042667932,2.3
+mom,category,AZE,CP01,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",1.1771967881985144,5.3
+mom,category,AZE,CP01,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",1.5677753948831443,1.0
+mom,category,AZE,CP01,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",1.537985971619768,1.9
+mom,category,AZE,CP01,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",1.481702518341197,3.1
+mom,category,AZE,CP01,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",1.185213366343937,8.5
+mom,category,AZE,CP01,ets,"ETS(A,N,N)",2.4474376436405816,
+mom,category,AZE,CP01,ets,"ETS(A,N,A)",1.5554427902752732,
+mom,category,AZE,CP01,ets,"ETS(A,A,N)",2.473421691934149,
+mom,category,AZE,CP01,ets,"ETS(A,A,A)",1.5787404518329333,
+mom,category,AZE,CP01,ets,"ETS(A,Ad,N)",2.4472270425956353,
+mom,category,AZE,CP01,ets,"ETS(A,Ad,A)",1.5501872474868545,
+mom,category,AZE,CP01,fts,chen[average],2.441449826247925,
+mom,category,AZE,CP01,fts,chen[distribution],2.6883565677083827,
+mom,category,AZE,CP01,fts,yu_equal[average],2.2565657927528675,
+mom,category,AZE,CP01,fts,yu_equal[distribution],2.288299991647205,
+mom,category,AZE,CP01,fts,yu_weighted[average],2.3064829279772954,
+mom,category,AZE,CP01,fts,yu_weighted[distribution],2.361036374473249,
+mom,category,AZE,CP03,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",0.9132521984598501,3.0
+mom,category,AZE,CP03,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",0.9544523979976769,1.1
+mom,category,AZE,CP03,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",1.019735879920785,1.2
+mom,category,AZE,CP03,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",1.0266168070630983,0.5
+mom,category,AZE,CP03,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",0.8859147155838936,1.1
+mom,category,AZE,CP03,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.8917110107834837,1.1
+mom,category,AZE,CP03,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",0.960962232524953,1.7
+mom,category,AZE,CP03,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.9972882332926707,0.6
+mom,category,AZE,CP03,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.8752041003637999,0.9
+mom,category,AZE,CP03,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.8708547014039894,1.2
+mom,category,AZE,CP03,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.9270315720053428,1.9
+mom,category,AZE,CP03,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.9936488065208815,0.7
+mom,category,AZE,CP03,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.861506145784122,1.3
+mom,category,AZE,CP03,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.8550261611608356,1.6
+mom,category,AZE,CP03,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.9014549769128506,2.4
+mom,category,AZE,CP03,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.9928964969944872,0.6
+mom,category,AZE,CP03,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.8584174976001537,1.1
+mom,category,AZE,CP03,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.859676118317052,2.6
+mom,category,AZE,CP03,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.9120564820940009,2.5
+mom,category,AZE,CP03,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.9993889181985743,0.9
+mom,category,AZE,CP03,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.867452617541186,2.1
+mom,category,AZE,CP03,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.8677491600041534,3.2
+mom,category,AZE,CP03,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.9753028669518481,4.6
+mom,category,AZE,CP03,ets,"ETS(A,N,N)",1.2720974338813027,
+mom,category,AZE,CP03,ets,"ETS(A,N,A)",1.0304848690566306,
+mom,category,AZE,CP03,ets,"ETS(A,A,N)",1.3206451629487665,
+mom,category,AZE,CP03,ets,"ETS(A,A,A)",1.06814630701167,
+mom,category,AZE,CP03,ets,"ETS(A,Ad,N)",1.2166610608101855,
+mom,category,AZE,CP03,ets,"ETS(A,Ad,A)",1.041098724975643,
+mom,category,AZE,CP03,fts,chen[average],1.4956471606946509,
+mom,category,AZE,CP03,fts,chen[distribution],1.4956471606946509,
+mom,category,AZE,CP03,fts,yu_equal[average],1.5023639265092408,
+mom,category,AZE,CP03,fts,yu_equal[distribution],1.5023639265092408,
+mom,category,AZE,CP03,fts,yu_weighted[average],1.5576937234938821,
+mom,category,AZE,CP03,fts,yu_weighted[distribution],1.5576937234938821,
+mom,category,AZE,CP06,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",0.7344665762863904,2.8
+mom,category,AZE,CP06,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",0.7387440609758287,0.9
+mom,category,AZE,CP06,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",0.7357035273326685,1.2
+mom,category,AZE,CP06,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.7449291064666894,0.5
+mom,category,AZE,CP06,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",0.7292011094144004,0.9
+mom,category,AZE,CP06,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.7329883356931203,1.1
+mom,category,AZE,CP06,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",0.7301849374119187,1.5
+mom,category,AZE,CP06,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.7408696945356448,0.6
+mom,category,AZE,CP06,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.7236481971935371,0.8
+mom,category,AZE,CP06,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.7282658221691789,1.4
+mom,category,AZE,CP06,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.7264772344078164,1.6
+mom,category,AZE,CP06,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.7432821707938151,0.7
+mom,category,AZE,CP06,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.7222169827456734,1.4
+mom,category,AZE,CP06,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.7279889828872099,1.5
+mom,category,AZE,CP06,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.7220186561959538,1.9
+mom,category,AZE,CP06,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.738695187157569,0.5
+mom,category,AZE,CP06,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.7167352466811296,1.1
+mom,category,AZE,CP06,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.7232632016473115,2.6
+mom,category,AZE,CP06,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.7199056496291791,1.9
+mom,category,AZE,CP06,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.7519877524778922,1.1
+mom,category,AZE,CP06,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.7237008345558568,3.4
+mom,category,AZE,CP06,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.7281843673213676,3.2
+mom,category,AZE,CP06,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.7251047168855806,5.0
+mom,category,AZE,CP06,ets,"ETS(A,N,N)",0.8091181757708201,
+mom,category,AZE,CP06,ets,"ETS(A,N,A)",0.8436710778381997,
+mom,category,AZE,CP06,ets,"ETS(A,A,N)",0.8143946951581369,
+mom,category,AZE,CP06,ets,"ETS(A,A,A)",0.8471433067152977,
+mom,category,AZE,CP06,ets,"ETS(A,Ad,N)",0.7996164425043749,
+mom,category,AZE,CP06,ets,"ETS(A,Ad,A)",0.8440328997654283,
+mom,category,AZE,CP06,fts,chen[average],1.0170835211077864,
+mom,category,AZE,CP06,fts,chen[distribution],1.0527533425274445,
+mom,category,AZE,CP06,fts,yu_equal[average],0.9896611820578567,
+mom,category,AZE,CP06,fts,yu_equal[distribution],0.9491624901333153,
+mom,category,AZE,CP06,fts,yu_weighted[average],0.9396706790804618,
+mom,category,AZE,CP06,fts,yu_weighted[distribution],0.960450351311587,
+mom,category,AZE,CP04,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",2.5728592626123907,2.9
+mom,category,AZE,CP04,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",2.5723875610566695,1.0
+mom,category,AZE,CP04,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",2.594783726941158,2.0
+mom,category,AZE,CP04,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",2.5553434755020388,0.5
+mom,category,AZE,CP04,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",2.572954291395244,1.1
+mom,category,AZE,CP04,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",2.5724816840534315,1.1
+mom,category,AZE,CP04,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",2.594902003865611,2.8
+mom,category,AZE,CP04,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",2.5553776729906805,0.6
+mom,category,AZE,CP04,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",2.5729266499003356,1.0
+mom,category,AZE,CP04,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",2.572481569754205,1.6
+mom,category,AZE,CP04,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",2.594798207810174,2.9
+mom,category,AZE,CP04,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",2.5397326825587143,1.0
+mom,category,AZE,CP04,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",2.5535523503161954,2.3
+mom,category,AZE,CP04,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",2.5532827002682956,2.7
+mom,category,AZE,CP04,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",2.550623827077014,4.8
+mom,category,AZE,CP04,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",2.5551147328222577,0.6
+mom,category,AZE,CP04,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",2.5732737080428985,1.4
+mom,category,AZE,CP04,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",2.572779003666347,2.8
+mom,category,AZE,CP04,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",2.596050701539263,4.0
+mom,category,AZE,CP04,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",2.539492552298149,1.4
+mom,category,AZE,CP04,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",2.5529937595565064,3.5
+mom,category,AZE,CP04,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",2.5527629624822445,3.4
+mom,category,AZE,CP04,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",2.538997746972796,7.2
+mom,category,AZE,CP04,ets,"ETS(A,N,N)",2.5558798255343778,
+mom,category,AZE,CP04,ets,"ETS(A,N,A)",3.276855798834442,
+mom,category,AZE,CP04,ets,"ETS(A,A,N)",2.921203884045241,
+mom,category,AZE,CP04,ets,"ETS(A,A,A)",3.569352994133248,
+mom,category,AZE,CP04,ets,"ETS(A,Ad,N)",2.5568798859125517,
+mom,category,AZE,CP04,ets,"ETS(A,Ad,A)",3.2958787119123487,
+mom,category,AZE,CP04,fts,chen[average],12.518645879293201,
+mom,category,AZE,CP04,fts,chen[distribution],11.715110613828921,
+mom,category,AZE,CP04,fts,yu_equal[average],3.060459257772634,
+mom,category,AZE,CP04,fts,yu_equal[distribution],3.0275134553024237,
+mom,category,AZE,CP04,fts,yu_weighted[average],3.0339220718817215,
+mom,category,AZE,CP04,fts,yu_weighted[distribution],2.9920968651902804,
+mom,category,AZE,CP07,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",3.2345934499412774,2.7
+mom,category,AZE,CP07,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",3.2345107781991516,0.9
+mom,category,AZE,CP07,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",3.2360724179290177,1.4
+mom,category,AZE,CP07,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",3.2454345294823437,0.4
+mom,category,AZE,CP07,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",3.2434646742685542,1.0
+mom,category,AZE,CP07,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",3.2433644983091545,1.0
+mom,category,AZE,CP07,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",3.244165352786648,1.5
+mom,category,AZE,CP07,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",3.2457287353956765,0.6
+mom,category,AZE,CP07,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",3.2436679746673813,0.8
+mom,category,AZE,CP07,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",3.2435579821868386,1.1
+mom,category,AZE,CP07,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",3.244175196392474,1.6
+mom,category,AZE,CP07,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",3.2455877305102283,0.6
+mom,category,AZE,CP07,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",3.2433584594271543,1.3
+mom,category,AZE,CP07,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",3.243241539011752,1.7
+mom,category,AZE,CP07,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",3.2440304844657373,2.0
+mom,category,AZE,CP07,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",3.2450427125359997,0.6
+mom,category,AZE,CP07,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",3.2421461496918593,1.0
+mom,category,AZE,CP07,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",3.2419880007287873,1.8
+mom,category,AZE,CP07,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",3.2428780864193216,1.8
+mom,category,AZE,CP07,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",3.2415080863413257,1.0
+mom,category,AZE,CP07,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",3.238360455665639,2.4
+mom,category,AZE,CP07,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",3.2382247710161565,2.8
+mom,category,AZE,CP07,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",3.2394010544303424,2.4
+mom,category,AZE,CP07,ets,"ETS(A,N,N)",3.2367949553816797,
+mom,category,AZE,CP07,ets,"ETS(A,N,A)",3.2862283337503406,
+mom,category,AZE,CP07,ets,"ETS(A,A,N)",3.2910436341162423,
+mom,category,AZE,CP07,ets,"ETS(A,A,A)",3.3367656040779616,
+mom,category,AZE,CP07,ets,"ETS(A,Ad,N)",3.256983024804554,
+mom,category,AZE,CP07,ets,"ETS(A,Ad,A)",3.2865917732532868,
+mom,category,AZE,CP07,fts,chen[average],3.8325969020054473,
+mom,category,AZE,CP07,fts,chen[distribution],3.9707552283561065,
+mom,category,AZE,CP07,fts,yu_equal[average],3.870007818683372,
+mom,category,AZE,CP07,fts,yu_equal[distribution],3.9258471940893096,
+mom,category,AZE,CP07,fts,yu_weighted[average],3.8955983258995133,
+mom,category,AZE,CP07,fts,yu_weighted[distribution],3.944899163231878,
+mom,category,AZE,CP05,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",0.7835626704950289,2.9
+mom,category,AZE,CP05,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",0.7856497109090907,1.2
+mom,category,AZE,CP05,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",0.7834880608380957,1.1
+mom,category,AZE,CP05,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.804102039258922,0.5
+mom,category,AZE,CP05,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",0.7752341878429767,1.0
+mom,category,AZE,CP05,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.7751658053022714,1.0
+mom,category,AZE,CP05,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",0.7751713548505239,1.4
+mom,category,AZE,CP05,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.8031177419730898,0.6
+mom,category,AZE,CP05,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.7707458208563734,0.9
+mom,category,AZE,CP05,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.7704227705736522,1.6
+mom,category,AZE,CP05,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.7707296485713658,1.7
+mom,category,AZE,CP05,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.8106127181166682,0.8
+mom,category,AZE,CP05,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.7758681947707641,1.5
+mom,category,AZE,CP05,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.7754316802243026,1.8
+mom,category,AZE,CP05,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.7757729084951506,1.8
+mom,category,AZE,CP05,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.8041339370873848,0.6
+mom,category,AZE,CP05,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.7708439551189441,1.0
+mom,category,AZE,CP05,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.7704872996013808,2.4
+mom,category,AZE,CP05,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.7708406905275363,1.8
+mom,category,AZE,CP05,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.8178150584812898,1.5
+mom,category,AZE,CP05,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.7848143616719068,2.7
+mom,category,AZE,CP05,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.7840436542456942,3.0
+mom,category,AZE,CP05,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.7845805957137639,3.8
+mom,category,AZE,CP05,ets,"ETS(A,N,N)",0.8888565559451815,
+mom,category,AZE,CP05,ets,"ETS(A,N,A)",0.8157729659630971,
+mom,category,AZE,CP05,ets,"ETS(A,A,N)",0.9038134511758886,
+mom,category,AZE,CP05,ets,"ETS(A,A,A)",0.8314847736425595,
+mom,category,AZE,CP05,ets,"ETS(A,Ad,N)",0.884909547242057,
+mom,category,AZE,CP05,ets,"ETS(A,Ad,A)",0.8160397407658315,
+mom,category,AZE,CP05,fts,chen[average],1.1546915008849101,
+mom,category,AZE,CP05,fts,chen[distribution],1.2321991605788862,
+mom,category,AZE,CP05,fts,yu_equal[average],1.051020132055792,
+mom,category,AZE,CP05,fts,yu_equal[distribution],1.1851709607754295,
+mom,category,AZE,CP05,fts,yu_weighted[average],1.0788122727177971,
+mom,category,AZE,CP05,fts,yu_weighted[distribution],1.2384331982687464,
+mom,category,AZE,CP08,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",0.4078624335909165,2.7
+mom,category,AZE,CP08,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",0.40789309771003623,0.9
+mom,category,AZE,CP08,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",0.40693215511098896,1.3
+mom,category,AZE,CP08,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.40795120910679195,0.5
+mom,category,AZE,CP08,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",0.4078799181807893,0.9
+mom,category,AZE,CP08,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.4078303488312086,1.0
+mom,category,AZE,CP08,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",0.4069346594256479,2.1
+mom,category,AZE,CP08,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.40795094771485274,0.5
+mom,category,AZE,CP08,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.40785652518407695,0.8
+mom,category,AZE,CP08,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.4078817521303707,1.0
+mom,category,AZE,CP08,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.40693240827560545,1.6
+mom,category,AZE,CP08,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.40791681405042346,0.9
+mom,category,AZE,CP08,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.4078344940465564,1.2
+mom,category,AZE,CP08,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.40783059069480787,1.6
+mom,category,AZE,CP08,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.4069303823358354,1.9
+mom,category,AZE,CP08,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.40793125185713774,0.6
+mom,category,AZE,CP08,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.4078415520986899,1.0
+mom,category,AZE,CP08,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.4078618134257599,1.7
+mom,category,AZE,CP08,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.40693084545872277,2.2
+mom,category,AZE,CP08,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.40792080199125413,0.8
+mom,category,AZE,CP08,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.40782971872057616,1.5
+mom,category,AZE,CP08,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.40782330957703594,1.9
+mom,category,AZE,CP08,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.40690684479455175,2.7
+mom,category,AZE,CP08,ets,"ETS(A,N,N)",0.4079439623755327,
+mom,category,AZE,CP08,ets,"ETS(A,N,A)",0.7493124717316104,
+mom,category,AZE,CP08,ets,"ETS(A,A,N)",0.5605560994010266,
+mom,category,AZE,CP08,ets,"ETS(A,A,A)",0.8303185466806482,
+mom,category,AZE,CP08,ets,"ETS(A,Ad,N)",0.4089014582428159,
+mom,category,AZE,CP08,ets,"ETS(A,Ad,A)",0.7436397296790513,
+mom,category,AZE,CP08,fts,chen[average],0.6659351373531435,
+mom,category,AZE,CP08,fts,chen[distribution],1.0463592273422828,
+mom,category,AZE,CP08,fts,yu_equal[average],0.5920712476777749,
+mom,category,AZE,CP08,fts,yu_equal[distribution],0.5694135542466153,
+mom,category,AZE,CP08,fts,yu_weighted[average],0.5796666389507352,
+mom,category,AZE,CP08,fts,yu_weighted[distribution],0.6107140849215451,
+mom,category,AZE,CP09,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",1.1471091096049955,2.9
+mom,category,AZE,CP09,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",1.1509680919787004,0.9
+mom,category,AZE,CP09,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",1.1004624686741595,1.3
+mom,category,AZE,CP09,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",1.14764396753303,0.5
+mom,category,AZE,CP09,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",1.147883246203507,0.9
+mom,category,AZE,CP09,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",1.1515868119997157,1.3
+mom,category,AZE,CP09,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",1.1001013840147327,1.7
+mom,category,AZE,CP09,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",1.1473034755973344,0.5
+mom,category,AZE,CP09,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",1.1475957314006275,0.8
+mom,category,AZE,CP09,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",1.1513352146308968,1.4
+mom,category,AZE,CP09,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",1.1000511074818684,1.7
+mom,category,AZE,CP09,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",1.1618288176736065,0.8
+mom,category,AZE,CP09,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",1.1668001774940802,1.5
+mom,category,AZE,CP09,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",1.17079576104116,1.5
+mom,category,AZE,CP09,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",1.128455436546221,2.8
+mom,category,AZE,CP09,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",1.1533134313022317,0.5
+mom,category,AZE,CP09,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",1.1526292740842377,1.0
+mom,category,AZE,CP09,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",1.1564332972030371,2.6
+mom,category,AZE,CP09,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",1.105716527536606,2.0
+mom,category,AZE,CP09,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",1.1613117597522156,0.9
+mom,category,AZE,CP09,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",1.163691857415505,1.8
+mom,category,AZE,CP09,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",1.1696397991598662,2.4
+mom,category,AZE,CP09,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",1.1222722090739148,3.1
+mom,category,AZE,CP09,ets,"ETS(A,N,N)",1.1467860198597901,
+mom,category,AZE,CP09,ets,"ETS(A,N,A)",1.1721140641506618,
+mom,category,AZE,CP09,ets,"ETS(A,A,N)",1.4024548137202337,
+mom,category,AZE,CP09,ets,"ETS(A,A,A)",1.191574961845066,
+mom,category,AZE,CP09,ets,"ETS(A,Ad,N)",1.1496524284827465,
+mom,category,AZE,CP09,ets,"ETS(A,Ad,A)",1.1794672504748756,
+mom,category,AZE,CP09,fts,chen[average],1.6660716463918124,
+mom,category,AZE,CP09,fts,chen[distribution],1.6691138911343009,
+mom,category,AZE,CP09,fts,yu_equal[average],1.504343088083818,
+mom,category,AZE,CP09,fts,yu_equal[distribution],1.5784262694604458,
+mom,category,AZE,CP09,fts,yu_weighted[average],1.5279630537198527,
+mom,category,AZE,CP09,fts,yu_weighted[distribution],1.5884460016084687,
+mom,category,AZE,CP10,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",0.36567952299001516,3.0
+mom,category,AZE,CP10,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",0.3598119753764447,0.9
+mom,category,AZE,CP10,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",0.36290816034649664,1.0
+mom,category,AZE,CP10,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.40962599172256275,0.5
+mom,category,AZE,CP10,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",0.3678887069526596,1.0
+mom,category,AZE,CP10,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.3612290038254058,1.2
+mom,category,AZE,CP10,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",0.36531589094375294,1.3
+mom,category,AZE,CP10,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.4096077598223119,0.6
+mom,category,AZE,CP10,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.3681563429762906,0.9
+mom,category,AZE,CP10,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.3614283336157249,1.2
+mom,category,AZE,CP10,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.36560715649992914,1.3
+mom,category,AZE,CP10,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.3780194292064019,0.8
+mom,category,AZE,CP10,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.3681523342826618,1.4
+mom,category,AZE,CP10,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.3614515016982768,2.2
+mom,category,AZE,CP10,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.3655907099450962,1.7
+mom,category,AZE,CP10,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.40819262489879415,0.6
+mom,category,AZE,CP10,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.36759639668976907,1.1
+mom,category,AZE,CP10,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.3608925736573151,1.4
+mom,category,AZE,CP10,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.3649756515751098,1.6
+mom,category,AZE,CP10,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.3856753034953612,1.1
+mom,category,AZE,CP10,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.35618415674036674,2.2
+mom,category,AZE,CP10,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.35389965483700014,2.8
+mom,category,AZE,CP10,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.35502734795148105,2.8
+mom,category,AZE,CP10,ets,"ETS(A,N,N)",0.37520476233131533,
+mom,category,AZE,CP10,ets,"ETS(A,N,A)",0.5461060927882694,
+mom,category,AZE,CP10,ets,"ETS(A,A,N)",0.38317574746628325,
+mom,category,AZE,CP10,ets,"ETS(A,A,A)",0.5507658313612102,
+mom,category,AZE,CP10,ets,"ETS(A,Ad,N)",0.37133256182917584,
+mom,category,AZE,CP10,ets,"ETS(A,Ad,A)",0.5633200688091345,
+mom,category,AZE,CP10,fts,chen[average],0.9083605927053349,
+mom,category,AZE,CP10,fts,chen[distribution],1.1910673164924421,
+mom,category,AZE,CP10,fts,yu_equal[average],0.3680676573335693,
+mom,category,AZE,CP10,fts,yu_equal[distribution],0.48439912935551954,
+mom,category,AZE,CP10,fts,yu_weighted[average],0.3544144321961017,
+mom,category,AZE,CP10,fts,yu_weighted[distribution],0.48120318414863594,
+mom,category,AZE,ALL,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",0.8726170190344715,1.1
+mom,category,AZE,ALL,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",0.8618490506185614,1.0
+mom,category,AZE,ALL,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",0.8134282626562682,3.9
+mom,category,AZE,ALL,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.931452065208858,0.6
+mom,category,AZE,ALL,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",0.8310272888368337,1.0
+mom,category,AZE,ALL,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.8142307134816015,1.0
+mom,category,AZE,ALL,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",0.7706204907349693,3.2
+mom,category,AZE,ALL,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.9445426046030756,0.3
+mom,category,AZE,ALL,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.8599066234160327,0.7
+mom,category,AZE,ALL,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.8373245276332795,1.0
+mom,category,AZE,ALL,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.7753995652484719,2.8
+mom,category,AZE,ALL,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.9389684978793259,0.4
+mom,category,AZE,ALL,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.85713835750554,0.8
+mom,category,AZE,ALL,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.8360138315267053,1.1
+mom,category,AZE,ALL,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.7768680838441987,3.8
+mom,category,AZE,ALL,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.9368329703956544,0.4
+mom,category,AZE,ALL,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.8563431578119877,0.8
+mom,category,AZE,ALL,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.8355765895292852,1.7
+mom,category,AZE,ALL,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.7787798230711779,3.6
+mom,category,AZE,ALL,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.9154385107817213,0.6
+mom,category,AZE,ALL,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.8459972644519078,1.3
+mom,category,AZE,ALL,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.8251654378171785,1.0
+mom,category,AZE,ALL,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.7776761419999328,2.9
+mom,category,AZE,ALL,ets,"ETS(A,N,N)",1.424881557993739,
+mom,category,AZE,ALL,ets,"ETS(A,N,A)",0.9601148638492437,
+mom,category,AZE,ALL,ets,"ETS(A,A,N)",1.4534729278001444,
+mom,category,AZE,ALL,ets,"ETS(A,A,A)",0.9803306737660176,
+mom,category,AZE,ALL,ets,"ETS(A,Ad,N)",1.4202134419540235,
+mom,category,AZE,ALL,ets,"ETS(A,Ad,A)",0.9588854484066954,
+mom,category,AZE,ALL,fts,chen[average],1.4437651952200818,
+mom,category,AZE,ALL,fts,chen[distribution],1.4592008399144638,
+mom,category,AZE,ALL,fts,yu_equal[average],1.4113534986019547,
+mom,category,AZE,ALL,fts,yu_equal[distribution],1.4586161874815964,
+mom,category,AZE,ALL,fts,yu_weighted[average],1.4344817316042073,
+mom,category,AZE,ALL,fts,yu_weighted[distribution],1.4475044256421135,
+mom,category,AZE,CP11,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",0.7060941657056238,3.1
+mom,category,AZE,CP11,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",0.7277673677376992,1.2
+mom,category,AZE,CP11,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",0.7120104637679576,1.2
+mom,category,AZE,CP11,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.7712975013336469,0.6
+mom,category,AZE,CP11,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",0.6793756055793323,1.0
+mom,category,AZE,CP11,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.6940540390763519,1.0
+mom,category,AZE,CP11,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",0.6836694230067508,1.5
+mom,category,AZE,CP11,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.7654405481635347,0.6
+mom,category,AZE,CP11,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.6749676309176454,0.9
+mom,category,AZE,CP11,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.6872087088009395,1.6
+mom,category,AZE,CP11,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.6784805910843709,1.4
+mom,category,AZE,CP11,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.7835198314411641,0.7
+mom,category,AZE,CP11,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.6890537948005603,1.4
+mom,category,AZE,CP11,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.7023271376147452,1.8
+mom,category,AZE,CP11,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.6934169162955764,1.9
+mom,category,AZE,CP11,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.7762220699330615,0.6
+mom,category,AZE,CP11,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.6836126656275837,1.0
+mom,category,AZE,CP11,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.6961018254051549,1.9
+mom,category,AZE,CP11,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.6874413786734186,1.7
+mom,category,AZE,CP11,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.788619191621158,1.1
+mom,category,AZE,CP11,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.6897823757077819,2.4
+mom,category,AZE,CP11,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.7035332440237467,2.8
+mom,category,AZE,CP11,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.6961131624823353,3.5
+mom,category,AZE,CP11,ets,"ETS(A,N,N)",0.8508947521693662,
+mom,category,AZE,CP11,ets,"ETS(A,N,A)",0.8527865149612216,
+mom,category,AZE,CP11,ets,"ETS(A,A,N)",0.8647532280605915,
+mom,category,AZE,CP11,ets,"ETS(A,A,A)",0.8635654145775628,
+mom,category,AZE,CP11,ets,"ETS(A,Ad,N)",0.8470356690887472,
+mom,category,AZE,CP11,ets,"ETS(A,Ad,A)",0.8522342586302736,
+mom,category,AZE,CP11,fts,chen[average],1.2945481470677969,
+mom,category,AZE,CP11,fts,chen[distribution],1.2188966968157418,
+mom,category,AZE,CP11,fts,yu_equal[average],1.04380157533093,
+mom,category,AZE,CP11,fts,yu_equal[distribution],1.1002920700322558,
+mom,category,AZE,CP11,fts,yu_weighted[average],1.0462430938805918,
+mom,category,AZE,CP11,fts,yu_weighted[distribution],1.1381141856695718,
+mom,category,AZE,CP12,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",0.7590548796338459,1.0
+mom,category,AZE,CP12,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",0.7563815831003264,1.3
+mom,category,AZE,CP12,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",0.8358917932673767,1.4
+mom,category,AZE,CP12,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.750150842419865,0.7
+mom,category,AZE,CP12,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",0.7575549551173661,1.3
+mom,category,AZE,CP12,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.7549026280428077,1.4
+mom,category,AZE,CP12,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",0.835010955627729,1.5
+mom,category,AZE,CP12,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.7501394898735523,0.5
+mom,category,AZE,CP12,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.7575123290726452,0.8
+mom,category,AZE,CP12,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.754887389004605,1.1
+mom,category,AZE,CP12,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.8349934377396435,1.4
+mom,category,AZE,CP12,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.7501399322972678,0.4
+mom,category,AZE,CP12,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.7575154444042302,0.8
+mom,category,AZE,CP12,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.7548852920837348,1.0
+mom,category,AZE,CP12,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.8349357581776886,1.2
+mom,category,AZE,CP12,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.7502346533091108,0.4
+mom,category,AZE,CP12,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.7576807337487439,0.9
+mom,category,AZE,CP12,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.7550085993271479,1.2
+mom,category,AZE,CP12,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.8349812575490746,1.2
+mom,category,AZE,CP12,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.7502248432573241,0.5
+mom,category,AZE,CP12,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.7576565907098687,1.0
+mom,category,AZE,CP12,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.7550091424155496,1.2
+mom,category,AZE,CP12,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.8350122248268599,1.4
+mom,category,AZE,CP12,ets,"ETS(A,N,N)",0.7514982812956762,
+mom,category,AZE,CP12,ets,"ETS(A,N,A)",0.9185894035029831,
+mom,category,AZE,CP12,ets,"ETS(A,A,N)",0.7611965667742511,
+mom,category,AZE,CP12,ets,"ETS(A,A,A)",0.9272637949702117,
+mom,category,AZE,CP12,ets,"ETS(A,Ad,N)",0.7593976936483139,
+mom,category,AZE,CP12,ets,"ETS(A,Ad,A)",0.9047582481062322,
+mom,category,AZE,CP12,fts,chen[average],2.7787764055579816,
+mom,category,AZE,CP12,fts,chen[distribution],3.548896041288682,
+mom,category,AZE,CP12,fts,yu_equal[average],1.0534480986452268,
+mom,category,AZE,CP12,fts,yu_equal[distribution],1.2043691894000412,
+mom,category,AZE,CP12,fts,yu_weighted[average],1.0396561701420732,
+mom,category,AZE,CP12,fts,yu_weighted[distribution],1.1217486345373735,

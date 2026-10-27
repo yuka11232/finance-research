@@ -1,0 +1,210 @@
+== ingest
+   done in 1s
+== audit
+                                                                                  check    n  max_abs_diff  max_rel_diff_pct      corr result
+0                                   IMF AZE CPI level vs AZSTAT official 2010=100 level   84  4.696330e-02          0.027805       NaN    NaN
+1                                       IMF AZE m/m vs AZSTAT published m/m (1 decimal)  123  7.157661e-02               NaN  0.999318    NaN
+2                                   AZE: IMF annual-average inflation vs World Bank WDI   20  9.947598e-14               NaN       NaN    NaN
+3                                   DZA: IMF annual-average inflation vs World Bank WDI   20  1.092459e-13               NaN       NaN    NaN
+4                                   KAZ: IMF annual-average inflation vs World Bank WDI   20  1.447731e-13               NaN       NaN    NaN
+5                                   NOR: IMF annual-average inflation vs World Bank WDI   30  1.274536e-13               NaN       NaN    NaN
+6                                   RUS: IMF annual-average inflation vs World Bank WDI   30  1.492140e-13               NaN       NaN    NaN
+7   Spliced AZE y/y Sep 2026 vs AZSTAT published 105.5 (bulletin 2026_09, sheet 'bash')    1  3.200631e-02               NaN       NaN    NaN
+8                   Team CPI workbook inflation vs World Bank WDI (3 countries x 26 years)   78  4.854673e-08               NaN       NaN    NaN
+9                           Team CPI workbook CPI levels with |ratio-1| > 1% vs World Bank    2           NaN               NaN       NaN    NaN
+10  azstat_tables_51-52_expenditure_quintiles_2024.xls identical to Spending_Expenditure_Quintiles__2024__AZSTAT.xls (sha256)    1  0.000000e+00               NaN       NaN   True
+   country  year  workbook_cpi   wb_cpi
+60     AZE  2008       93225.0   93.225
+66     AZE  2014      113175.0  113.175
+   done in 4s
+== forecasts
+{'target': 'mom', 'analysis': 'A', 'country': 'AZE'} 0s
+{'target': 'mom', 'analysis': 'A', 'country': 'DZA'} 0s
+{'target': 'mom', 'analysis': 'A', 'country': 'KAZ'} 0s
+{'target': 'mom', 'analysis': 'A', 'country': 'RUS'} 0s
+{'target': 'mom', 'analysis': 'B', 'country': 'AZE'} 0s
+{'target': 'mom', 'analysis': 'A', 'country': 'NOR'} 0s
+{'target': 'mom', 'analysis': 'B', 'country': 'KAZ'} 0s
+{'target': 'mom', 'analysis': 'B', 'country': 'DZA'} 0s
+{'target': 'yoy', 'analysis': 'A', 'country': 'AZE'} 0s
+{'target': 'mom', 'analysis': 'B', 'country': 'NOR'} 0s
+{'target': 'yoy', 'analysis': 'A', 'country': 'DZA'} 0s
+{'target': 'yoy', 'analysis': 'A', 'country': 'RUS'} 0s
+{'target': 'mom', 'analysis': 'B', 'country': 'RUS'} 0s
+{'target': 'yoy', 'analysis': 'B', 'country': 'AZE'} 0s
+{'target': 'yoy', 'analysis': 'B', 'country': 'DZA'} 0s
+{'target': 'yoy', 'analysis': 'B', 'country': 'RUS'} 0s
+{'target': 'yoy', 'analysis': 'B', 'country': 'KAZ'} 0s
+{'target': 'yoy', 'analysis': 'A', 'country': 'KAZ'} 0s
+{'target': 'yoy', 'analysis': 'A', 'country': 'NOR'} 0s
+{'target': 'yoy', 'analysis': 'B', 'country': 'NOR'} 0s
+   done in 7s
+== evaluate
+accuracy rows 960 | significance rows 2400 | bootstrap rows 720 | coverage rows 2240
+   done in 97s
+== household
+households: 32 | QC: 26 | consistency: 25
+   done in 58s
+== categories
+CP01 0s
+CP03 0s
+CP02 0s
+CP04 0s
+CP05 0s
+CP06 0s
+CP07 0s
+CP09 0s
+CP10 0s
+CP08 0s
+CP11 0s
+CP12 0s
+ALL 0s
+   done in 5s
+== integration
+units 86 | group rows 346752 | projections 8256
+   done in 192s
+== diagnostics
+   country variable            sample    n  adf_stat  adf_p  kpss_stat  kpss_p_bounded  seasonal_dummy_F  seasonal_dummy_p  acf_lag12                                  reading
+0      AZE      mom  train_to_2018-12  167    -2.809  0.057      0.174           0.100             7.993             0.000      0.322                           mixed evidence
+1      AZE      mom              full  260    -3.012  0.034      0.139           0.100            11.962             0.000      0.343  stationary (ADF rejects, KPSS does not)
+2      AZE      yoy  train_to_2018-12  156    -2.123  0.236      0.342           0.100               NaN               NaN        NaN                           mixed evidence
+3      AZE      yoy              full  249    -3.198  0.020      0.217           0.100               NaN               NaN        NaN  stationary (ADF rejects, KPSS does not)
+4      DZA      mom  train_to_2018-12  167    -3.128  0.025      0.131           0.100             3.985             0.000      0.249  stationary (ADF rejects, KPSS does not)
+5      DZA      mom              full  259    -3.830  0.003      0.152           0.100             7.999             0.000      0.338  stationary (ADF rejects, KPSS does not)
+6      DZA      yoy  train_to_2018-12  156    -3.546  0.007      0.176           0.100               NaN               NaN        NaN  stationary (ADF rejects, KPSS does not)
+7      DZA      yoy              full  248    -3.256  0.017      0.139           0.100               NaN               NaN        NaN  stationary (ADF rejects, KPSS does not)
+8      KAZ      mom  train_to_2018-12  167    -5.904  0.000      0.150           0.100             3.225             0.001      0.063  stationary (ADF rejects, KPSS does not)
+9      KAZ      mom              full  260    -6.721  0.000      0.142           0.100             3.164             0.000      0.080  stationary (ADF rejects, KPSS does not)
+10     KAZ      yoy  train_to_2018-12  156    -1.938  0.314      0.251           0.100               NaN               NaN        NaN                           mixed evidence
+11     KAZ      yoy              full  249    -2.624  0.088      0.186           0.100               NaN               NaN        NaN                           mixed evidence
+12     RUS      mom  train_to_2018-12  228    -3.012  0.034      1.285           0.010            11.498             0.000      0.504                           mixed evidence
+13     RUS      mom              full  320    -3.559  0.007      1.230           0.010             9.066             0.000      0.342                           mixed evidence
+14     RUS      yoy  train_to_2018-12  228    -2.762  0.064      1.461           0.010               NaN               NaN        NaN  unit root not rejected and KPSS rejects
+15     RUS      yoy              full  320    -3.258  0.017      1.464           0.010               NaN               NaN        NaN                           mixed evidence
+16     NOR      mom  train_to_2018-12  228    -4.658  0.000      0.072           0.100             7.621             0.000      0.337  stationary (ADF rejects, KPSS does not)
+17     NOR      mom              full  321    -3.594  0.006      0.505           0.041            10.098             0.000      0.370                           mixed evidence
+18     NOR      yoy  train_to_2018-12  228    -3.721  0.004      0.124           0.100               NaN               NaN        NaN  stationary (ADF rejects, KPSS does not)
+19     NOR      yoy              full  321    -2.941  0.041      0.756           0.010               NaN               NaN        NaN                           mixed evidence
+   country      target   model                           spec  n_resid  ljungbox_12_p  ljungbox_24_p  resid_sd  jarque_bera_p
+0      AZE         mom  sarima  SARIMA(0, 0, 1)x(1, 0, 1, 12)      154          0.368          0.698     0.953          0.000
+1      AZE         mom     ets                    ETS(A,Ad,A)      154          0.124          0.190     0.918          0.000
+2      AZE  yoy_direct  sarima  SARIMA(2, 0, 1)x(1, 0, 1, 12)      143          0.683          0.814     0.994          0.000
+3      AZE  yoy_direct     ets                     ETS(A,N,N)      143          0.000          0.000     1.487          0.000
+4      DZA         mom  sarima  SARIMA(0, 0, 0)x(1, 0, 1, 12)      154          0.086          0.002     0.840          0.524
+5      DZA         mom     ets                     ETS(A,N,A)      154          0.065          0.000     0.778          0.540
+6      DZA  yoy_direct  sarima  SARIMA(1, 0, 0)x(1, 0, 0, 12)      143          0.028          0.000     0.963          0.142
+7      DZA  yoy_direct     ets                     ETS(A,N,N)      143          0.000          0.000     1.127          0.535
+8      KAZ         mom  sarima  SARIMA(1, 0, 0)x(1, 0, 1, 12)      154          0.462          0.863     0.501          0.000
+9      KAZ         mom     ets                    ETS(A,Ad,A)      154          0.019          0.086     0.510          0.000
+10     KAZ  yoy_direct  sarima  SARIMA(1, 1, 0)x(0, 0, 1, 12)      143          0.441          0.796     0.578          0.000
+11     KAZ  yoy_direct     ets                     ETS(A,N,N)      143          0.000          0.000     1.037          0.000
+12     RUS         mom  sarima  SARIMA(1, 0, 0)x(1, 0, 0, 12)      215          0.004          0.014     0.399          0.000
+13     RUS         mom     ets                     ETS(A,A,N)      215          0.000          0.000     0.522          0.000
+14     RUS  yoy_direct  sarima  SARIMA(1, 1, 1)x(0, 0, 0, 12)      215          0.000          0.000     0.511          0.000
+15     RUS  yoy_direct     ets                    ETS(A,Ad,N)      215          0.000          0.000     0.526          0.000
+16     NOR         mom  sarima  SARIMA(2, 0, 0)x(1, 0, 1, 12)      215          0.177          0.660     0.406          0.000
+17     NOR         mom     ets                     ETS(A,N,A)      215          0.009          0.168     0.396          0.000
+18     NOR  yoy_direct  sarima  SARIMA(1, 0, 0)x(1, 0, 0, 12)      215          0.000          0.000     0.453          0.000
+19     NOR  yoy_direct     ets                     ETS(A,A,A)      215          0.000          0.000     0.542          0.000
+                                min    max
+country target     param                  
+AZE     mom        ar.S.L12   0.998  0.999
+                   intercept  0.000  0.001
+                   ma.L1      0.456  0.471
+                   ma.S.L12  -0.980 -0.969
+                   sigma2     0.614  0.830
+        yoy_direct ar.L1      1.516  1.795
+                   ar.L2     -0.818 -0.522
+                   ar.S.L12  -0.954  0.004
+                   intercept  0.039  0.324
+                   ma.L1     -0.546 -0.052
+                   ma.S.L12  -1.000  0.914
+                   sigma2     0.712  1.318
+DZA     mom        ar.S.L12   0.798  0.893
+                   intercept  0.042  0.072
+                   ma.S.L12  -0.695 -0.536
+                   sigma2     0.631  0.683
+        yoy_direct ar.L1      0.908  0.961
+                   ar.S.L12  -0.466 -0.440
+                   intercept  0.272  0.598
+                   sigma2     0.825  0.917
+KAZ     mom        ar.L1      0.629  0.642
+                   ar.S.L12   0.955  0.998
+                   intercept  0.000  0.012
+                   ma.S.L12  -0.978 -0.894
+                   sigma2     0.195  0.237
+        yoy_direct ar.L1      0.627  0.640
+                   ma.S.L12  -1.000 -0.871
+                   sigma2     0.236  0.298
+NOR     mom        ar.L1      0.125  0.203
+                   ar.L2     -0.092 -0.059
+                   ar.S.L12   0.902  0.952
+                   intercept  0.010  0.016
+                   ma.S.L12  -0.758 -0.650
+                   sigma2     0.156  0.173
+        yoy_direct ar.L1      0.917  0.968
+                   ar.S.L12  -0.509 -0.464
+                   intercept  0.126  0.260
+                   sigma2     0.192  0.226
+RUS     mom        ar.L1      0.481  0.666
+                   ar.S.L12   0.282  0.562
+                   intercept  0.117  0.285
+                   sigma2     0.154  0.372
+        yoy_direct ar.L1      0.450  0.635
+                   ma.L1      0.047  0.150
+                   sigma2     0.285  0.711
+   done in 37s
+== figures
+figures written
+   done in 18s
+== verify
+                                                                          check  passed                                                                                                                                                           detail
+0              RMSE in comparison table equals recomputation from raw forecasts    True                                                                                                                                                max diff 0.00e+00
+1                                                       test origins >= 2018-12    True                                                                                                                                                                 
+2                                                  no NaN actuals in test split    True                                                                                                                                                                 
+3                                     one frozen specification per model/series    True                                                                                                                                                                 
+4                      AZE h12 DM n equals number of test forecasts (82 quoted)    True                                                                                                                                                             n=82
+5                                                    AZE h1 test forecasts = 93    True                                                                                                                                                               93
+6                                     quoted RMSE AZE seasonal_naive h1 = 0.689    True                                                                                                                                                           0.6885
+7                                             quoted RMSE AZE sarima h1 = 0.448    True                                                                                                                                                           0.4484
+8                                                quoted RMSE AZE ets h1 = 0.487    True                                                                                                                                                           0.4869
+9                                    quoted RMSE AZE yu_weighted_fts h1 = 0.526    True                                                                                                                                                           0.5255
+10                                           quoted RMSE AZE sarima h12 = 0.539    True                                                                                                                                                           0.5389
+11                                   quoted RMSE AZE yu_weighted_fts h6 = 0.845    True                                                                                                                                                           0.8448
+12                                               quoted RMSE DZA ets h1 = 0.813    True                                                                                                                                                           0.8133
+13                                            quoted RMSE KAZ sarima h1 = 0.387    True                                                                                                                                                           0.3874
+14                                                quoted RMSE NOR ets h1 = 0.44    True                                                                                                                                                           0.4402
+15                                               quoted RMSE RUS ets h1 = 0.941    True                                                                                                                                                           0.9407
+16                                     quoted RMSE RUS seasonal_naive h1 = 1.15    True                                                                                                                                                           1.1496
+17                                       quoted implied y/y h12 SARIMA AZE 4.38    True                                                                                                                                                                 
+18                                               Holm p AZE h1 Yu vs SN = 0.204    True                                                                                                                                                                 
+19                                           Holm p AZE h3 Yu vs SARIMA = 0.041    True                                                                                                                                                                 
+20                                           Holm p AZE h6 Yu vs SARIMA < 0.001    True                                                                                                                                                                 
+21                            Holm p AZE h1 SARIMA vs SN quoted 0.0497 (< 0.05)    True                                                                                                                                                          0.04974
+22                       Holm p AZE implied y/y h6/h12 Yu vs SARIMA 0.049/0.006    True                                                                                                                                                                 
+23                        27 of 140 confirmatory tests significant (m/m, A, SE)    True                                                                                                                                                           27/140
+24                                 weighted < equal in 9/20 and < Chen in 18/20    True                                                                                                                                                                 
+25                         D1 31.17 / D10 28.73 / gap 2.44 (cumulative 2020-23)    True                                                                                                                                                    31.166 28.729
+26                                                 D1-D10 latest 12 months 0.09    True                                                                                                                                                           0.0915
+27                                   national HBS basket 12m to Mar 2026 = 5.93    True                                                                                                                                                            5.929
+28                                official contributions sum to group inflation    True                                                                                                                                                                 
+29             survey contributions sum to household inflation (W1_yoy_2026_03)    True                                                                                                                                                                 
+30  survey contributions sum to household inflation (W3_cum_2020_12_to_2023_12)    True                                                                                                                                                                 
+31                                           food prices +40.0% Dec2020-Dec2023    True                                                                                                                                                            39.97
+32                                                   official shares sum to 100    True                                                                                                                                                                 
+33                                         32 households, 26 QC, 25 consistency    True                                                                                                                                                                 
+34                                          QC mean food share 23.9 / full 21.6    True                                                                                                                                                                 
+35                                                     survey shares sum to 100    True                                                                                                                                                                 
+36                          QC 12m exposure mean 5.42, SD 0.40, range 4.55-6.08    True                                                                                                                                          5.417 0.398 4.549 6.078
+37                           full-sample mean total burden 393, without R02 110    True                                                                                                                                                                 
+38                                          QC income split: +0.24 pp, MDE 0.47    True                                                                                                                                                                 
+39                                        QC tenure exposure Holm p quoted 0.24    True                                                                                                                                                            0.237
+40                                      no QC comparison significant after Holm    True                                                                                                                                                                0
+41                           Mar-2027 national projections 5.95/6.63/4.20/10.26    True                                                                                                                                                                 
+42                                  Mar-2027 D1-D10 gap +0.09/+0.48/-0.74/+1.86    True  {'ar_aic': 0.331, 'chen_fts': -1.211, 'ets': -0.738, 'naive': 1.728, 'sarima': 0.482, 'seasonal_naive': 0.088, 'yu_equal_fts': 1.713, 'yu_weighted_fts': 1.862}
+43            headline OOS max |error|: SARIMA 0.35, SN 0.34, ETS 2.70, Yu 2.74    True    {'ar_aic': 1.519, 'chen_fts': 3.262, 'ets': 2.696, 'naive': 2.675, 'sarima': 0.347, 'seasonal_naive': 0.336, 'yu_equal_fts': 2.907, 'yu_weighted_fts': 2.738}
+44                        h1 SARIMA/ETS vs SN Holm p <= 0.03 for all key groups    True                                                                                                                                                       max 0.0299
+
+45 / 45 checks passed
+   done in 2s
+exit=0

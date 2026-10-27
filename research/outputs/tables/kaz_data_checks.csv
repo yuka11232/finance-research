@@ -1,0 +1,9 @@
+check,value
+"structure: food goods = sum of food items (max |diff|, pp)",0.30000000000000426
+"structure: food + non-food + services = 100 (max |diff|, pp)",1.4210854715202004e-14
+"2025 services items = table 1.4 services (max |diff|, pp)",7.105427357601002e-15
+"2025 non-food items = table 1.4 non-food, total & urban (max |diff|, pp)",7.105427357601002e-15
+"2025 non-food items = table 1.4 non-food, rural, before rescaling (max |diff|, pp)",2.6999999999999993
+"chained BNS all-items y/y vs IMF KAZ y/y, mean |diff| (pp)",0.050461420174643216
+"chained BNS all-items y/y vs IMF KAZ y/y, max |diff| (pp)",0.40787263831190046
+months compared with IMF,213.0

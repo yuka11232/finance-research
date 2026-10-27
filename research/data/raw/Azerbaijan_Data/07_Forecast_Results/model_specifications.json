@@ -1,0 +1,38 @@
+[
+  {
+    "series": "food_beverages_tobacco",
+    "fuzzy_sets": 7,
+    "selected_by_validation": "fuzzy",
+    "observations": 129,
+    "train_observations": 105,
+    "validation_observations": 12,
+    "test_observations": 12
+  },
+  {
+    "series": "national",
+    "fuzzy_sets": 7,
+    "selected_by_validation": "fuzzy",
+    "observations": 129,
+    "train_observations": 105,
+    "validation_observations": 12,
+    "test_observations": 12
+  },
+  {
+    "series": "nonfood_goods",
+    "fuzzy_sets": 7,
+    "selected_by_validation": "last_value",
+    "observations": 129,
+    "train_observations": 105,
+    "validation_observations": 12,
+    "test_observations": 12
+  },
+  {
+    "series": "services",
+    "fuzzy_sets": 7,
+    "selected_by_validation": "fuzzy",
+    "observations": 129,
+    "train_observations": 105,
+    "validation_observations": 12,
+    "test_observations": 12
+  }
+]

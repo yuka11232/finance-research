@@ -1,0 +1,304 @@
+check,passed,detail
+All template substitution markers removed,True,
+One Results section,True,
+No multiple Results sections,True,
+Original figure preserved: fig01_azerbaijan_inflation_history.png,True,
+Original figure preserved: fig13_category_contributions_by_decile.png,True,
+Original figure preserved: fig14_gap_vs_relative_food_inflation.png,True,
+Original figure preserved: fig03_azerbaijan_four_model_forecasts.png,True,
+Original figure preserved: fig05_cross_country_skill.png,True,
+Original figure preserved: fig12_household_exposure_forecasts.png,True,
+Original figure preserved: fig18_azerbaijan_kazakhstan_baskets.png,True,
+Original figure preserved: fig16_kazakhstan_regional_exposure.png,True,
+Original figure preserved: fig02_inflation_all_countries.png,True,
+Original figure preserved: fig06_yu_weighted_vs_unweighted.png,True,
+Original figure preserved: fig07_household_expenditure_shares.png,True,
+Original figure preserved: fig09_household_inflation_exposure.png,True,
+Original figure preserved: fig10_survey_sample_sensitivity.png,True,
+Original figure preserved: fig15_kazakhstan_spending_structure.png,True,
+Original figure preserved: fig17_kazakhstan_rural_urban_gap.png,True,
+Only selected referenced figures packaged,True,
+All cross-references resolve,True,set()
+Cross-reference labels unique,True,
+All citation keys resolve,True,set()
+No unused bibliography entries,True,set()
+Division price data complete,True,
+Official profile count,True,
+Official mapped totals within rounding,True,
+Independent basket calculation D1 W1_yoy_2026_03,True,5.935419399; manuscript 5.935419398524601; tolerance 1e-10
+Exact category additivity D1 W1_yoy_2026_03,True,5.935419399; manuscript 5.9354193985245995; tolerance 1e-10
+Independent basket calculation D1 W3_cum_2020_12_to_2023_12,True,31.16599617; manuscript 31.165996170075115; tolerance 1e-10
+Exact category additivity D1 W3_cum_2020_12_to_2023_12,True,31.16599617; manuscript 31.16599617007512; tolerance 1e-10
+Independent annual-average calculation D1,True,6.291967969; manuscript 6.291967968544343; tolerance 1e-10
+Independent basket calculation D10 W1_yoy_2026_03,True,5.843911481; manuscript 5.84391148143832; tolerance 1e-10
+Exact category additivity D10 W1_yoy_2026_03,True,5.843911481; manuscript 5.843911481438324; tolerance 1e-10
+Independent basket calculation D10 W3_cum_2020_12_to_2023_12,True,28.72933948; manuscript 28.72933947949143; tolerance 1e-10
+Exact category additivity D10 W3_cum_2020_12_to_2023_12,True,28.72933948; manuscript 28.729339479491433; tolerance 1e-10
+Independent annual-average calculation D10,True,5.897581187; manuscript 5.897581187415302; tolerance 1e-10
+Independent basket calculation national W1_yoy_2026_03,True,5.929002238; manuscript 5.929002237611916; tolerance 1e-10
+Exact category additivity national W1_yoy_2026_03,True,5.929002238; manuscript 5.929002237611902; tolerance 1e-10
+Independent basket calculation national W3_cum_2020_12_to_2023_12,True,30.19240441; manuscript 30.19240440862085; tolerance 1e-10
+Exact category additivity national W3_cum_2020_12_to_2023_12,True,30.19240441; manuscript 30.192404408620853; tolerance 1e-10
+Independent annual-average calculation national,True,6.098976314; manuscript 6.09897631378864; tolerance 1e-10
+Independent basket calculation urban W1_yoy_2026_03,True,5.928176214; manuscript 5.92817621408842; tolerance 1e-10
+Exact category additivity urban W1_yoy_2026_03,True,5.928176214; manuscript 5.92817621408841; tolerance 1e-10
+Independent basket calculation urban W3_cum_2020_12_to_2023_12,True,30.03160504; manuscript 30.031605037750346; tolerance 1e-10
+Exact category additivity urban W3_cum_2020_12_to_2023_12,True,30.03160504; manuscript 30.03160503775033; tolerance 1e-10
+Independent annual-average calculation urban,True,6.096429484; manuscript 6.096429484273047; tolerance 1e-10
+Independent basket calculation rural W1_yoy_2026_03,True,5.933892293; manuscript 5.933892292845928; tolerance 1e-10
+Exact category additivity rural W1_yoy_2026_03,True,5.933892293; manuscript 5.933892292845933; tolerance 1e-10
+Independent basket calculation rural W3_cum_2020_12_to_2023_12,True,30.42629128; manuscript 30.426291283697402; tolerance 1e-10
+Exact category additivity rural W3_cum_2020_12_to_2023_12,True,30.42629128; manuscript 30.426291283697427; tolerance 1e-10
+Independent annual-average calculation rural,True,6.116976288; manuscript 6.116976288160592; tolerance 1e-10
+Introduction food share D1,True,48.5; manuscript 48.5; tolerance 0.001
+Introduction food share D10,True,31.7; manuscript 31.7; tolerance 0.001
+Surge food price change,True,39.97157587; manuscript 39.97; tolerance 0.005
+Raw headline RMSE A AZE ets h1,True,0.4869056095; manuscript 0.4869056095024278; tolerance 1e-10
+Raw headline RMSE A AZE ets h3,True,0.6201844114; manuscript 0.6201844113955844; tolerance 1e-10
+Raw headline RMSE A AZE ets h6,True,0.6990774388; manuscript 0.6990774388157945; tolerance 1e-10
+Raw headline RMSE A AZE ets h12,True,0.6849167444; manuscript 0.6849167444088132; tolerance 1e-10
+Raw headline RMSE A AZE sarima h1,True,0.448405659; manuscript 0.44840565902251805; tolerance 1e-10
+Raw headline RMSE A AZE sarima h3,True,0.5249063859; manuscript 0.5249063858806547; tolerance 1e-10
+Raw headline RMSE A AZE sarima h6,True,0.5305933525; manuscript 0.5305933525199839; tolerance 1e-10
+Raw headline RMSE A AZE sarima h12,True,0.5388671698; manuscript 0.5388671698162172; tolerance 1e-10
+Raw headline RMSE A AZE seasonal_naive h1,True,0.688502821; manuscript 0.6885028209740836; tolerance 1e-10
+Raw headline RMSE A AZE seasonal_naive h3,True,0.6947362609; manuscript 0.6947362608913144; tolerance 1e-10
+Raw headline RMSE A AZE seasonal_naive h6,True,0.7013357768; manuscript 0.7013357767506763; tolerance 1e-10
+Raw headline RMSE A AZE seasonal_naive h12,True,0.7102590732; manuscript 0.7102590732110479; tolerance 1e-10
+Raw headline RMSE A AZE yu_weighted_fts h1,True,0.5255170615; manuscript 0.5255170614925112; tolerance 1e-10
+Raw headline RMSE A AZE yu_weighted_fts h3,True,0.7500249749; manuscript 0.7500249749034057; tolerance 1e-10
+Raw headline RMSE A AZE yu_weighted_fts h6,True,0.8447619395; manuscript 0.8447619395499373; tolerance 1e-10
+Raw headline RMSE A AZE yu_weighted_fts h12,True,0.6504192777; manuscript 0.6504192777401343; tolerance 1e-10
+Raw headline RMSE A DZA ets h1,True,0.8132566976; manuscript 0.8132566976251202; tolerance 1e-10
+Raw headline RMSE A DZA ets h3,True,0.8175286376; manuscript 0.8175286375883363; tolerance 1e-10
+Raw headline RMSE A DZA ets h6,True,0.8322473575; manuscript 0.8322473575333903; tolerance 1e-10
+Raw headline RMSE A DZA ets h12,True,0.8516843974; manuscript 0.8516843973690987; tolerance 1e-10
+Raw headline RMSE A DZA sarima h1,True,0.8361652682; manuscript 0.8361652681631908; tolerance 1e-10
+Raw headline RMSE A DZA sarima h3,True,0.8409949587; manuscript 0.8409949586601542; tolerance 1e-10
+Raw headline RMSE A DZA sarima h6,True,0.8487121333; manuscript 0.8487121332531372; tolerance 1e-10
+Raw headline RMSE A DZA sarima h12,True,0.8622602528; manuscript 0.8622602528455705; tolerance 1e-10
+Raw headline RMSE A DZA seasonal_naive h1,True,0.9728087905; manuscript 0.9728087904728638; tolerance 1e-10
+Raw headline RMSE A DZA seasonal_naive h3,True,0.9834452471; manuscript 0.9834452471045667; tolerance 1e-10
+Raw headline RMSE A DZA seasonal_naive h6,True,0.9942314747; manuscript 0.9942314746616091; tolerance 1e-10
+Raw headline RMSE A DZA seasonal_naive h12,True,0.9923282399; manuscript 0.9923282398769644; tolerance 1e-10
+Raw headline RMSE A DZA yu_weighted_fts h1,True,1.038883249; manuscript 1.0388832485851935; tolerance 1e-10
+Raw headline RMSE A DZA yu_weighted_fts h3,True,1.054498719; manuscript 1.0544987188790729; tolerance 1e-10
+Raw headline RMSE A DZA yu_weighted_fts h6,True,0.9936557903; manuscript 0.9936557902979788; tolerance 1e-10
+Raw headline RMSE A DZA yu_weighted_fts h12,True,0.9962002044; manuscript 0.996200204401895; tolerance 1e-10
+Raw headline RMSE A KAZ ets h1,True,0.4499327141; manuscript 0.44993271414355845; tolerance 1e-10
+Raw headline RMSE A KAZ ets h3,True,0.5656701223; manuscript 0.5656701222707791; tolerance 1e-10
+Raw headline RMSE A KAZ ets h6,True,0.646430983; manuscript 0.6464309830129319; tolerance 1e-10
+Raw headline RMSE A KAZ ets h12,True,0.6565086163; manuscript 0.656508616302951; tolerance 1e-10
+Raw headline RMSE A KAZ sarima h1,True,0.387391378; manuscript 0.3873913779701853; tolerance 1e-10
+Raw headline RMSE A KAZ sarima h3,True,0.4529600485; manuscript 0.4529600485098196; tolerance 1e-10
+Raw headline RMSE A KAZ sarima h6,True,0.4885311002; manuscript 0.4885311001595013; tolerance 1e-10
+Raw headline RMSE A KAZ sarima h12,True,0.5076005871; manuscript 0.5076005871257652; tolerance 1e-10
+Raw headline RMSE A KAZ seasonal_naive h1,True,0.6291389913; manuscript 0.6291389912863725; tolerance 1e-10
+Raw headline RMSE A KAZ seasonal_naive h3,True,0.6345447095; manuscript 0.6345447095253847; tolerance 1e-10
+Raw headline RMSE A KAZ seasonal_naive h6,True,0.6437715216; manuscript 0.6437715216454161; tolerance 1e-10
+Raw headline RMSE A KAZ seasonal_naive h12,True,0.6659934441; manuscript 0.6659934441117452; tolerance 1e-10
+Raw headline RMSE A KAZ yu_weighted_fts h1,True,0.4657121644; manuscript 0.46571216438370555; tolerance 1e-10
+Raw headline RMSE A KAZ yu_weighted_fts h3,True,0.5455213498; manuscript 0.5455213497714346; tolerance 1e-10
+Raw headline RMSE A KAZ yu_weighted_fts h6,True,0.5789150936; manuscript 0.5789150936060458; tolerance 1e-10
+Raw headline RMSE A KAZ yu_weighted_fts h12,True,0.6441637118; manuscript 0.6441637118357187; tolerance 1e-10
+Raw headline RMSE A NOR ets h1,True,0.4401556548; manuscript 0.440155654831714; tolerance 1e-10
+Raw headline RMSE A NOR ets h3,True,0.4391863383; manuscript 0.4391863382604459; tolerance 1e-10
+Raw headline RMSE A NOR ets h6,True,0.4456113556; manuscript 0.4456113555510559; tolerance 1e-10
+Raw headline RMSE A NOR ets h12,True,0.4502542011; manuscript 0.450254201128931; tolerance 1e-10
+Raw headline RMSE A NOR sarima h1,True,0.4427576708; manuscript 0.4427576708166063; tolerance 1e-10
+Raw headline RMSE A NOR sarima h3,True,0.4365220346; manuscript 0.4365220345695579; tolerance 1e-10
+Raw headline RMSE A NOR sarima h6,True,0.4403913623; manuscript 0.44039136228255776; tolerance 1e-10
+Raw headline RMSE A NOR sarima h12,True,0.4503284138; manuscript 0.4503284138361494; tolerance 1e-10
+Raw headline RMSE A NOR seasonal_naive h1,True,0.5573294529; manuscript 0.5573294528755914; tolerance 1e-10
+Raw headline RMSE A NOR seasonal_naive h3,True,0.5625969472; manuscript 0.5625969472188282; tolerance 1e-10
+Raw headline RMSE A NOR seasonal_naive h6,True,0.571188771; manuscript 0.5711887709779435; tolerance 1e-10
+Raw headline RMSE A NOR seasonal_naive h12,True,0.5834081; manuscript 0.5834081000443105; tolerance 1e-10
+Raw headline RMSE A NOR yu_weighted_fts h1,True,0.5453530875; manuscript 0.5453530874860009; tolerance 1e-10
+Raw headline RMSE A NOR yu_weighted_fts h3,True,0.5146652299; manuscript 0.5146652299151503; tolerance 1e-10
+Raw headline RMSE A NOR yu_weighted_fts h6,True,0.5202879836; manuscript 0.5202879835769585; tolerance 1e-10
+Raw headline RMSE A NOR yu_weighted_fts h12,True,0.5247144419; manuscript 0.5247144419077141; tolerance 1e-10
+Raw headline RMSE A RUS ets h1,True,0.9406647692; manuscript 0.9406647691794405; tolerance 1e-10
+Raw headline RMSE A RUS ets h3,True,1.149307273; manuscript 1.1493072733379595; tolerance 1e-10
+Raw headline RMSE A RUS ets h6,True,1.197424125; manuscript 1.1974241250579882; tolerance 1e-10
+Raw headline RMSE A RUS ets h12,True,1.147634722; manuscript 1.1476347223597936; tolerance 1e-10
+Raw headline RMSE A RUS sarima h1,True,0.9486548233; manuscript 0.9486548233099723; tolerance 1e-10
+Raw headline RMSE A RUS sarima h3,True,0.9847667976; manuscript 0.9847667976071338; tolerance 1e-10
+Raw headline RMSE A RUS sarima h6,True,0.9691720606; manuscript 0.9691720605951106; tolerance 1e-10
+Raw headline RMSE A RUS sarima h12,True,0.9968354944; manuscript 0.9968354944490271; tolerance 1e-10
+Raw headline RMSE A RUS seasonal_naive h1,True,1.149552754; manuscript 1.1495527541603232; tolerance 1e-10
+Raw headline RMSE A RUS seasonal_naive h3,True,1.15965736; manuscript 1.1596573595219883; tolerance 1e-10
+Raw headline RMSE A RUS seasonal_naive h6,True,1.179432118; manuscript 1.1794321179013034; tolerance 1e-10
+Raw headline RMSE A RUS seasonal_naive h12,True,1.219963617; manuscript 1.2199636172786426; tolerance 1e-10
+Raw headline RMSE A RUS yu_weighted_fts h1,True,1.00169618; manuscript 1.0016961803009732; tolerance 1e-10
+Raw headline RMSE A RUS yu_weighted_fts h3,True,1.22082665; manuscript 1.2208266499457312; tolerance 1e-10
+Raw headline RMSE A RUS yu_weighted_fts h6,True,1.226517084; manuscript 1.2265170838689827; tolerance 1e-10
+Raw headline RMSE A RUS yu_weighted_fts h12,True,1.226109169; manuscript 1.2261091686283683; tolerance 1e-10
+Raw headline RMSE B AZE ets h1,True,0.4894623865; manuscript 0.4894623865409038; tolerance 1e-10
+Raw headline RMSE B AZE ets h3,True,0.6234472953; manuscript 0.6234472952595026; tolerance 1e-10
+Raw headline RMSE B AZE ets h6,True,0.7022925118; manuscript 0.7022925117828387; tolerance 1e-10
+Raw headline RMSE B AZE ets h12,True,0.6889341004; manuscript 0.6889341004403481; tolerance 1e-10
+Raw headline RMSE B AZE sarima h1,True,0.4508093697; manuscript 0.45080936974919256; tolerance 1e-10
+Raw headline RMSE B AZE sarima h3,True,0.5277829899; manuscript 0.5277829899214062; tolerance 1e-10
+Raw headline RMSE B AZE sarima h6,True,0.5336018096; manuscript 0.5336018096215207; tolerance 1e-10
+Raw headline RMSE B AZE sarima h12,True,0.5421411402; manuscript 0.5421411402398435; tolerance 1e-10
+Raw headline RMSE B AZE seasonal_naive h1,True,0.6919459834; manuscript 0.6919459834214866; tolerance 1e-10
+Raw headline RMSE B AZE seasonal_naive h3,True,0.6982929257; manuscript 0.6982929257042557; tolerance 1e-10
+Raw headline RMSE B AZE seasonal_naive h6,True,0.7050554283; manuscript 0.7050554282610088; tolerance 1e-10
+Raw headline RMSE B AZE seasonal_naive h12,True,0.7143124288; manuscript 0.7143124288473701; tolerance 1e-10
+Raw headline RMSE B AZE yu_weighted_fts h1,True,0.525572588; manuscript 0.5255725880177545; tolerance 1e-10
+Raw headline RMSE B AZE yu_weighted_fts h3,True,0.7521828263; manuscript 0.7521828263121497; tolerance 1e-10
+Raw headline RMSE B AZE yu_weighted_fts h6,True,0.8487874548; manuscript 0.8487874547712626; tolerance 1e-10
+Raw headline RMSE B AZE yu_weighted_fts h12,True,0.6544014201; manuscript 0.6544014201041626; tolerance 1e-10
+Raw headline RMSE B DZA ets h1,True,0.8132566976; manuscript 0.8132566976251202; tolerance 1e-10
+Raw headline RMSE B DZA ets h3,True,0.8175286376; manuscript 0.8175286375883363; tolerance 1e-10
+Raw headline RMSE B DZA ets h6,True,0.8322473575; manuscript 0.8322473575333903; tolerance 1e-10
+Raw headline RMSE B DZA ets h12,True,0.8516843974; manuscript 0.8516843973690987; tolerance 1e-10
+Raw headline RMSE B DZA sarima h1,True,0.8361652682; manuscript 0.8361652681631908; tolerance 1e-10
+Raw headline RMSE B DZA sarima h3,True,0.8409949587; manuscript 0.8409949586601542; tolerance 1e-10
+Raw headline RMSE B DZA sarima h6,True,0.8487121333; manuscript 0.8487121332531372; tolerance 1e-10
+Raw headline RMSE B DZA sarima h12,True,0.8622602528; manuscript 0.8622602528455705; tolerance 1e-10
+Raw headline RMSE B DZA seasonal_naive h1,True,0.9728087905; manuscript 0.9728087904728638; tolerance 1e-10
+Raw headline RMSE B DZA seasonal_naive h3,True,0.9834452471; manuscript 0.9834452471045667; tolerance 1e-10
+Raw headline RMSE B DZA seasonal_naive h6,True,0.9942314747; manuscript 0.9942314746616091; tolerance 1e-10
+Raw headline RMSE B DZA seasonal_naive h12,True,0.9923282399; manuscript 0.9923282398769644; tolerance 1e-10
+Raw headline RMSE B DZA yu_weighted_fts h1,True,1.038883249; manuscript 1.0388832485851935; tolerance 1e-10
+Raw headline RMSE B DZA yu_weighted_fts h3,True,1.054498719; manuscript 1.0544987188790729; tolerance 1e-10
+Raw headline RMSE B DZA yu_weighted_fts h6,True,0.9936557903; manuscript 0.9936557902979788; tolerance 1e-10
+Raw headline RMSE B DZA yu_weighted_fts h12,True,0.9962002044; manuscript 0.996200204401895; tolerance 1e-10
+Raw headline RMSE B KAZ ets h1,True,0.4513617447; manuscript 0.45136174474056057; tolerance 1e-10
+Raw headline RMSE B KAZ ets h3,True,0.5670824069; manuscript 0.5670824069156218; tolerance 1e-10
+Raw headline RMSE B KAZ ets h6,True,0.6501354859; manuscript 0.6501354858594309; tolerance 1e-10
+Raw headline RMSE B KAZ ets h12,True,0.6573143913; manuscript 0.657314391275119; tolerance 1e-10
+Raw headline RMSE B KAZ sarima h1,True,0.3891603879; manuscript 0.38916038790724; tolerance 1e-10
+Raw headline RMSE B KAZ sarima h3,True,0.4549124246; manuscript 0.45491242456937614; tolerance 1e-10
+Raw headline RMSE B KAZ sarima h6,True,0.4911083645; manuscript 0.4911083644907115; tolerance 1e-10
+Raw headline RMSE B KAZ sarima h12,True,0.5105007356; manuscript 0.5105007355551917; tolerance 1e-10
+Raw headline RMSE B KAZ seasonal_naive h1,True,0.6295978998; manuscript 0.6295978998044479; tolerance 1e-10
+Raw headline RMSE B KAZ seasonal_naive h3,True,0.6350695799; manuscript 0.6350695799176634; tolerance 1e-10
+Raw headline RMSE B KAZ seasonal_naive h6,True,0.6444119071; manuscript 0.6444119070754321; tolerance 1e-10
+Raw headline RMSE B KAZ seasonal_naive h12,True,0.6669277583; manuscript 0.6669277583206925; tolerance 1e-10
+Raw headline RMSE B KAZ yu_weighted_fts h1,True,0.4682237287; manuscript 0.46822372871180457; tolerance 1e-10
+Raw headline RMSE B KAZ yu_weighted_fts h3,True,0.5470844873; manuscript 0.5470844872811567; tolerance 1e-10
+Raw headline RMSE B KAZ yu_weighted_fts h6,True,0.5817574621; manuscript 0.5817574620775864; tolerance 1e-10
+Raw headline RMSE B KAZ yu_weighted_fts h12,True,0.646850257; manuscript 0.6468502569838077; tolerance 1e-10
+Raw headline RMSE B NOR ets h1,True,0.4432055628; manuscript 0.4432055627878699; tolerance 1e-10
+Raw headline RMSE B NOR ets h3,True,0.4456978384; manuscript 0.44569783844969146; tolerance 1e-10
+Raw headline RMSE B NOR ets h6,True,0.4557958984; manuscript 0.4557958983677148; tolerance 1e-10
+Raw headline RMSE B NOR ets h12,True,0.4706283183; manuscript 0.4706283182587857; tolerance 1e-10
+Raw headline RMSE B NOR sarima h1,True,0.4368798803; manuscript 0.4368798803065183; tolerance 1e-10
+Raw headline RMSE B NOR sarima h3,True,0.4358920123; manuscript 0.43589201229022545; tolerance 1e-10
+Raw headline RMSE B NOR sarima h6,True,0.4404999309; manuscript 0.4404999308795921; tolerance 1e-10
+Raw headline RMSE B NOR sarima h12,True,0.4510646043; manuscript 0.45106460426549844; tolerance 1e-10
+Raw headline RMSE B NOR seasonal_naive h1,True,0.56028197; manuscript 0.5602819700332368; tolerance 1e-10
+Raw headline RMSE B NOR seasonal_naive h3,True,0.5656447355; manuscript 0.5656447355081782; tolerance 1e-10
+Raw headline RMSE B NOR seasonal_naive h6,True,0.5743916752; manuscript 0.5743916752105154; tolerance 1e-10
+Raw headline RMSE B NOR seasonal_naive h12,True,0.5869243264; manuscript 0.5869243263533825; tolerance 1e-10
+Raw headline RMSE B NOR yu_weighted_fts h1,True,0.5628657731; manuscript 0.5628657731269017; tolerance 1e-10
+Raw headline RMSE B NOR yu_weighted_fts h3,True,0.5596995406; manuscript 0.5596995406383138; tolerance 1e-10
+Raw headline RMSE B NOR yu_weighted_fts h6,True,0.5706272033; manuscript 0.5706272033248049; tolerance 1e-10
+Raw headline RMSE B NOR yu_weighted_fts h12,True,0.5469523902; manuscript 0.5469523901646104; tolerance 1e-10
+Raw headline RMSE B RUS ets h1,True,0.9524149147; manuscript 0.9524149146779265; tolerance 1e-10
+Raw headline RMSE B RUS ets h3,True,1.165760969; manuscript 1.1657609692829596; tolerance 1e-10
+Raw headline RMSE B RUS ets h6,True,1.213071806; manuscript 1.2130718057742835; tolerance 1e-10
+Raw headline RMSE B RUS ets h12,True,1.161640664; manuscript 1.1616406635435401; tolerance 1e-10
+Raw headline RMSE B RUS sarima h1,True,0.9184428312; manuscript 0.9184428312180023; tolerance 1e-10
+Raw headline RMSE B RUS sarima h3,True,0.9522739625; manuscript 0.9522739624985888; tolerance 1e-10
+Raw headline RMSE B RUS sarima h6,True,0.9399083171; manuscript 0.9399083171175501; tolerance 1e-10
+Raw headline RMSE B RUS sarima h12,True,0.9659695595; manuscript 0.9659695595120443; tolerance 1e-10
+Raw headline RMSE B RUS seasonal_naive h1,True,1.149552754; manuscript 1.1495527541603232; tolerance 1e-10
+Raw headline RMSE B RUS seasonal_naive h3,True,1.15965736; manuscript 1.1596573595219883; tolerance 1e-10
+Raw headline RMSE B RUS seasonal_naive h6,True,1.179432118; manuscript 1.1794321179013034; tolerance 1e-10
+Raw headline RMSE B RUS seasonal_naive h12,True,1.219963617; manuscript 1.2199636172786426; tolerance 1e-10
+Raw headline RMSE B RUS yu_weighted_fts h1,True,1.019102153; manuscript 1.019102152870993; tolerance 1e-10
+Raw headline RMSE B RUS yu_weighted_fts h3,True,1.253537569; manuscript 1.2535375688013384; tolerance 1e-10
+Raw headline RMSE B RUS yu_weighted_fts h6,True,1.278390653; manuscript 1.2783906527292932; tolerance 1e-10
+Raw headline RMSE B RUS yu_weighted_fts h12,True,1.22490644; manuscript 1.224906439599995; tolerance 1e-10
+Raw group RMSE seasonal_naive h1,True,0.7954909119; manuscript 0.7954909118912666; tolerance 1e-10
+Group count h1 seasonal_naive,True,
+Raw gap RMSE seasonal_naive h1,True,0.1548491912; manuscript 0.15484919116843177; tolerance 1e-10
+Raw group RMSE seasonal_naive h3,True,1.902534276; manuscript 1.902534275582506; tolerance 1e-10
+Group count h3 seasonal_naive,True,
+Raw gap RMSE seasonal_naive h3,True,0.3484382886; manuscript 0.3484382885608481; tolerance 1e-10
+Raw group RMSE seasonal_naive h6,True,3.39251569; manuscript 3.3925156895786044; tolerance 1e-10
+Group count h6 seasonal_naive,True,
+Raw gap RMSE seasonal_naive h6,True,0.6108067944; manuscript 0.6108067943589106; tolerance 1e-10
+Raw group RMSE seasonal_naive h12,True,5.930312493; manuscript 5.930312492662685; tolerance 1e-10
+Group count h12 seasonal_naive,True,
+Raw gap RMSE seasonal_naive h12,True,1.034987002; manuscript 1.0349870016248763; tolerance 1e-10
+Raw group RMSE sarima h1,True,0.5040111816; manuscript 0.5040111815666477; tolerance 1e-10
+Group count h1 sarima,True,
+Raw gap RMSE sarima h1,True,0.1076995399; manuscript 0.10769953985348898; tolerance 1e-10
+Raw group RMSE sarima h3,True,1.340509223; manuscript 1.3405092233835947; tolerance 1e-10
+Group count h3 sarima,True,
+Raw gap RMSE sarima h3,True,0.2411158488; manuscript 0.2411158488156915; tolerance 1e-10
+Raw group RMSE sarima h6,True,2.459229385; manuscript 2.459229385331548; tolerance 1e-10
+Group count h6 sarima,True,
+Raw gap RMSE sarima h6,True,0.4082418849; manuscript 0.4082418849032843; tolerance 1e-10
+Raw group RMSE sarima h12,True,4.448508006; manuscript 4.448508005765392; tolerance 1e-10
+Group count h12 sarima,True,
+Raw gap RMSE sarima h12,True,0.6644334074; manuscript 0.664433407410632; tolerance 1e-10
+Raw group RMSE ets h1,True,0.4861044366; manuscript 0.48610443659628877; tolerance 1e-10
+Group count h1 ets,True,
+Raw gap RMSE ets h1,True,0.1281174873; manuscript 0.12811748730392925; tolerance 1e-10
+Raw group RMSE ets h3,True,1.24783426; manuscript 1.2478342597472734; tolerance 1e-10
+Group count h3 ets,True,
+Raw gap RMSE ets h3,True,0.3394395102; manuscript 0.33943951024886193; tolerance 1e-10
+Raw group RMSE ets h6,True,2.459778238; manuscript 2.4597782384858977; tolerance 1e-10
+Group count h6 ets,True,
+Raw gap RMSE ets h6,True,0.7185962028; manuscript 0.718596202789038; tolerance 1e-10
+Raw group RMSE ets h12,True,5.066188164; manuscript 5.066188164088507; tolerance 1e-10
+Group count h12 ets,True,
+Raw gap RMSE ets h12,True,1.317558728; manuscript 1.3175587276611422; tolerance 1e-10
+Raw group RMSE yu_weighted_fts h1,True,0.6147096982; manuscript 0.6147096982250685; tolerance 1e-10
+Group count h1 yu_weighted_fts,True,
+Raw gap RMSE yu_weighted_fts h1,True,0.1799330854; manuscript 0.17993308541630426; tolerance 1e-10
+Raw group RMSE yu_weighted_fts h3,True,1.957875155; manuscript 1.9578751550135796; tolerance 1e-10
+Group count h3 yu_weighted_fts,True,
+Raw gap RMSE yu_weighted_fts h3,True,0.5671521042; manuscript 0.5671521041971069; tolerance 1e-10
+Raw group RMSE yu_weighted_fts h6,True,3.952957375; manuscript 3.9529573753680576; tolerance 1e-10
+Group count h6 yu_weighted_fts,True,
+Raw gap RMSE yu_weighted_fts h6,True,1.190006244; manuscript 1.1900062440167005; tolerance 1e-10
+Raw group RMSE yu_weighted_fts h12,True,7.825855397; manuscript 7.825855396932998; tolerance 1e-10
+Group count h12 yu_weighted_fts,True,
+Raw gap RMSE yu_weighted_fts h12,True,2.048146754; manuscript 2.0481467544645735; tolerance 1e-10
+Fuzzy versus SARIMA Holm h3,True,0.04060481126; manuscript 0.041; tolerance 0.001
+Fuzzy versus SARIMA Holm h6,True,4.312556815e-05; manuscript 0.0; tolerance 0.001
+Within-cell significance count,True,
+Global significance count,True,
+Country-horizon winners A,True,"{'sarima': 13, 'ets': 7}"
+Country-horizon winners B,True,"{'sarima': 16, 'ets': 4}"
+Weights-only wins,True,
+Recurrence-plus-weights wins,True,
+Median weighting ratio,True,1.005064997; manuscript 1.005; tolerance 0.0005
+Median recurrence-plus-weights ratio,True,0.9382762228; manuscript 0.938; tolerance 0.0005
+No pooled fuzzy win over seasonal naive,True,
+Pooled ETS better than fuzzy at four horizons,True,
+One-month significant group improvements,True,
+No significant group improvement at longer horizons,True,
+Category winner counts,True,"{'sarima': 33, 'ets': 18, 'yu_weighted_fts': 1}"
+Fuzzy annual-target random-walk skill negative,True,
+Russia March-2022 squared-error share,True,53.22003384; manuscript 53; tolerance 1
+QC household count,True,
+Survey food mean,True,23.84672103; manuscript 23.85; tolerance 0.005
+Survey comparison diff_mean,True,0.2363155226; manuscript 0.24; tolerance 0.005
+Survey comparison diff_ci95_low_boot,True,-0.08350630311; manuscript -0.08; tolerance 0.005
+Survey comparison diff_ci95_high_boot,True,0.5632450612; manuscript 0.56; tolerance 0.005
+Survey comparison mde_80pct_power,True,0.4712196205; manuscript 0.47; tolerance 0.005
+No significant QC group comparisons,True,
+Six-month annual-rate max absolute error sarima,True,0.3473461409; manuscript 0.35; tolerance 0.005
+Six-month annual-rate max absolute error seasonal_naive,True,0.3359955423; manuscript 0.34; tolerance 0.005
+Six-month annual-rate max absolute error ets,True,2.695865013; manuscript 2.7; tolerance 0.005
+Six-month annual-rate max absolute error yu_weighted_fts,True,2.737726536; manuscript 2.74; tolerance 0.005
+Rank agreement SARIMA yu_weighted_fts,True,0.9235898861; manuscript 0.92; tolerance 0.005
+Rank agreement SARIMA ets,True,-0.7418171714; manuscript -0.74; tolerance 0.005
+Kazakhstan regional Spearman W3_cum_2020_12_to_2023_12,True,0.9010906993; manuscript 0.9; tolerance 0.005
+Twenty Kazakhstan regional profiles W3_cum_2020_12_to_2023_12,True,
+Kazakhstan regional Spearman W4_yoy_2026_09,True,-0.7634449581; manuscript -0.76; tolerance 0.005
+Twenty Kazakhstan regional profiles W4_yoy_2026_09,True,
+Raw-source fingerprint imf_cpi_monthly_index_coicop.csv,True,
+Raw-source fingerprint worldbank_FP_CPI_TOTL.json,True,
+Raw-source fingerprint worldbank_FP_CPI_TOTL_ZG.json,True,
+Raw-source fingerprint kz_cpi_13_sections.xlsx,True,
+Raw-source fingerprint kz_cpi_by_region.xlsx,True,
+Raw-source fingerprint kz_cpi_components_2022_2026.xlsx,True,
+Raw-source fingerprint kz_cpi_main_groups.xlsx,True,

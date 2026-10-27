@@ -1,0 +1,42 @@
+dataset,variable,type,unit,definition,source,notes
+cpi_headline_monthly.csv,country,string,ISO3,"AZE, DZA, KAZ, NOR, RUS",IMF CPI dataset,
+cpi_headline_monthly.csv,date,date,first day of month,Reference month of the observation (not publication date),IMF CPI dataset,
+cpi_headline_monthly.csv,index,float,index points,All-items CPI level,IMF CPI dataset (AZE 2026-04..09 chained from AZSTAT),"Reference periods differ by country (AZE/RUS 2010=100, DZA 2001=100, KAZ Dec-2020=100, NOR 2025=100); levels are never compared across countries"
+cpi_headline_monthly.csv,source,string,,IMF_CPI or AZSTAT_chained,derived,AZSTAT_chained = previous-month=100 relatives (1 decimal) applied to the last IMF level
+cpi_headline_monthly.csv,mom,float,percent,100*(P_t/P_{t-1}-1),derived,Month-on-month inflation; modelled variable in the primary experiment
+cpi_headline_monthly.csv,yoy,float,percent,100*(P_t/P_{t-12}-1),derived,Year-on-year inflation; never substituted for m/m
+cpi_headline_monthly.csv,reference_period,string,,Index reference period reported by the IMF,IMF CPI dataset,
+aze_cpi_coicop_monthly_2010_100.csv,CP01..CP12,float,index 2010=100,COICOP-1999 division CPI for Azerbaijan,IMF CPI dataset,"2005-01..2026-03; CP01 food & non-alcoholic beverages, CP02 alcohol & tobacco, CP03 clothing, CP04 housing/utilities, CP05 furnishings, CP06 health, CP07 transport, CP08 communication, CP09 recreation, CP10 education, CP11 restaurants & hotels, CP12 miscellaneous"
+aze_cpi_coicop_monthly_2010_100.csv,ALL,float,index 2010=100,All-items CPI,IMF CPI dataset,
+official_hbs_2025_structures_long.csv,share_pct,float,percent of consumption expenditure,Published 2025 consumption structure by group and item,AZSTAT Household Survey yearbook 2026 tables 37-61,"Items: food (incl. alcohol), of which alcohol, tobacco, clothing, housing/utilities, furnishings, health, transport, communication, recreation, education, restaurants/hotels, other"
+official_shares_2025_coicop.csv,CP01..CP12,float,percent,Published 2025 shares mapped to COICOP divisions (CP01 = food - alcohol; CP02 = alcohol + tobacco),derived,All 60 groups sum to 100.0 after mapping
+survey_households_processed.csv,(all),mixed,,Local processed survey file including occupation-sector detail,derived from survey export,Not for publication (contains the detailed occupation combination)
+HOUSEHOLD_EXPENDITURE.csv,respondent_id,string,,Sequential pseudonymous id R01..R32 assigned in submission order,derived,Timestamps and free-text are not retained
+HOUSEHOLD_EXPENDITURE.csv,household_size,int,persons,Reported household size; 7 = '7 or more',survey Q2,household_size_topcoded marks the open category
+HOUSEHOLD_EXPENDITURE.csv,children_u18,int,persons,Members under 18; 5 = '5 or more',survey Q25,
+HOUSEHOLD_EXPENDITURE.csv,earners,int,persons,Members with regular income; 4 = '4 or more',survey Q4,
+HOUSEHOLD_EXPENDITURE.csv,tenure,category,,"own_no_mortgage, own_mortgage, rent, rent_free",survey Q5,
+HOUSEHOLD_EXPENDITURE.csv,employment_group,category,,Respondent's own status: full-time employed vs not full-time,survey Q6,"Not the household head; the survey does not identify a head"
+HOUSEHOLD_EXPENDITURE.csv,income_bracket,category,AZN per month,Reported total monthly household income bracket,survey Q8,11 brackets from '<500' to '>=10 000'
+HOUSEHOLD_EXPENDITURE.csv,income_bracket_mid,float,AZN per month,Bracket midpoint used for burdens,derived,'<500' -> 250; '>=10 000' -> 10 000 (lower bound: burdens for that bracket are upper bounds)
+HOUSEHOLD_EXPENDITURE.csv,expenditure_bracket,category,AZN per month,Reported total monthly household spending bracket,survey Q9,
+HOUSEHOLD_EXPENDITURE.csv,food..other_consumption,float,AZN per month,Reported spending in 14 categories,survey Q10-Q20/Q23/Q26/Q27,"food at home; rent & current repair (excl. mortgage principal); utilities; transport; health; education; clothing; phone/internet; restaurants; hygiene & household goods; recreation; tobacco & alcohol; family events/gifts/help to relatives; other consumption (excl. savings, investment, loan principal)"
+HOUSEHOLD_EXPENDITURE.csv,total_recorded_spending,float,AZN per month,Sum of the 14 category amounts,derived,Denominator of expenditure shares
+HOUSEHOLD_EXPENDITURE.csv,share_<category>,float,percent,Category spending / total recorded spending x 100,derived,Expenditure share
+HOUSEHOLD_EXPENDITURE.csv,burden_<category>,float,percent,Category spending / income bracket midpoint x 100,derived,Income burden; a different measure from the share
+HOUSEHOLD_EXPENDITURE.csv,burden_total,float,percent,Total recorded spending / income midpoint x 100,derived,Values > 100 are not invalid (savings/credit/transfers)
+HOUSEHOLD_EXPENDITURE.csv,hhi_concentration,float,0-1,Herfindahl index of the 14 expenditure shares,derived,1/hhi = effective number of categories
+HOUSEHOLD_EXPENDITURE.csv,essentials_share,float,percent,Share of food + rent/repairs + utilities + health,derived,
+HOUSEHOLD_EXPENDITURE.csv,flag_*,bool,,Data-quality flags (see RESEARCH_METHODOLOGY.md section 5),derived,Only flags listed as exclusion rules remove records in the quality-controlled sample
+HOUSEHOLD_EXPENDITURE.csv,in_quality_controlled,bool,,Record passes all exclusion rules,derived,
+HOUSEHOLD_EXPENDITURE.csv,in_consistency_subgroup,bool,,Itemised spending <= upper bound of the income bracket,derived,Sensitivity subgroup only
+HOUSEHOLD_INFLATION.csv,infl_W1_yoy_2026_03,float,percent,Household Laspeyres inflation Mar 2025 -> Mar 2026,derived,
+HOUSEHOLD_INFLATION.csv,infl_W2_annual_avg_2025,float,percent,Annual-average 2025 vs 2024,derived,
+HOUSEHOLD_INFLATION.csv,infl_W3_cum_2020_12_to_2023_12,float,percent,Cumulative Dec 2020 -> Dec 2023 with the 2025 basket,derived,Counterfactual fixed-basket exposure
+HOUSEHOLD_INFLATION.csv,contrib_CPxx / <window>__contrib_CPxx,float,percentage points,Exact additive contribution of division xx,derived,Contributions sum to the window inflation
+FORECAST_RESULTS.csv.gz,variable,category,,"mom (m/m inflation), yoy_implied (y/y implied by the m/m path), yoy_direct (y/y modelled directly)",derived,
+FORECAST_RESULTS.csv.gz,origin / target_date / h,date / date / int,,Forecast origin T; target T+h; horizon in months,derived,
+FORECAST_RESULTS.csv.gz,forecast / actual / error,float,percent / percent / pp,error = actual - forecast,derived,actual is NaN for genuine future forecasts
+FORECAST_RESULTS.csv.gz,model_lo80..model_hi95,float,percent,Model-based prediction interval (SARIMA/ETS only),statsmodels,
+FORECAST_RESULTS.csv.gz,emp_lo80..emp_hi95,float,percent,Empirical interval from the model's own past out-of-sample errors at the same horizon,derived,Uses only errors whose targets were observed at the origin
+FORECAST_RESULTS.csv.gz,split,category,,"test (origin >= 2018-12), future (no actual)",derived,

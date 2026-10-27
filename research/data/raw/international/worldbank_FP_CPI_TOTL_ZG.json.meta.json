@@ -1,0 +1,6 @@
+{
+  "url": "https://api.worldbank.org/v2/country/AZE;DZA;KAZ;RUS;NOR/indicator/FP.CPI.TOTL.ZG?format=json&per_page=20000&date=1995:2026",
+  "retrieved_utc": "2026-10-24T15:08:32+00:00",
+  "bytes": 35764,
+  "sha256": "653be241ee54a2796a9e5f1aa697119dd31cfe6a243a45343f7135ed0db15497"
+}

@@ -1,0 +1,61 @@
+check,passed,detail
+RMSE in comparison table equals recomputation from raw forecasts,True,max diff 0.00e+00
+test origins >= 2018-12,True,
+no NaN actuals in test split,True,
+one frozen specification per model/series,True,
+AZE h12 DM n equals number of test forecasts (82 quoted),True,n=82
+AZE h1 test forecasts = 93,True,93
+quoted RMSE AZE seasonal_naive h1 = 0.689,True,0.6885
+quoted RMSE AZE sarima h1 = 0.448,True,0.4484
+quoted RMSE AZE ets h1 = 0.487,True,0.4869
+quoted RMSE AZE yu_weighted_fts h1 = 0.526,True,0.5255
+quoted RMSE AZE sarima h12 = 0.539,True,0.5389
+quoted RMSE AZE yu_weighted_fts h6 = 0.845,True,0.8448
+quoted RMSE DZA ets h1 = 0.813,True,0.8133
+quoted RMSE KAZ sarima h1 = 0.387,True,0.3874
+quoted RMSE NOR ets h1 = 0.44,True,0.4402
+quoted RMSE RUS ets h1 = 0.941,True,0.9407
+quoted RMSE RUS seasonal_naive h1 = 1.15,True,1.1496
+quoted implied y/y h12 SARIMA AZE 4.38,True,
+Holm p AZE h1 Yu vs SN = 0.204,True,
+Holm p AZE h3 Yu vs SARIMA = 0.041,True,
+Holm p AZE h6 Yu vs SARIMA < 0.001,True,
+Holm p AZE h1 SARIMA vs SN quoted 0.0497 (< 0.05),True,0.04974
+Holm p AZE implied y/y h6/h12 Yu vs SARIMA 0.049/0.006,True,
+"27 of 140 confirmatory tests significant (m/m, A, SE)",True,27/140
+weighted < equal in 9/20 and < Chen in 18/20,True,
+D1 31.17 / D10 28.73 / gap 2.44 (cumulative 2020-23),True,31.166 28.729
+D1-D10 latest 12 months 0.09,True,0.0915
+national HBS basket 12m to Mar 2026 = 5.93,True,5.929
+official contributions sum to group inflation,True,
+survey contributions sum to household inflation (W1_yoy_2026_03),True,
+survey contributions sum to household inflation (W3_cum_2020_12_to_2023_12),True,
+food prices +40.0% Dec2020-Dec2023,True,39.97
+official shares sum to 100,True,
+"32 households, 26 QC, 25 consistency",True,
+QC mean food share 23.9 / full 21.6,True,
+survey shares sum to 100,True,
+"QC 12m exposure mean 5.42, SD 0.40, range 4.55-6.08",True,5.417 0.398 4.549 6.078
+"full-sample mean total burden 393, without R02 110",True,
+"QC income split: +0.24 pp, MDE 0.47",True,
+QC tenure exposure Holm p quoted 0.24,True,0.237
+no QC comparison significant after Holm,True,0
+Mar-2027 national projections 5.95/6.63/4.20/10.26,True,
+Mar-2027 D1-D10 gap +0.09/+0.48/-0.74/+1.86,True,"{'ar_aic': 0.331, 'chen_fts': -1.211, 'ets': -0.738, 'naive': 1.728, 'sarima': 0.482, 'seasonal_naive': 0.088, 'yu_equal_fts': 1.713, 'yu_weighted_fts': 1.862}"
+"headline OOS max |error|: SARIMA 0.35, SN 0.34, ETS 2.70, Yu 2.74",True,"{'ar_aic': 1.519, 'chen_fts': 3.262, 'ets': 2.696, 'naive': 2.675, 'sarima': 0.347, 'seasonal_naive': 0.336, 'yu_equal_fts': 2.907, 'yu_weighted_fts': 2.738}"
+h1 SARIMA/ETS vs SN Holm p <= 0.03 for all key groups,True,max 0.0299
+H5: Yu never significantly better than SN in pooled test (SE),True,
+"H5: ETS significantly better than Yu at all 4 horizons (pooled, SE)",True,
+pooled mean loss diff h1 Yu vs SN = -0.105 (recomputed),True,-0.1054
+27 within-cell vs 9 after Holm over all 140,True,
+"H6 slope 0.29 [0.25, 0.32], R2 0.86, n 243 (slope recomputed)",True,
+H6 gap positive 74% of months; max 3.60 (2008-06); min -1.85 (2009-10),True,
+"sign counts SARIMA<SN 20, ETS<SN 18, Yu<SN 12, Yu<SARIMA 0, Yu<ETS 4, Yu<Chen 18",True,
+"category best-model counts SARIMA 33, ETS 18, Yu 1",True,
+KAZ structure covers 2010..2025 annual + 2026Q1/Q2 for total/urban/rural,True,
+KAZ structure rows add to 100 within 0.05 pp,True,
+KAZ division CPI complete 2008-01..2026-09,True,
+KAZ chained all-items y/y within 0.5 pp of IMF in every month,True,
+KAZ national exposure 12m to Sep 2026 = 9.03% (recomputed),True,9.032
+"KAZ rural-urban gap within +/-0.35 pp; slope 0.06, R2 0.77",True,
+figures: no text/label collisions in the saved PNGs,True,0 issues

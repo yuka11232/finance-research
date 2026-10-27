@@ -1,0 +1,12 @@
+check,n,max_abs_diff,max_rel_diff_pct,corr,result
+IMF AZE CPI level vs AZSTAT official 2010=100 level,84,0.046963299999987385,0.027805387803425674,,
+IMF AZE m/m vs AZSTAT published m/m (1 decimal),123,0.07157660991857617,,0.999317816780055,
+AZE: IMF annual-average inflation vs World Bank WDI,20,9.947598300641403e-14,,,
+DZA: IMF annual-average inflation vs World Bank WDI,20,1.092459456231154e-13,,,
+KAZ: IMF annual-average inflation vs World Bank WDI,20,1.4477308241112041e-13,,,
+NOR: IMF annual-average inflation vs World Bank WDI,30,1.2745360322696797e-13,,,
+RUS: IMF annual-average inflation vs World Bank WDI,30,1.4921397450962104e-13,,,
+"Spliced AZE y/y Sep 2026 vs AZSTAT published 105.5 (bulletin 2026_09, sheet 'bash')",1,0.03200630940497007,,,
+Team CPI workbook inflation vs World Bank WDI (3 countries x 26 years),78,4.854673019139e-08,,,
+Team CPI workbook CPI levels with |ratio-1| > 1% vs World Bank,2,,,,
+azstat_tables_51-52_expenditure_quintiles_2024.xls identical to Spending_Expenditure_Quintiles__2024__AZSTAT.xls (sha256),1,0.0,,,True

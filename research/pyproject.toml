@@ -1,0 +1,23 @@
+[project]
+name = "azerbaijan-inflation-exposure"
+version = "0.1.0"
+description = "Inflation exposure across Azerbaijani household groups; four-model inflation forecasting (seasonal naive, SARIMA, ETS, Yu 2005 weighted fuzzy time series) for five countries."
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.3",
+    "pandas>=3.0",
+    "scipy>=1.16",
+    "statsmodels>=0.15",
+    "matplotlib>=3.10",
+    "openpyxl>=3.1",
+    "xlrd>=2.0",
+    "pypdf>=5.0",
+    "python-docx>=1.1",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

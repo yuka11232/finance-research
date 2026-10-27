@@ -1,0 +1,7 @@
+respondent_id,exclusion_reasons,rule_text
+R02,flag_extreme_income_spending_contradiction,total-spending bracket >= 6 brackets above income bracket (e.g. income <500 AZN with spending >=10 000 AZN); unresolvable contradiction
+R10,flag_itemised_vs_reported_total,itemised spending inconsistent with the respondent's own total-spending bracket by more than a factor of 2 (unresolved unit/recall error)
+R15,flag_straightlining; flag_itemised_vs_reported_total,identical amount entered for every category (non-substantive response) | itemised spending inconsistent with the respondent's own total-spending bracket by more than a factor of 2 (unresolved unit/recall error)
+R16,flag_itemised_vs_reported_total,itemised spending inconsistent with the respondent's own total-spending bracket by more than a factor of 2 (unresolved unit/recall error)
+R20,flag_itemised_vs_reported_total,itemised spending inconsistent with the respondent's own total-spending bracket by more than a factor of 2 (unresolved unit/recall error)
+R28,flag_itemised_vs_reported_total,itemised spending inconsistent with the respondent's own total-spending bracket by more than a factor of 2 (unresolved unit/recall error)
