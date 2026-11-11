@@ -1,0 +1,6 @@
+dimension,group_a,group_b,window,gap_pp,gap_min,gap_max,gap_p2_5,gap_p97_5,note
+expenditure_decile,D1,D10,W1_yoy_2026_03,0.09150791708628248,0.08173487168558147,0.10051433099650442,0.085527364994098,0.0975348827314589,"each of the 13 published items perturbed uniformly within +-0.05 pp, mapped to COICOP, renormalised"
+expenditure_quintile,Q1,Q5,W1_yoy_2026_03,0.08378360615518332,0.07155796269345949,0.0967764893891081,0.07780341632693533,0.08983088322457074,"each of the 13 published items perturbed uniformly within +-0.05 pp, mapped to COICOP, renormalised"
+area,rural,urban,W1_yoy_2026_03,0.005716078757506793,-0.005232200040273582,0.01589555189727143,-0.0003379809578272885,0.011825359318714878,"each of the 13 published items perturbed uniformly within +-0.05 pp, mapped to COICOP, renormalised"
+household_size,6+ persons,1 person,W1_yoy_2026_03,-0.0067508581605553175,-0.018629614134727746,0.002779554789759331,-0.012822164613717279,-0.0008554038187842172,"each of the 13 published items perturbed uniformly within +-0.05 pp, mapped to COICOP, renormalised"
+children_count,4+ children,1 child,W1_yoy_2026_03,0.031492906922176545,0.020931056206254794,0.04299823072031561,0.02533696361533009,0.037221002204383104,"each of the 13 published items perturbed uniformly within +-0.05 pp, mapped to COICOP, renormalised"

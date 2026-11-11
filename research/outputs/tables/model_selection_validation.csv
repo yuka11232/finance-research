@@ -1,0 +1,941 @@
+target,analysis,country,family,spec,val_rmse_mean_h,seconds
+mom,A,AZE,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",0.8726170190344715,2.8
+mom,A,AZE,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",0.8618490506185614,1.3
+mom,A,AZE,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",0.8134282626562682,3.9
+mom,A,AZE,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.931452065208858,0.9
+mom,A,AZE,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",0.8310272888368337,1.5
+mom,A,AZE,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.8142307134816015,1.5
+mom,A,AZE,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",0.7706204907349693,4.4
+mom,A,AZE,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.9445426046030756,0.9
+mom,A,AZE,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.8599066234160327,1.4
+mom,A,AZE,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.8373245276332795,3.5
+mom,A,AZE,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.7753995652484719,4.4
+mom,A,AZE,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.9389684978793259,0.9
+mom,A,AZE,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.85713835750554,1.6
+mom,A,AZE,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.8360138315267053,2.5
+mom,A,AZE,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.7768680838441987,6.0
+mom,A,AZE,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.9368329703956544,0.9
+mom,A,AZE,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.8563431578119877,1.5
+mom,A,AZE,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.8355765895292852,4.5
+mom,A,AZE,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.7787798230711779,5.6
+mom,A,AZE,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.9154385107817213,1.6
+mom,A,AZE,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.8459972644519078,3.0
+mom,A,AZE,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.8251654378171785,3.1
+mom,A,AZE,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.7776761419999328,6.7
+mom,A,AZE,ets,"ETS(A,N,N)",1.424881557993739,
+mom,A,AZE,ets,"ETS(A,N,A)",0.9601148638492437,
+mom,A,AZE,ets,"ETS(A,A,N)",1.4534729278001444,
+mom,A,AZE,ets,"ETS(A,A,A)",0.9803306737660176,
+mom,A,AZE,ets,"ETS(A,Ad,N)",1.4202134419540235,
+mom,A,AZE,ets,"ETS(A,Ad,A)",0.9588854484066954,
+mom,A,AZE,fts,chen[average],1.4437651952200818,
+mom,A,AZE,fts,chen[distribution],1.4592008399144638,
+mom,A,AZE,fts,yu_equal[average],1.4113534986019547,
+mom,A,AZE,fts,yu_equal[distribution],1.4586161874815964,
+mom,A,AZE,fts,yu_weighted[average],1.4344817316042073,
+mom,A,AZE,fts,yu_weighted[distribution],1.4475044256421135,
+mom,A,DZA,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",0.8915857443250319,2.9
+mom,A,DZA,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",0.8778675618087317,2.1
+mom,A,DZA,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",0.8659510332793835,3.8
+mom,A,DZA,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.9263701743623413,0.8
+mom,A,DZA,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",0.8923528368261682,1.5
+mom,A,DZA,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.8787015291732094,1.7
+mom,A,DZA,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",0.8682387186335585,4.6
+mom,A,DZA,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.9264934476629495,0.8
+mom,A,DZA,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.8920507609166469,1.3
+mom,A,DZA,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.8783525046198869,2.5
+mom,A,DZA,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.8664409316902,4.0
+mom,A,DZA,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.9179292152407728,1.1
+mom,A,DZA,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.8878084472092209,3.8
+mom,A,DZA,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.8750442841221721,5.1
+mom,A,DZA,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.8741405430869282,6.7
+mom,A,DZA,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.9317031979390942,0.8
+mom,A,DZA,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.8965767939420142,1.4
+mom,A,DZA,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.882499484876664,3.5
+mom,A,DZA,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.8740475099064238,5.0
+mom,A,DZA,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.9234564788270444,1.2
+mom,A,DZA,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.8883943876500311,2.8
+mom,A,DZA,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.875935061803687,4.4
+mom,A,DZA,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.8812088841291837,6.2
+mom,A,DZA,ets,"ETS(A,N,N)",0.9266780119437444,
+mom,A,DZA,ets,"ETS(A,N,A)",0.8988326059943733,
+mom,A,DZA,ets,"ETS(A,A,N)",0.9487293855700523,
+mom,A,DZA,ets,"ETS(A,A,A)",0.9097917587582761,
+mom,A,DZA,ets,"ETS(A,Ad,N)",0.927929338292729,
+mom,A,DZA,ets,"ETS(A,Ad,A)",0.9013395175312922,
+mom,A,DZA,fts,chen[average],1.0068978583145411,
+mom,A,DZA,fts,chen[distribution],1.0011106357960493,
+mom,A,DZA,fts,yu_equal[average],0.977967122794533,
+mom,A,DZA,fts,yu_equal[distribution],0.9413790088026248,
+mom,A,DZA,fts,yu_weighted[average],0.9764936122307387,
+mom,A,DZA,fts,yu_weighted[distribution],0.9370718192409515,
+mom,A,KAZ,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",0.344054931891926,2.8
+mom,A,KAZ,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",0.343386290795968,2.2
+mom,A,KAZ,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",0.2847774659935813,6.2
+mom,A,KAZ,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.3326880843335212,0.8
+mom,A,KAZ,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",0.32604266060229714,1.6
+mom,A,KAZ,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.3252740816872154,2.0
+mom,A,KAZ,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",0.2731030816039913,8.6
+mom,A,KAZ,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.33007682247968906,0.9
+mom,A,KAZ,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.3180492137574648,1.5
+mom,A,KAZ,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.31523166296842275,4.3
+mom,A,KAZ,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.2516006828803046,6.7
+mom,A,KAZ,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.3301139098338593,1.0
+mom,A,KAZ,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.32166459669092984,1.6
+mom,A,KAZ,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.32010776744886993,2.5
+mom,A,KAZ,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.2658447418035135,9.2
+mom,A,KAZ,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.3378806638800296,1.0
+mom,A,KAZ,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.3288246802885435,1.5
+mom,A,KAZ,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.3268059300728431,4.4
+mom,A,KAZ,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.27002610535017535,7.2
+mom,A,KAZ,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.34637466178568416,1.6
+mom,A,KAZ,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.33567826201166245,3.2
+mom,A,KAZ,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.3323094346306383,4.6
+mom,A,KAZ,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.2766418291275793,9.7
+mom,A,KAZ,ets,"ETS(A,N,N)",0.40070237066241765,
+mom,A,KAZ,ets,"ETS(A,N,A)",0.29642801039990124,
+mom,A,KAZ,ets,"ETS(A,A,N)",0.40632212337397194,
+mom,A,KAZ,ets,"ETS(A,A,A)",0.3013982970019033,
+mom,A,KAZ,ets,"ETS(A,Ad,N)",0.40072151185809746,
+mom,A,KAZ,ets,"ETS(A,Ad,A)",0.2902408960625784,
+mom,A,KAZ,fts,chen[average],0.7721506906341464,
+mom,A,KAZ,fts,chen[distribution],0.7721506906341464,
+mom,A,KAZ,fts,yu_equal[average],0.41725544910953966,
+mom,A,KAZ,fts,yu_equal[distribution],0.41725544910953966,
+mom,A,KAZ,fts,yu_weighted[average],0.5200249061618969,
+mom,A,KAZ,fts,yu_weighted[distribution],0.5200249061618969,
+mom,A,RUS,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",0.4939893982051382,2.9
+mom,A,RUS,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",0.432268327521477,1.8
+mom,A,RUS,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",0.4822235423243857,3.8
+mom,A,RUS,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.5888846153999282,1.1
+mom,A,RUS,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",0.4496039145105419,1.7
+mom,A,RUS,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.3808322707806069,2.7
+mom,A,RUS,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",0.4501721188632043,3.5
+mom,A,RUS,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.5251095843942463,0.9
+mom,A,RUS,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.40208424257749653,1.6
+mom,A,RUS,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.33242365918024486,3.8
+mom,A,RUS,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.4142060911089894,4.0
+mom,A,RUS,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.5368753396413363,1.1
+mom,A,RUS,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.4134193675967468,1.9
+mom,A,RUS,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.3416282590281639,5.3
+mom,A,RUS,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.42165659605895894,5.2
+mom,A,RUS,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.5387486262915591,0.9
+mom,A,RUS,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.41656153944174945,1.8
+mom,A,RUS,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.3457884129568451,4.2
+mom,A,RUS,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.4225899929898689,4.9
+mom,A,RUS,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.5410110043398363,1.7
+mom,A,RUS,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.4133555320186268,2.6
+mom,A,RUS,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.3433407633374637,7.8
+mom,A,RUS,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.4216277728804717,8.2
+mom,A,RUS,ets,"ETS(A,N,N)",0.3047917136784568,
+mom,A,RUS,ets,"ETS(A,N,A)",0.40406081109225783,
+mom,A,RUS,ets,"ETS(A,A,N)",0.3040598167575785,
+mom,A,RUS,ets,"ETS(A,A,A)",0.4057514798774803,
+mom,A,RUS,ets,"ETS(A,Ad,N)",0.30491281374667834,
+mom,A,RUS,ets,"ETS(A,Ad,A)",0.40579151278690384,
+mom,A,RUS,fts,chen[average],0.4967561556165624,
+mom,A,RUS,fts,chen[distribution],0.5154705352542859,
+mom,A,RUS,fts,yu_equal[average],0.3597337182232516,
+mom,A,RUS,fts,yu_equal[distribution],0.36584652125745615,
+mom,A,RUS,fts,yu_weighted[average],0.3436871464006499,
+mom,A,RUS,fts,yu_weighted[distribution],0.35207308716252556,
+mom,B,AZE,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",0.8726170190344715,2.9
+mom,B,AZE,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",0.8618490506185614,1.2
+mom,B,AZE,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",0.8134282626562682,3.8
+mom,B,AZE,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.931452065208858,0.8
+mom,B,AZE,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",0.8310272888368337,1.5
+mom,B,AZE,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.8142307134816015,1.5
+mom,B,AZE,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",0.7706204907349693,4.4
+mom,B,AZE,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.9445426046030756,0.9
+mom,B,AZE,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.8599066234160327,1.3
+mom,B,AZE,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.8373245276332795,3.4
+mom,B,AZE,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.7753995652484719,4.4
+mom,B,AZE,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.9389684978793259,0.9
+mom,B,AZE,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.85713835750554,1.6
+mom,B,AZE,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.8360138315267053,2.5
+mom,B,AZE,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.7768680838441987,5.9
+mom,B,AZE,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.9368329703956544,0.9
+mom,B,AZE,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.8563431578119877,1.5
+mom,B,AZE,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.8355765895292852,4.5
+mom,B,AZE,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.7787798230711779,5.6
+mom,B,AZE,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.9154385107817213,1.7
+mom,B,AZE,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.8459972644519078,3.0
+mom,B,AZE,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.8251654378171785,3.1
+mom,B,AZE,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.7776761419999328,6.8
+mom,B,AZE,ets,"ETS(A,N,N)",1.424881557993739,
+mom,B,AZE,ets,"ETS(A,N,A)",0.9601148638492437,
+mom,B,AZE,ets,"ETS(A,A,N)",1.4534729278001444,
+mom,B,AZE,ets,"ETS(A,A,A)",0.9803306737660176,
+mom,B,AZE,ets,"ETS(A,Ad,N)",1.4202134419540235,
+mom,B,AZE,ets,"ETS(A,Ad,A)",0.9588854484066954,
+mom,B,AZE,fts,chen[average],1.4437651952200818,
+mom,B,AZE,fts,chen[distribution],1.4592008399144638,
+mom,B,AZE,fts,yu_equal[average],1.4113534986019547,
+mom,B,AZE,fts,yu_equal[distribution],1.4586161874815964,
+mom,B,AZE,fts,yu_weighted[average],1.4344817316042073,
+mom,B,AZE,fts,yu_weighted[distribution],1.4475044256421135,
+mom,A,NOR,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",0.35543907835899324,2.9
+mom,A,NOR,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",0.32960066850833136,2.1
+mom,A,NOR,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",0.3042667400538729,2.8
+mom,A,NOR,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.396194030253243,1.0
+mom,A,NOR,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",0.35607994971897916,1.6
+mom,A,NOR,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.3255472901956879,2.5
+mom,A,NOR,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",0.29892022891756753,3.8
+mom,A,NOR,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.39598143713358336,0.9
+mom,A,NOR,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.3558987955203643,1.6
+mom,A,NOR,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.32596844905313255,4.2
+mom,A,NOR,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.2993964902007574,2.7
+mom,A,NOR,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.39758786477340935,1.2
+mom,A,NOR,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.35688381948987374,2.5
+mom,A,NOR,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.32771065219250456,5.4
+mom,A,NOR,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.29909194127518957,4.3
+mom,A,NOR,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.3960117662598277,0.9
+mom,A,NOR,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.35639074421565065,1.5
+mom,A,NOR,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.32591342966145126,3.0
+mom,A,NOR,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.29870815763227443,3.3
+mom,A,NOR,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.403129068951828,1.9
+mom,A,NOR,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.38092602384530305,6.5
+mom,A,NOR,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.34435378218440793,9.2
+mom,A,NOR,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.32266771051330273,10.6
+mom,A,NOR,ets,"ETS(A,N,N)",0.394352505949519,
+mom,A,NOR,ets,"ETS(A,N,A)",0.3685469010179425,
+mom,A,NOR,ets,"ETS(A,A,N)",0.39431741487279653,
+mom,A,NOR,ets,"ETS(A,A,A)",0.3842117122025154,
+mom,A,NOR,ets,"ETS(A,Ad,N)",0.39527991231703474,
+mom,A,NOR,ets,"ETS(A,Ad,A)",0.37021459641269905,
+mom,A,NOR,fts,chen[average],0.41769084555730707,
+mom,A,NOR,fts,chen[distribution],0.4433484446841293,
+mom,A,NOR,fts,yu_equal[average],0.40598805985946007,
+mom,A,NOR,fts,yu_equal[distribution],0.401920749243149,
+mom,A,NOR,fts,yu_weighted[average],0.40325968018344316,
+mom,A,NOR,fts,yu_weighted[distribution],0.3963010247686578,
+mom,B,KAZ,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",0.344054931891926,2.8
+mom,B,KAZ,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",0.343386290795968,2.2
+mom,B,KAZ,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",0.2847774659935813,6.2
+mom,B,KAZ,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.3326880843335212,0.8
+mom,B,KAZ,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",0.32604266060229714,1.6
+mom,B,KAZ,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.3252740816872154,2.0
+mom,B,KAZ,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",0.2731030816039913,8.5
+mom,B,KAZ,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.33007682247968906,0.9
+mom,B,KAZ,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.3180492137574648,1.4
+mom,B,KAZ,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.31523166296842275,4.3
+mom,B,KAZ,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.2516006828803046,6.8
+mom,B,KAZ,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.3301139098338593,1.0
+mom,B,KAZ,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.32166459669092984,1.6
+mom,B,KAZ,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.32010776744886993,2.4
+mom,B,KAZ,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.2658447418035135,9.3
+mom,B,KAZ,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.3378806638800296,1.0
+mom,B,KAZ,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.3288246802885435,1.5
+mom,B,KAZ,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.3268059300728431,4.4
+mom,B,KAZ,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.27002610535017535,7.1
+mom,B,KAZ,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.34637466178568416,1.7
+mom,B,KAZ,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.33567826201166245,3.3
+mom,B,KAZ,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.3323094346306383,4.7
+mom,B,KAZ,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.2766418291275793,9.7
+mom,B,KAZ,ets,"ETS(A,N,N)",0.40070237066241765,
+mom,B,KAZ,ets,"ETS(A,N,A)",0.29642801039990124,
+mom,B,KAZ,ets,"ETS(A,A,N)",0.40632212337397194,
+mom,B,KAZ,ets,"ETS(A,A,A)",0.3013982970019033,
+mom,B,KAZ,ets,"ETS(A,Ad,N)",0.40072151185809746,
+mom,B,KAZ,ets,"ETS(A,Ad,A)",0.2902408960625784,
+mom,B,KAZ,fts,chen[average],0.7721506906341464,
+mom,B,KAZ,fts,chen[distribution],0.7721506906341464,
+mom,B,KAZ,fts,yu_equal[average],0.41725544910953966,
+mom,B,KAZ,fts,yu_equal[distribution],0.41725544910953966,
+mom,B,KAZ,fts,yu_weighted[average],0.5200249061618969,
+mom,B,KAZ,fts,yu_weighted[distribution],0.5200249061618969,
+mom,B,DZA,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",0.8915857443250319,2.9
+mom,B,DZA,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",0.8778675618087317,2.1
+mom,B,DZA,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",0.8659510332793835,3.8
+mom,B,DZA,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.9263701743623413,0.8
+mom,B,DZA,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",0.8923528368261682,1.4
+mom,B,DZA,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.8787015291732094,1.7
+mom,B,DZA,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",0.8682387186335585,4.6
+mom,B,DZA,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.9264934476629495,0.8
+mom,B,DZA,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.8920507609166469,1.3
+mom,B,DZA,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.8783525046198869,2.6
+mom,B,DZA,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.8664409316902,4.0
+mom,B,DZA,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.9179292152407728,1.2
+mom,B,DZA,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.8878084472092209,3.7
+mom,B,DZA,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.8750442841221721,5.2
+mom,B,DZA,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.8741405430869282,6.6
+mom,B,DZA,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.9317031979390942,0.8
+mom,B,DZA,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.8965767939420142,1.4
+mom,B,DZA,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.882499484876664,3.5
+mom,B,DZA,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.8740475099064238,5.0
+mom,B,DZA,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.9234564788270444,1.3
+mom,B,DZA,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.8883943876500311,2.9
+mom,B,DZA,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.875935061803687,4.4
+mom,B,DZA,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.8812088841291837,6.2
+mom,B,DZA,ets,"ETS(A,N,N)",0.9266780119437444,
+mom,B,DZA,ets,"ETS(A,N,A)",0.8988326059943733,
+mom,B,DZA,ets,"ETS(A,A,N)",0.9487293855700523,
+mom,B,DZA,ets,"ETS(A,A,A)",0.9097917587582761,
+mom,B,DZA,ets,"ETS(A,Ad,N)",0.927929338292729,
+mom,B,DZA,ets,"ETS(A,Ad,A)",0.9013395175312922,
+mom,B,DZA,fts,chen[average],1.0068978583145411,
+mom,B,DZA,fts,chen[distribution],1.0011106357960493,
+mom,B,DZA,fts,yu_equal[average],0.977967122794533,
+mom,B,DZA,fts,yu_equal[distribution],0.9413790088026248,
+mom,B,DZA,fts,yu_weighted[average],0.9764936122307387,
+mom,B,DZA,fts,yu_weighted[distribution],0.9370718192409515,
+yoy,A,AZE,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",6.120790928106482,1.2
+yoy,A,AZE,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",6.340918268036111,2.5
+yoy,A,AZE,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",5.753128446590429,2.4
+yoy,A,AZE,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",5.323389594809398,0.9
+yoy,A,AZE,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",5.404101752101817,2.2
+yoy,A,AZE,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",5.559431386046774,2.3
+yoy,A,AZE,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",4.997462624930931,3.8
+yoy,A,AZE,sarima,"SARIMA(0, 1, 0)x(0, 0, 0, 12)",4.522450487657529,0.6
+yoy,A,AZE,sarima,"SARIMA(0, 1, 0)x(0, 0, 1, 12)",3.4702810270542956,1.9
+yoy,A,AZE,sarima,"SARIMA(0, 1, 0)x(1, 0, 0, 12)",4.6328445333325625,0.9
+yoy,A,AZE,sarima,"SARIMA(0, 1, 0)x(1, 0, 1, 12)",3.4864206984770654,1.9
+yoy,A,AZE,sarima,"SARIMA(0, 1, 1)x(0, 0, 0, 12)",4.480395812409079,0.7
+yoy,A,AZE,sarima,"SARIMA(0, 1, 1)x(0, 0, 1, 12)",3.337740508977402,1.7
+yoy,A,AZE,sarima,"SARIMA(0, 1, 1)x(1, 0, 0, 12)",4.551167696019663,1.0
+yoy,A,AZE,sarima,"SARIMA(0, 1, 1)x(1, 0, 1, 12)",3.452233020260162,2.6
+yoy,A,AZE,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",4.26247018393485,0.8
+yoy,A,AZE,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",3.249656505847098,3.8
+yoy,A,AZE,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",4.482545625865102,4.2
+yoy,A,AZE,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",3.2342314310920726,5.5
+yoy,A,AZE,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",4.052065264222216,1.1
+yoy,A,AZE,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",3.2300722461139935,2.8
+yoy,A,AZE,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",4.312630394679341,2.7
+yoy,A,AZE,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",3.0333303173506843,7.2
+yoy,A,AZE,sarima,"SARIMA(1, 1, 0)x(0, 0, 0, 12)",4.637644491343002,0.8
+yoy,A,AZE,sarima,"SARIMA(1, 1, 0)x(0, 0, 1, 12)",3.2829723425549755,2.0
+yoy,A,AZE,sarima,"SARIMA(1, 1, 0)x(1, 0, 0, 12)",4.5738821531299045,1.1
+yoy,A,AZE,sarima,"SARIMA(1, 1, 0)x(1, 0, 1, 12)",3.3982317035035634,2.5
+yoy,A,AZE,sarima,"SARIMA(1, 1, 1)x(0, 0, 0, 12)",4.682088990509486,0.7
+yoy,A,AZE,sarima,"SARIMA(1, 1, 1)x(0, 0, 1, 12)",3.2595896043524437,2.6
+yoy,A,AZE,sarima,"SARIMA(1, 1, 1)x(1, 0, 0, 12)",4.581114326771716,1.5
+yoy,A,AZE,sarima,"SARIMA(1, 1, 1)x(1, 0, 1, 12)",3.364673371423705,3.6
+yoy,A,AZE,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",3.9978502332441823,1.1
+yoy,A,AZE,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",3.118751280726329,2.8
+yoy,A,AZE,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",4.1645629349503155,5.6
+yoy,A,AZE,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",3.210066966292099,5.4
+yoy,A,AZE,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",3.984544990464527,1.2
+yoy,A,AZE,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",3.07155720413931,3.8
+yoy,A,AZE,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",4.08005277132324,3.8
+yoy,A,AZE,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",2.908512914575503,5.3
+yoy,A,AZE,sarima,"SARIMA(2, 1, 0)x(0, 0, 0, 12)",4.66278909276855,0.7
+yoy,A,AZE,sarima,"SARIMA(2, 1, 0)x(0, 0, 1, 12)",3.273995445086915,2.9
+yoy,A,AZE,sarima,"SARIMA(2, 1, 0)x(1, 0, 0, 12)",4.581902435657278,1.3
+yoy,A,AZE,sarima,"SARIMA(2, 1, 0)x(1, 0, 1, 12)",3.3837141193878555,2.9
+yoy,A,AZE,sarima,"SARIMA(2, 1, 1)x(0, 0, 0, 12)",4.60373913638534,2.0
+yoy,A,AZE,sarima,"SARIMA(2, 1, 1)x(0, 0, 1, 12)",3.2141960011447357,6.1
+yoy,A,AZE,sarima,"SARIMA(2, 1, 1)x(1, 0, 0, 12)",4.616519031866002,3.5
+yoy,A,AZE,sarima,"SARIMA(2, 1, 1)x(1, 0, 1, 12)",3.326357666059624,4.6
+yoy,A,AZE,ets,"ETS(A,N,N)",4.522482974441596,
+yoy,A,AZE,ets,"ETS(A,N,A)",4.568265646089271,
+yoy,A,AZE,ets,"ETS(A,A,N)",7.124306499449525,
+yoy,A,AZE,ets,"ETS(A,A,A)",7.3765255427072205,
+yoy,A,AZE,ets,"ETS(A,Ad,N)",4.972798284675788,
+yoy,A,AZE,ets,"ETS(A,Ad,A)",5.1139666019752985,
+yoy,A,AZE,fts,chen[average],4.873978995734323,
+yoy,A,AZE,fts,chen[distribution],4.8657027609638615,
+yoy,A,AZE,fts,yu_equal[average],4.676705055500845,
+yoy,A,AZE,fts,yu_equal[distribution],4.819756842446856,
+yoy,A,AZE,fts,yu_weighted[average],5.364031860609937,
+yoy,A,AZE,fts,yu_weighted[distribution],4.838084621729676,
+mom,B,NOR,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",0.35112372648424817,3.0
+mom,B,NOR,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",0.3184783368357866,2.7
+mom,B,NOR,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",0.30597035617730955,2.8
+mom,B,NOR,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.39320857044659685,0.9
+mom,B,NOR,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",0.3510838300798054,1.6
+mom,B,NOR,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.3160066180972309,2.2
+mom,B,NOR,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",0.3016204806730741,2.8
+mom,B,NOR,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.39331724627325454,0.9
+mom,B,NOR,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.35108172476470223,1.5
+mom,B,NOR,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.3163057792547013,3.5
+mom,B,NOR,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.30200741569962947,2.9
+mom,B,NOR,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.3970896232312919,1.8
+mom,B,NOR,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.35253966393606523,2.7
+mom,B,NOR,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.3169177918228089,3.0
+mom,B,NOR,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.3036438977953064,4.4
+mom,B,NOR,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.3930033985332301,1.0
+mom,B,NOR,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.35123715681441164,1.8
+mom,B,NOR,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.31626562117648843,3.9
+mom,B,NOR,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.30141475977791476,3.4
+mom,B,NOR,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.3988228972148485,1.4
+mom,B,NOR,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.3619831385031551,6.9
+mom,B,NOR,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.323431815751671,7.1
+mom,B,NOR,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.3224931958310875,7.3
+mom,B,NOR,ets,"ETS(A,N,N)",0.393962174517156,
+mom,B,NOR,ets,"ETS(A,N,A)",0.35568306253004467,
+mom,B,NOR,ets,"ETS(A,A,N)",0.3934947386738626,
+mom,B,NOR,ets,"ETS(A,A,A)",0.3552381066564375,
+mom,B,NOR,ets,"ETS(A,Ad,N)",0.3938184465899374,
+mom,B,NOR,ets,"ETS(A,Ad,A)",0.3557992595030403,
+mom,B,NOR,fts,chen[average],0.4763600049102845,
+mom,B,NOR,fts,chen[distribution],0.44015571720805224,
+mom,B,NOR,fts,yu_equal[average],0.3987882442824717,
+mom,B,NOR,fts,yu_equal[distribution],0.40612748152647465,
+mom,B,NOR,fts,yu_weighted[average],0.4009407765657525,
+mom,B,NOR,fts,yu_weighted[distribution],0.4002754183802232,
+yoy,A,DZA,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",1.631314617492296,2.0
+yoy,A,DZA,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",1.7400234091359328,1.5
+yoy,A,DZA,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",1.6491664609529988,3.6
+yoy,A,DZA,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",1.676362251773071,0.7
+yoy,A,DZA,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",1.5824245288566738,2.6
+yoy,A,DZA,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",1.6445812686462036,1.7
+yoy,A,DZA,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",1.5759582124845783,5.0
+yoy,A,DZA,sarima,"SARIMA(0, 1, 0)x(0, 0, 0, 12)",1.9679077698036056,0.6
+yoy,A,DZA,sarima,"SARIMA(0, 1, 0)x(0, 0, 1, 12)",1.4405714823178506,1.7
+yoy,A,DZA,sarima,"SARIMA(0, 1, 0)x(1, 0, 0, 12)",1.5693388479028407,0.9
+yoy,A,DZA,sarima,"SARIMA(0, 1, 0)x(1, 0, 1, 12)",1.4508182987566307,2.6
+yoy,A,DZA,sarima,"SARIMA(0, 1, 1)x(0, 0, 0, 12)",1.9793689649492954,0.6
+yoy,A,DZA,sarima,"SARIMA(0, 1, 1)x(0, 0, 1, 12)",1.4343292439914963,2.7
+yoy,A,DZA,sarima,"SARIMA(0, 1, 1)x(1, 0, 0, 12)",1.575089145106034,1.0
+yoy,A,DZA,sarima,"SARIMA(0, 1, 1)x(1, 0, 1, 12)",1.4475807335745146,3.0
+yoy,A,DZA,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",1.5825662780920948,0.8
+yoy,A,DZA,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",1.4682615016231007,3.0
+yoy,A,DZA,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",1.390790577269448,4.4
+yoy,A,DZA,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",1.4494916962332636,4.8
+yoy,A,DZA,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",1.5466910173750406,0.8
+yoy,A,DZA,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",1.474083019806213,4.4
+yoy,A,DZA,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",1.4020323738796168,3.5
+yoy,A,DZA,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",1.4538706134281085,6.1
+yoy,A,DZA,sarima,"SARIMA(1, 1, 0)x(0, 0, 0, 12)",1.9742405381909605,0.7
+yoy,A,DZA,sarima,"SARIMA(1, 1, 0)x(0, 0, 1, 12)",1.4368397689685157,2.6
+yoy,A,DZA,sarima,"SARIMA(1, 1, 0)x(1, 0, 0, 12)",1.5729566739729544,1.2
+yoy,A,DZA,sarima,"SARIMA(1, 1, 0)x(1, 0, 1, 12)",1.4488817196353703,3.1
+yoy,A,DZA,sarima,"SARIMA(1, 1, 1)x(0, 0, 0, 12)",2.0167014281033406,0.9
+yoy,A,DZA,sarima,"SARIMA(1, 1, 1)x(0, 0, 1, 12)",1.4635400026881336,2.8
+yoy,A,DZA,sarima,"SARIMA(1, 1, 1)x(1, 0, 0, 12)",1.6164864265565742,1.5
+yoy,A,DZA,sarima,"SARIMA(1, 1, 1)x(1, 0, 1, 12)",1.4841808439577613,3.5
+yoy,A,DZA,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",1.556990173405159,1.0
+yoy,A,DZA,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",1.4715166615386974,4.0
+yoy,A,DZA,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",1.3967288979889343,5.0
+yoy,A,DZA,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",1.4520083273302584,6.1
+yoy,A,DZA,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",1.5890920360839176,1.5
+yoy,A,DZA,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",1.4955310442869414,5.0
+yoy,A,DZA,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",1.4219201020748697,3.2
+yoy,A,DZA,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",1.4704611683487063,8.6
+yoy,A,DZA,sarima,"SARIMA(2, 1, 0)x(0, 0, 0, 12)",1.9036564520215724,1.8
+yoy,A,DZA,sarima,"SARIMA(2, 1, 0)x(0, 0, 1, 12)",1.4027008801399243,4.8
+yoy,A,DZA,sarima,"SARIMA(2, 1, 0)x(1, 0, 0, 12)",1.5463819767145144,1.7
+yoy,A,DZA,sarima,"SARIMA(2, 1, 0)x(1, 0, 1, 12)",1.4139635187904709,4.5
+yoy,A,DZA,sarima,"SARIMA(2, 1, 1)x(0, 0, 0, 12)",1.977128612429733,0.9
+yoy,A,DZA,sarima,"SARIMA(2, 1, 1)x(0, 0, 1, 12)",1.4458761849274795,4.4
+yoy,A,DZA,sarima,"SARIMA(2, 1, 1)x(1, 0, 0, 12)",1.597156770452663,1.6
+yoy,A,DZA,sarima,"SARIMA(2, 1, 1)x(1, 0, 1, 12)",1.4571927245088507,4.6
+yoy,A,DZA,ets,"ETS(A,N,N)",1.9678926005008592,
+yoy,A,DZA,ets,"ETS(A,N,A)",2.011164586478572,
+yoy,A,DZA,ets,"ETS(A,A,N)",2.0398879822691254,
+yoy,A,DZA,ets,"ETS(A,A,A)",2.08192913881073,
+yoy,A,DZA,ets,"ETS(A,Ad,N)",1.9683321903245363,
+yoy,A,DZA,ets,"ETS(A,Ad,A)",2.0125996945722817,
+yoy,A,DZA,fts,chen[average],2.0248195865028915,
+yoy,A,DZA,fts,chen[distribution],1.928257618913464,
+yoy,A,DZA,fts,yu_equal[average],2.062566951953267,
+yoy,A,DZA,fts,yu_equal[distribution],1.87155520331831,
+yoy,A,DZA,fts,yu_weighted[average],1.9777129676704943,
+yoy,A,DZA,fts,yu_weighted[distribution],1.7864423610564,
+yoy,A,RUS,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",6.286355465725356,1.3
+yoy,A,RUS,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",5.638039305614625,2.8
+yoy,A,RUS,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",5.857153565577637,2.8
+yoy,A,RUS,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",6.867992127770011,1.3
+yoy,A,RUS,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",5.514675618094981,3.1
+yoy,A,RUS,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",4.936488351126554,3.5
+yoy,A,RUS,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",5.125383633535465,4.3
+yoy,A,RUS,sarima,"SARIMA(0, 1, 0)x(0, 0, 0, 12)",1.6910105370886428,0.6
+yoy,A,RUS,sarima,"SARIMA(0, 1, 0)x(0, 0, 1, 12)",2.3568429862919666,1.2
+yoy,A,RUS,sarima,"SARIMA(0, 1, 0)x(1, 0, 0, 12)",2.943078019302666,1.1
+yoy,A,RUS,sarima,"SARIMA(0, 1, 0)x(1, 0, 1, 12)",2.7332851967207943,1.5
+yoy,A,RUS,sarima,"SARIMA(0, 1, 1)x(0, 0, 0, 12)",1.475036145396253,0.7
+yoy,A,RUS,sarima,"SARIMA(0, 1, 1)x(0, 0, 1, 12)",2.2640215231252068,1.5
+yoy,A,RUS,sarima,"SARIMA(0, 1, 1)x(1, 0, 0, 12)",2.7482767015280603,1.2
+yoy,A,RUS,sarima,"SARIMA(0, 1, 1)x(1, 0, 1, 12)",2.468116055955271,1.7
+yoy,A,RUS,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",1.8494429413610902,1.1
+yoy,A,RUS,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",2.4462892166139927,2.9
+yoy,A,RUS,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",3.047406863697404,6.4
+yoy,A,RUS,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",3.1641779352984276,10.4
+yoy,A,RUS,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",1.6977275236733327,1.5
+yoy,A,RUS,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",2.3808098357555445,4.1
+yoy,A,RUS,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",2.8881427790791836,6.3
+yoy,A,RUS,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",3.3124368208563153,9.3
+yoy,A,RUS,sarima,"SARIMA(1, 1, 0)x(0, 0, 0, 12)",1.2216676613707862,0.8
+yoy,A,RUS,sarima,"SARIMA(1, 1, 0)x(0, 0, 1, 12)",1.943374155199093,1.8
+yoy,A,RUS,sarima,"SARIMA(1, 1, 0)x(1, 0, 0, 12)",2.355532375431561,1.4
+yoy,A,RUS,sarima,"SARIMA(1, 1, 0)x(1, 0, 1, 12)",1.9914356222834522,2.5
+yoy,A,RUS,sarima,"SARIMA(1, 1, 1)x(0, 0, 0, 12)",1.1965783815660882,0.8
+yoy,A,RUS,sarima,"SARIMA(1, 1, 1)x(0, 0, 1, 12)",1.954883966343865,2.2
+yoy,A,RUS,sarima,"SARIMA(1, 1, 1)x(1, 0, 0, 12)",2.375594949327401,1.5
+yoy,A,RUS,sarima,"SARIMA(1, 1, 1)x(1, 0, 1, 12)",2.0006731844573835,2.3
+yoy,A,RUS,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",1.7699790465134848,1.2
+yoy,A,RUS,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",2.456865368832602,7.1
+yoy,A,RUS,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",2.6282988922970834,8.8
+yoy,A,RUS,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",2.558768025945499,14.5
+yoy,A,RUS,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",1.7204447579124873,1.7
+yoy,A,RUS,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",2.4888654603883547,10.8
+yoy,A,RUS,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",2.6445535331524024,11.3
+yoy,A,RUS,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",2.313460946767223,13.0
+yoy,A,RUS,sarima,"SARIMA(2, 1, 0)x(0, 0, 0, 12)",1.1995115300236874,0.8
+yoy,A,RUS,sarima,"SARIMA(2, 1, 0)x(0, 0, 1, 12)",1.9532884992184116,2.0
+yoy,A,RUS,sarima,"SARIMA(2, 1, 0)x(1, 0, 0, 12)",2.3816417183738827,1.4
+yoy,A,RUS,sarima,"SARIMA(2, 1, 0)x(1, 0, 1, 12)",1.9994053131308736,2.5
+yoy,A,RUS,sarima,"SARIMA(2, 1, 1)x(0, 0, 0, 12)",1.1997701107002452,1.0
+yoy,A,RUS,sarima,"SARIMA(2, 1, 1)x(0, 0, 1, 12)",1.9566713091573282,3.1
+yoy,A,RUS,sarima,"SARIMA(2, 1, 1)x(1, 0, 0, 12)",2.3920226043805264,2.0
+yoy,A,RUS,sarima,"SARIMA(2, 1, 1)x(1, 0, 1, 12)",2.0027480144354466,6.6
+yoy,A,RUS,ets,"ETS(A,N,N)",1.691069182877985,
+yoy,A,RUS,ets,"ETS(A,N,A)",1.7064457470042864,
+yoy,A,RUS,ets,"ETS(A,A,N)",3.5781999292665128,
+yoy,A,RUS,ets,"ETS(A,A,A)",3.643569663278716,
+yoy,A,RUS,ets,"ETS(A,Ad,N)",1.387352240605932,
+yoy,A,RUS,ets,"ETS(A,Ad,A)",1.4363283801839004,
+yoy,A,RUS,fts,chen[average],1.8799958445692249,
+yoy,A,RUS,fts,chen[distribution],1.782736615575675,
+yoy,A,RUS,fts,yu_equal[average],1.8884481599896978,
+yoy,A,RUS,fts,yu_equal[distribution],1.756668461306826,
+yoy,A,RUS,fts,yu_weighted[average],1.882514744636463,
+yoy,A,RUS,fts,yu_weighted[distribution],1.7695176284483334,
+mom,B,RUS,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",0.42288278149099334,2.9
+mom,B,RUS,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",0.40122222162306637,2.4
+mom,B,RUS,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",0.5094805162750107,5.8
+mom,B,RUS,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.48033100330183853,0.8
+mom,B,RUS,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",0.38132367182177945,1.6
+mom,B,RUS,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.3402138477172124,1.9
+mom,B,RUS,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",0.47836781543393603,5.1
+mom,B,RUS,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.44311648057945463,0.8
+mom,B,RUS,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.35158239037541,1.5
+mom,B,RUS,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.30770855146659776,3.6
+mom,B,RUS,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.43356782437425717,5.2
+mom,B,RUS,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.45115656988469915,1.0
+mom,B,RUS,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.35819265114674903,1.9
+mom,B,RUS,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.31065722306428284,2.7
+mom,B,RUS,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.4372706705758321,5.6
+mom,B,RUS,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.4553224788758399,0.9
+mom,B,RUS,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.3639706787412788,1.6
+mom,B,RUS,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.3195617405425316,4.7
+mom,B,RUS,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.438270428713713,6.2
+mom,B,RUS,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.4913527110202729,1.7
+mom,B,RUS,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.36349730066811425,2.5
+mom,B,RUS,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.3140222779358259,4.3
+mom,B,RUS,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.4349668587579466,8.9
+mom,B,RUS,ets,"ETS(A,N,N)",0.3058572593578404,
+mom,B,RUS,ets,"ETS(A,N,A)",0.39954459350326926,
+mom,B,RUS,ets,"ETS(A,A,N)",0.30975629718790404,
+mom,B,RUS,ets,"ETS(A,A,A)",0.40315053968236486,
+mom,B,RUS,ets,"ETS(A,Ad,N)",0.30558725712888246,
+mom,B,RUS,ets,"ETS(A,Ad,A)",0.3927887449347097,
+mom,B,RUS,fts,chen[average],0.4062414468135717,
+mom,B,RUS,fts,chen[distribution],0.40952435933701864,
+mom,B,RUS,fts,yu_equal[average],0.35259228661470937,
+mom,B,RUS,fts,yu_equal[distribution],0.3694032324268468,
+mom,B,RUS,fts,yu_weighted[average],0.3252231758777807,
+mom,B,RUS,fts,yu_weighted[distribution],0.35472811075241456,
+yoy,B,AZE,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",6.120790928106482,1.3
+yoy,B,AZE,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",6.340918268036111,2.7
+yoy,B,AZE,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",5.753128446590429,2.9
+yoy,B,AZE,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",5.323389594809398,1.0
+yoy,B,AZE,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",5.404101752101817,2.4
+yoy,B,AZE,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",5.559431386046774,2.5
+yoy,B,AZE,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",4.997462624930931,4.0
+yoy,B,AZE,sarima,"SARIMA(0, 1, 0)x(0, 0, 0, 12)",4.522450487657529,0.5
+yoy,B,AZE,sarima,"SARIMA(0, 1, 0)x(0, 0, 1, 12)",3.4702810270542956,1.7
+yoy,B,AZE,sarima,"SARIMA(0, 1, 0)x(1, 0, 0, 12)",4.6328445333325625,0.9
+yoy,B,AZE,sarima,"SARIMA(0, 1, 0)x(1, 0, 1, 12)",3.4864206984770654,2.0
+yoy,B,AZE,sarima,"SARIMA(0, 1, 1)x(0, 0, 0, 12)",4.480395812409079,0.6
+yoy,B,AZE,sarima,"SARIMA(0, 1, 1)x(0, 0, 1, 12)",3.337740508977402,1.7
+yoy,B,AZE,sarima,"SARIMA(0, 1, 1)x(1, 0, 0, 12)",4.551167696019663,1.0
+yoy,B,AZE,sarima,"SARIMA(0, 1, 1)x(1, 0, 1, 12)",3.452233020260162,2.6
+yoy,B,AZE,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",4.26247018393485,0.9
+yoy,B,AZE,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",3.249656505847098,3.9
+yoy,B,AZE,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",4.482545625865102,4.3
+yoy,B,AZE,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",3.2342314310920726,6.5
+yoy,B,AZE,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",4.052065264222216,1.2
+yoy,B,AZE,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",3.2300722461139935,3.2
+yoy,B,AZE,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",4.312630394679341,2.5
+yoy,B,AZE,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",3.0333303173506843,6.7
+yoy,B,AZE,sarima,"SARIMA(1, 1, 0)x(0, 0, 0, 12)",4.637644491343002,0.7
+yoy,B,AZE,sarima,"SARIMA(1, 1, 0)x(0, 0, 1, 12)",3.2829723425549755,2.0
+yoy,B,AZE,sarima,"SARIMA(1, 1, 0)x(1, 0, 0, 12)",4.5738821531299045,1.2
+yoy,B,AZE,sarima,"SARIMA(1, 1, 0)x(1, 0, 1, 12)",3.3982317035035634,2.6
+yoy,B,AZE,sarima,"SARIMA(1, 1, 1)x(0, 0, 0, 12)",4.682088990509486,0.8
+yoy,B,AZE,sarima,"SARIMA(1, 1, 1)x(0, 0, 1, 12)",3.2595896043524437,2.5
+yoy,B,AZE,sarima,"SARIMA(1, 1, 1)x(1, 0, 0, 12)",4.581114326771716,1.3
+yoy,B,AZE,sarima,"SARIMA(1, 1, 1)x(1, 0, 1, 12)",3.364673371423705,4.1
+yoy,B,AZE,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",3.9978502332441823,1.0
+yoy,B,AZE,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",3.118751280726329,2.8
+yoy,B,AZE,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",4.1645629349503155,5.5
+yoy,B,AZE,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",3.210066966292099,5.1
+yoy,B,AZE,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",3.984544990464527,1.3
+yoy,B,AZE,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",3.07155720413931,4.4
+yoy,B,AZE,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",4.08005277132324,3.8
+yoy,B,AZE,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",2.908512914575503,8.9
+yoy,B,AZE,sarima,"SARIMA(2, 1, 0)x(0, 0, 0, 12)",4.66278909276855,1.1
+yoy,B,AZE,sarima,"SARIMA(2, 1, 0)x(0, 0, 1, 12)",3.273995445086915,3.6
+yoy,B,AZE,sarima,"SARIMA(2, 1, 0)x(1, 0, 0, 12)",4.581902435657278,1.6
+yoy,B,AZE,sarima,"SARIMA(2, 1, 0)x(1, 0, 1, 12)",3.3837141193878555,3.3
+yoy,B,AZE,sarima,"SARIMA(2, 1, 1)x(0, 0, 0, 12)",4.60373913638534,1.7
+yoy,B,AZE,sarima,"SARIMA(2, 1, 1)x(0, 0, 1, 12)",3.2141960011447357,3.4
+yoy,B,AZE,sarima,"SARIMA(2, 1, 1)x(1, 0, 0, 12)",4.616519031866002,2.7
+yoy,B,AZE,sarima,"SARIMA(2, 1, 1)x(1, 0, 1, 12)",3.326357666059624,3.8
+yoy,B,AZE,ets,"ETS(A,N,N)",4.522482974441596,
+yoy,B,AZE,ets,"ETS(A,N,A)",4.568265646089271,
+yoy,B,AZE,ets,"ETS(A,A,N)",7.124306499449525,
+yoy,B,AZE,ets,"ETS(A,A,A)",7.3765255427072205,
+yoy,B,AZE,ets,"ETS(A,Ad,N)",4.972798284675788,
+yoy,B,AZE,ets,"ETS(A,Ad,A)",5.1139666019752985,
+yoy,B,AZE,fts,chen[average],4.873978995734323,
+yoy,B,AZE,fts,chen[distribution],4.8657027609638615,
+yoy,B,AZE,fts,yu_equal[average],4.676705055500845,
+yoy,B,AZE,fts,yu_equal[distribution],4.819756842446856,
+yoy,B,AZE,fts,yu_weighted[average],5.364031860609937,
+yoy,B,AZE,fts,yu_weighted[distribution],4.838084621729676,
+yoy,B,DZA,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",1.631314617492296,2.1
+yoy,B,DZA,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",1.7400234091359328,1.9
+yoy,B,DZA,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",1.6491664609529988,3.8
+yoy,B,DZA,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",1.676362251773071,0.9
+yoy,B,DZA,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",1.5824245288566738,2.7
+yoy,B,DZA,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",1.6445812686462036,1.9
+yoy,B,DZA,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",1.5759582124845783,4.9
+yoy,B,DZA,sarima,"SARIMA(0, 1, 0)x(0, 0, 0, 12)",1.9679077698036056,0.6
+yoy,B,DZA,sarima,"SARIMA(0, 1, 0)x(0, 0, 1, 12)",1.4405714823178506,1.7
+yoy,B,DZA,sarima,"SARIMA(0, 1, 0)x(1, 0, 0, 12)",1.5693388479028407,0.9
+yoy,B,DZA,sarima,"SARIMA(0, 1, 0)x(1, 0, 1, 12)",1.4508182987566307,2.5
+yoy,B,DZA,sarima,"SARIMA(0, 1, 1)x(0, 0, 0, 12)",1.9793689649492954,0.6
+yoy,B,DZA,sarima,"SARIMA(0, 1, 1)x(0, 0, 1, 12)",1.4343292439914963,2.7
+yoy,B,DZA,sarima,"SARIMA(0, 1, 1)x(1, 0, 0, 12)",1.575089145106034,1.1
+yoy,B,DZA,sarima,"SARIMA(0, 1, 1)x(1, 0, 1, 12)",1.4475807335745146,2.9
+yoy,B,DZA,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",1.5825662780920948,0.8
+yoy,B,DZA,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",1.4682615016231007,3.3
+yoy,B,DZA,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",1.390790577269448,5.6
+yoy,B,DZA,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",1.4494916962332636,4.8
+yoy,B,DZA,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",1.5466910173750406,0.9
+yoy,B,DZA,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",1.474083019806213,4.1
+yoy,B,DZA,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",1.4020323738796168,3.1
+yoy,B,DZA,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",1.4538706134281085,6.2
+yoy,B,DZA,sarima,"SARIMA(1, 1, 0)x(0, 0, 0, 12)",1.9742405381909605,0.7
+yoy,B,DZA,sarima,"SARIMA(1, 1, 0)x(0, 0, 1, 12)",1.4368397689685157,2.7
+yoy,B,DZA,sarima,"SARIMA(1, 1, 0)x(1, 0, 0, 12)",1.5729566739729544,1.1
+yoy,B,DZA,sarima,"SARIMA(1, 1, 0)x(1, 0, 1, 12)",1.4488817196353703,3.0
+yoy,B,DZA,sarima,"SARIMA(1, 1, 1)x(0, 0, 0, 12)",2.0167014281033406,1.0
+yoy,B,DZA,sarima,"SARIMA(1, 1, 1)x(0, 0, 1, 12)",1.4635400026881336,3.3
+yoy,B,DZA,sarima,"SARIMA(1, 1, 1)x(1, 0, 0, 12)",1.6164864265565742,1.5
+yoy,B,DZA,sarima,"SARIMA(1, 1, 1)x(1, 0, 1, 12)",1.4841808439577613,3.4
+yoy,B,DZA,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",1.556990173405159,0.9
+yoy,B,DZA,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",1.4715166615386974,3.9
+yoy,B,DZA,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",1.3967288979889343,4.8
+yoy,B,DZA,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",1.4520083273302584,6.6
+yoy,B,DZA,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",1.5890920360839176,1.5
+yoy,B,DZA,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",1.4955310442869414,8.4
+yoy,B,DZA,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",1.4219201020748697,4.3
+yoy,B,DZA,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",1.4704611683487063,8.6
+yoy,B,DZA,sarima,"SARIMA(2, 1, 0)x(0, 0, 0, 12)",1.9036564520215724,0.7
+yoy,B,DZA,sarima,"SARIMA(2, 1, 0)x(0, 0, 1, 12)",1.4027008801399243,3.2
+yoy,B,DZA,sarima,"SARIMA(2, 1, 0)x(1, 0, 0, 12)",1.5463819767145144,1.4
+yoy,B,DZA,sarima,"SARIMA(2, 1, 0)x(1, 0, 1, 12)",1.4139635187904709,3.6
+yoy,B,DZA,sarima,"SARIMA(2, 1, 1)x(0, 0, 0, 12)",1.977128612429733,0.8
+yoy,B,DZA,sarima,"SARIMA(2, 1, 1)x(0, 0, 1, 12)",1.4458761849274795,4.6
+yoy,B,DZA,sarima,"SARIMA(2, 1, 1)x(1, 0, 0, 12)",1.597156770452663,1.9
+yoy,B,DZA,sarima,"SARIMA(2, 1, 1)x(1, 0, 1, 12)",1.4571927245088507,4.8
+yoy,B,DZA,ets,"ETS(A,N,N)",1.9678926005008592,
+yoy,B,DZA,ets,"ETS(A,N,A)",2.011164586478572,
+yoy,B,DZA,ets,"ETS(A,A,N)",2.0398879822691254,
+yoy,B,DZA,ets,"ETS(A,A,A)",2.08192913881073,
+yoy,B,DZA,ets,"ETS(A,Ad,N)",1.9683321903245363,
+yoy,B,DZA,ets,"ETS(A,Ad,A)",2.0125996945722817,
+yoy,B,DZA,fts,chen[average],2.0248195865028915,
+yoy,B,DZA,fts,chen[distribution],1.928257618913464,
+yoy,B,DZA,fts,yu_equal[average],2.062566951953267,
+yoy,B,DZA,fts,yu_equal[distribution],1.87155520331831,
+yoy,B,DZA,fts,yu_weighted[average],1.9777129676704943,
+yoy,B,DZA,fts,yu_weighted[distribution],1.7864423610564,
+yoy,B,RUS,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",5.652673702479934,1.4
+yoy,B,RUS,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",5.742815826177472,2.1
+yoy,B,RUS,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",6.091485260228058,3.9
+yoy,B,RUS,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",5.058385771388309,1.6
+yoy,B,RUS,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",5.019832005092257,3.0
+yoy,B,RUS,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",5.093940674072339,3.4
+yoy,B,RUS,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",5.041827857636672,5.0
+yoy,B,RUS,sarima,"SARIMA(0, 1, 0)x(0, 0, 0, 12)",1.6910105370886428,0.7
+yoy,B,RUS,sarima,"SARIMA(0, 1, 0)x(0, 0, 1, 12)",2.7741609861868075,1.9
+yoy,B,RUS,sarima,"SARIMA(0, 1, 0)x(1, 0, 0, 12)",2.7789739360505363,1.1
+yoy,B,RUS,sarima,"SARIMA(0, 1, 0)x(1, 0, 1, 12)",2.8828690027659407,2.4
+yoy,B,RUS,sarima,"SARIMA(0, 1, 1)x(0, 0, 0, 12)",1.4496050464495893,0.8
+yoy,B,RUS,sarima,"SARIMA(0, 1, 1)x(0, 0, 1, 12)",2.5474359578077257,2.2
+yoy,B,RUS,sarima,"SARIMA(0, 1, 1)x(1, 0, 0, 12)",2.5844661460497766,1.5
+yoy,B,RUS,sarima,"SARIMA(0, 1, 1)x(1, 0, 1, 12)",2.554856435381219,3.0
+yoy,B,RUS,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",1.9763447344255098,1.2
+yoy,B,RUS,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",2.914604636175883,6.2
+yoy,B,RUS,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",2.9765096382843996,5.9
+yoy,B,RUS,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",3.035232542862513,7.9
+yoy,B,RUS,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",1.895685986972041,1.5
+yoy,B,RUS,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",2.7727518875861845,6.4
+yoy,B,RUS,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",2.8285676401765576,3.3
+yoy,B,RUS,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",2.802330295424055,15.0
+yoy,B,RUS,sarima,"SARIMA(1, 1, 0)x(0, 0, 0, 12)",1.208203085425975,0.8
+yoy,B,RUS,sarima,"SARIMA(1, 1, 0)x(0, 0, 1, 12)",2.1169527040127454,2.4
+yoy,B,RUS,sarima,"SARIMA(1, 1, 0)x(1, 0, 0, 12)",2.332708693533392,1.3
+yoy,B,RUS,sarima,"SARIMA(1, 1, 0)x(1, 0, 1, 12)",2.1633646409536613,2.3
+yoy,B,RUS,sarima,"SARIMA(1, 1, 1)x(0, 0, 0, 12)",1.2230289849237872,0.8
+yoy,B,RUS,sarima,"SARIMA(1, 1, 1)x(0, 0, 1, 12)",2.1672926998144586,2.3
+yoy,B,RUS,sarima,"SARIMA(1, 1, 1)x(1, 0, 0, 12)",2.3773937568594903,1.6
+yoy,B,RUS,sarima,"SARIMA(1, 1, 1)x(1, 0, 1, 12)",2.196409511640046,2.6
+yoy,B,RUS,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",2.4511308931174494,1.1
+yoy,B,RUS,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",2.6500999123993827,4.4
+yoy,B,RUS,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",2.8664998558373824,7.8
+yoy,B,RUS,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",2.7036034708698846,9.4
+yoy,B,RUS,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",2.2286992686078535,1.5
+yoy,B,RUS,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",2.674129882201296,5.4
+yoy,B,RUS,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",2.8507305816676363,4.9
+yoy,B,RUS,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",2.6941386730678243,7.5
+yoy,B,RUS,sarima,"SARIMA(2, 1, 0)x(0, 0, 0, 12)",1.2764577926706075,0.5
+yoy,B,RUS,sarima,"SARIMA(2, 1, 0)x(0, 0, 1, 12)",2.2066787376709995,1.3
+yoy,B,RUS,sarima,"SARIMA(2, 1, 0)x(1, 0, 0, 12)",2.4677597047893793,1.0
+yoy,B,RUS,sarima,"SARIMA(2, 1, 0)x(1, 0, 1, 12)",2.2346801069851754,1.8
+yoy,B,RUS,sarima,"SARIMA(2, 1, 1)x(0, 0, 0, 12)",1.2332645378137628,0.6
+yoy,B,RUS,sarima,"SARIMA(2, 1, 1)x(0, 0, 1, 12)",2.16108154267786,2.5
+yoy,B,RUS,sarima,"SARIMA(2, 1, 1)x(1, 0, 0, 12)",2.429121002379847,1.6
+yoy,B,RUS,sarima,"SARIMA(2, 1, 1)x(1, 0, 1, 12)",2.1918409806138826,3.5
+yoy,B,RUS,ets,"ETS(A,N,N)",1.691069182877985,
+yoy,B,RUS,ets,"ETS(A,N,A)",1.7172831866843494,
+yoy,B,RUS,ets,"ETS(A,A,N)",3.7008976595606144,
+yoy,B,RUS,ets,"ETS(A,A,A)",3.8385389991786054,
+yoy,B,RUS,ets,"ETS(A,Ad,N)",1.421559483789545,
+yoy,B,RUS,ets,"ETS(A,Ad,A)",1.4828742581368575,
+yoy,B,RUS,fts,chen[average],1.8758118648616786,
+yoy,B,RUS,fts,chen[distribution],1.7847264659913553,
+yoy,B,RUS,fts,yu_equal[average],1.8804466291641257,
+yoy,B,RUS,fts,yu_equal[distribution],1.7607267165307787,
+yoy,B,RUS,fts,yu_weighted[average],1.9024949820846966,
+yoy,B,RUS,fts,yu_weighted[distribution],1.7747936192710543,
+yoy,B,KAZ,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",3.776662967370713,1.2
+yoy,B,KAZ,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",3.771530720891162,2.4
+yoy,B,KAZ,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",3.937033906590902,3.7
+yoy,B,KAZ,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",3.0413593761697397,1.2
+yoy,B,KAZ,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",3.2162883558081448,2.6
+yoy,B,KAZ,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",3.2082609786184597,2.8
+yoy,B,KAZ,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",3.3640851217280807,4.9
+yoy,B,KAZ,sarima,"SARIMA(0, 1, 0)x(0, 0, 0, 12)",3.2454605932331684,0.6
+yoy,B,KAZ,sarima,"SARIMA(0, 1, 0)x(0, 0, 1, 12)",1.1684491801651729,1.9
+yoy,B,KAZ,sarima,"SARIMA(0, 1, 0)x(1, 0, 0, 12)",2.6185835453492565,1.0
+yoy,B,KAZ,sarima,"SARIMA(0, 1, 0)x(1, 0, 1, 12)",1.1825652607602288,2.3
+yoy,B,KAZ,sarima,"SARIMA(0, 1, 1)x(0, 0, 0, 12)",3.142773419758793,0.6
+yoy,B,KAZ,sarima,"SARIMA(0, 1, 1)x(0, 0, 1, 12)",1.1225889949205563,2.6
+yoy,B,KAZ,sarima,"SARIMA(0, 1, 1)x(1, 0, 0, 12)",2.52720696599169,1.5
+yoy,B,KAZ,sarima,"SARIMA(0, 1, 1)x(1, 0, 1, 12)",1.1765221219923956,3.7
+yoy,B,KAZ,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",2.7715226620141222,1.1
+yoy,B,KAZ,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",1.1918232545983192,4.1
+yoy,B,KAZ,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",2.3710963372190186,4.4
+yoy,B,KAZ,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",1.1975290498473032,6.0
+yoy,B,KAZ,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",2.4911526145705603,1.3
+yoy,B,KAZ,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",1.1584152322227355,3.9
+yoy,B,KAZ,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",2.192700997247746,2.9
+yoy,B,KAZ,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",1.2006128049621607,4.9
+yoy,B,KAZ,sarima,"SARIMA(1, 1, 0)x(0, 0, 0, 12)",3.3735423979147505,1.2
+yoy,B,KAZ,sarima,"SARIMA(1, 1, 0)x(0, 0, 1, 12)",1.0887075664947654,2.5
+yoy,B,KAZ,sarima,"SARIMA(1, 1, 0)x(1, 0, 0, 12)",2.6260691191062753,1.3
+yoy,B,KAZ,sarima,"SARIMA(1, 1, 0)x(1, 0, 1, 12)",1.1081296736153283,2.9
+yoy,B,KAZ,sarima,"SARIMA(1, 1, 1)x(0, 0, 0, 12)",3.2098921812206602,0.7
+yoy,B,KAZ,sarima,"SARIMA(1, 1, 1)x(0, 0, 1, 12)",1.1081628780949766,2.9
+yoy,B,KAZ,sarima,"SARIMA(1, 1, 1)x(1, 0, 0, 12)",2.541366869575813,1.5
+yoy,B,KAZ,sarima,"SARIMA(1, 1, 1)x(1, 0, 1, 12)",1.1617564177508237,4.7
+yoy,B,KAZ,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",1.992357802317013,1.0
+yoy,B,KAZ,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",1.144893808188534,4.2
+yoy,B,KAZ,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",1.9554082700104538,7.5
+yoy,B,KAZ,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",1.1753207606794391,8.0
+yoy,B,KAZ,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",2.0564014838110873,1.7
+yoy,B,KAZ,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",1.1553108859378296,3.8
+yoy,B,KAZ,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",2.0067882114570206,4.1
+yoy,B,KAZ,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",1.2020886659610195,6.1
+yoy,B,KAZ,sarima,"SARIMA(2, 1, 0)x(0, 0, 0, 12)",3.1721350717364856,0.7
+yoy,B,KAZ,sarima,"SARIMA(2, 1, 0)x(0, 0, 1, 12)",1.1325924645166858,3.4
+yoy,B,KAZ,sarima,"SARIMA(2, 1, 0)x(1, 0, 0, 12)",2.528469711234492,1.4
+yoy,B,KAZ,sarima,"SARIMA(2, 1, 0)x(1, 0, 1, 12)",1.1810583067409635,4.2
+yoy,B,KAZ,sarima,"SARIMA(2, 1, 1)x(0, 0, 0, 12)",3.203411101496385,1.0
+yoy,B,KAZ,sarima,"SARIMA(2, 1, 1)x(0, 0, 1, 12)",1.0943979438205451,4.0
+yoy,B,KAZ,sarima,"SARIMA(2, 1, 1)x(1, 0, 0, 12)",2.512014518839477,1.8
+yoy,B,KAZ,sarima,"SARIMA(2, 1, 1)x(1, 0, 1, 12)",1.1479111890419407,5.5
+yoy,B,KAZ,ets,"ETS(A,N,N)",3.2454892446877985,
+yoy,B,KAZ,ets,"ETS(A,N,A)",3.3675730570479203,
+yoy,B,KAZ,ets,"ETS(A,A,N)",3.372667524874977,
+yoy,B,KAZ,ets,"ETS(A,A,A)",3.4912187030879585,
+yoy,B,KAZ,ets,"ETS(A,Ad,N)",3.8531377698989866,
+yoy,B,KAZ,ets,"ETS(A,Ad,A)",4.126932630834121,
+yoy,B,KAZ,fts,chen[average],3.4381915935039555,
+yoy,B,KAZ,fts,chen[distribution],3.4285953206933244,
+yoy,B,KAZ,fts,yu_equal[average],3.4340549590946066,
+yoy,B,KAZ,fts,yu_equal[distribution],3.3987929528777068,
+yoy,B,KAZ,fts,yu_weighted[average],3.38921449944333,
+yoy,B,KAZ,fts,yu_weighted[distribution],3.5080806677967193,
+yoy,A,KAZ,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",3.776662967370713,1.1
+yoy,A,KAZ,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",3.771530720891162,2.0
+yoy,A,KAZ,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",3.937033906590902,3.6
+yoy,A,KAZ,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",3.0413593761697397,1.1
+yoy,A,KAZ,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",3.2162883558081448,2.7
+yoy,A,KAZ,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",3.2082609786184597,2.7
+yoy,A,KAZ,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",3.3640851217280807,4.9
+yoy,A,KAZ,sarima,"SARIMA(0, 1, 0)x(0, 0, 0, 12)",3.2454605932331684,0.6
+yoy,A,KAZ,sarima,"SARIMA(0, 1, 0)x(0, 0, 1, 12)",1.1684491801651729,1.9
+yoy,A,KAZ,sarima,"SARIMA(0, 1, 0)x(1, 0, 0, 12)",2.6185835453492565,0.9
+yoy,A,KAZ,sarima,"SARIMA(0, 1, 0)x(1, 0, 1, 12)",1.1825652607602288,2.4
+yoy,A,KAZ,sarima,"SARIMA(0, 1, 1)x(0, 0, 0, 12)",3.142773419758793,0.7
+yoy,A,KAZ,sarima,"SARIMA(0, 1, 1)x(0, 0, 1, 12)",1.1225889949205563,2.5
+yoy,A,KAZ,sarima,"SARIMA(0, 1, 1)x(1, 0, 0, 12)",2.52720696599169,1.1
+yoy,A,KAZ,sarima,"SARIMA(0, 1, 1)x(1, 0, 1, 12)",1.1765221219923956,2.9
+yoy,A,KAZ,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",2.7715226620141222,0.9
+yoy,A,KAZ,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",1.1918232545983192,3.9
+yoy,A,KAZ,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",2.3710963372190186,4.2
+yoy,A,KAZ,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",1.1975290498473032,6.4
+yoy,A,KAZ,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",2.4911526145705603,1.4
+yoy,A,KAZ,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",1.1584152322227355,3.8
+yoy,A,KAZ,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",2.192700997247746,2.8
+yoy,A,KAZ,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",1.2006128049621607,4.8
+yoy,A,KAZ,sarima,"SARIMA(1, 1, 0)x(0, 0, 0, 12)",3.3735423979147505,0.8
+yoy,A,KAZ,sarima,"SARIMA(1, 1, 0)x(0, 0, 1, 12)",1.0887075664947654,2.5
+yoy,A,KAZ,sarima,"SARIMA(1, 1, 0)x(1, 0, 0, 12)",2.6260691191062753,1.3
+yoy,A,KAZ,sarima,"SARIMA(1, 1, 0)x(1, 0, 1, 12)",1.1081296736153283,2.9
+yoy,A,KAZ,sarima,"SARIMA(1, 1, 1)x(0, 0, 0, 12)",3.2098921812206602,0.8
+yoy,A,KAZ,sarima,"SARIMA(1, 1, 1)x(0, 0, 1, 12)",1.1081628780949766,3.0
+yoy,A,KAZ,sarima,"SARIMA(1, 1, 1)x(1, 0, 0, 12)",2.541366869575813,1.3
+yoy,A,KAZ,sarima,"SARIMA(1, 1, 1)x(1, 0, 1, 12)",1.1617564177508237,5.3
+yoy,A,KAZ,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",1.992357802317013,1.0
+yoy,A,KAZ,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",1.144893808188534,3.7
+yoy,A,KAZ,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",1.9554082700104538,5.3
+yoy,A,KAZ,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",1.1753207606794391,5.4
+yoy,A,KAZ,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",2.0564014838110873,1.2
+yoy,A,KAZ,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",1.1553108859378296,3.9
+yoy,A,KAZ,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",2.0067882114570206,3.8
+yoy,A,KAZ,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",1.2020886659610195,9.5
+yoy,A,KAZ,sarima,"SARIMA(2, 1, 0)x(0, 0, 0, 12)",3.1721350717364856,0.9
+yoy,A,KAZ,sarima,"SARIMA(2, 1, 0)x(0, 0, 1, 12)",1.1325924645166858,4.4
+yoy,A,KAZ,sarima,"SARIMA(2, 1, 0)x(1, 0, 0, 12)",2.528469711234492,1.4
+yoy,A,KAZ,sarima,"SARIMA(2, 1, 0)x(1, 0, 1, 12)",1.1810583067409635,3.7
+yoy,A,KAZ,sarima,"SARIMA(2, 1, 1)x(0, 0, 0, 12)",3.203411101496385,0.9
+yoy,A,KAZ,sarima,"SARIMA(2, 1, 1)x(0, 0, 1, 12)",1.0943979438205451,4.0
+yoy,A,KAZ,sarima,"SARIMA(2, 1, 1)x(1, 0, 0, 12)",2.512014518839477,1.9
+yoy,A,KAZ,sarima,"SARIMA(2, 1, 1)x(1, 0, 1, 12)",1.1479111890419407,5.4
+yoy,A,KAZ,ets,"ETS(A,N,N)",3.2454892446877985,
+yoy,A,KAZ,ets,"ETS(A,N,A)",3.3675730570479203,
+yoy,A,KAZ,ets,"ETS(A,A,N)",3.372667524874977,
+yoy,A,KAZ,ets,"ETS(A,A,A)",3.4912187030879585,
+yoy,A,KAZ,ets,"ETS(A,Ad,N)",3.8531377698989866,
+yoy,A,KAZ,ets,"ETS(A,Ad,A)",4.126932630834121,
+yoy,A,KAZ,fts,chen[average],3.4381915935039555,
+yoy,A,KAZ,fts,chen[distribution],3.4285953206933244,
+yoy,A,KAZ,fts,yu_equal[average],3.4340549590946066,
+yoy,A,KAZ,fts,yu_equal[distribution],3.3987929528777068,
+yoy,A,KAZ,fts,yu_weighted[average],3.38921449944333,
+yoy,A,KAZ,fts,yu_weighted[distribution],3.5080806677967193,
+yoy,A,NOR,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",1.2874185837733536,1.8
+yoy,A,NOR,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",1.0384643517288168,1.7
+yoy,A,NOR,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",1.377615852908883,4.6
+yoy,A,NOR,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.920644691399813,0.9
+yoy,A,NOR,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",1.4389377375567611,3.0
+yoy,A,NOR,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.927789628498898,2.1
+yoy,A,NOR,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",1.2267708777170936,5.5
+yoy,A,NOR,sarima,"SARIMA(0, 1, 0)x(0, 0, 0, 12)",0.9121847169061137,0.6
+yoy,A,NOR,sarima,"SARIMA(0, 1, 0)x(0, 0, 1, 12)",0.6814574755642665,1.4
+yoy,A,NOR,sarima,"SARIMA(0, 1, 0)x(1, 0, 0, 12)",0.6405549543745183,1.0
+yoy,A,NOR,sarima,"SARIMA(0, 1, 0)x(1, 0, 1, 12)",0.6940310582157272,1.7
+yoy,A,NOR,sarima,"SARIMA(0, 1, 1)x(0, 0, 0, 12)",0.914192050668995,0.7
+yoy,A,NOR,sarima,"SARIMA(0, 1, 1)x(0, 0, 1, 12)",0.670626421826891,1.5
+yoy,A,NOR,sarima,"SARIMA(0, 1, 1)x(1, 0, 0, 12)",0.652767810869233,1.1
+yoy,A,NOR,sarima,"SARIMA(0, 1, 1)x(1, 0, 1, 12)",0.6820055909033139,2.1
+yoy,A,NOR,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.7108109697971315,1.1
+yoy,A,NOR,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.8032657368482119,2.8
+yoy,A,NOR,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.5519953996868038,4.2
+yoy,A,NOR,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.8298425322797889,4.7
+yoy,A,NOR,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.7116382222926398,1.3
+yoy,A,NOR,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.8374592417920115,3.1
+yoy,A,NOR,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.6087785738267817,5.3
+yoy,A,NOR,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.8695688749100337,5.0
+yoy,A,NOR,sarima,"SARIMA(1, 1, 0)x(0, 0, 0, 12)",0.9114376711069594,0.7
+yoy,A,NOR,sarima,"SARIMA(1, 1, 0)x(0, 0, 1, 12)",0.6742610978446996,1.7
+yoy,A,NOR,sarima,"SARIMA(1, 1, 0)x(1, 0, 0, 12)",0.6508487960945013,1.5
+yoy,A,NOR,sarima,"SARIMA(1, 1, 0)x(1, 0, 1, 12)",0.6854929179764152,2.0
+yoy,A,NOR,sarima,"SARIMA(1, 1, 1)x(0, 0, 0, 12)",0.9146148395043999,0.9
+yoy,A,NOR,sarima,"SARIMA(1, 1, 1)x(0, 0, 1, 12)",0.669325693771988,2.3
+yoy,A,NOR,sarima,"SARIMA(1, 1, 1)x(1, 0, 0, 12)",0.6524852869506552,1.6
+yoy,A,NOR,sarima,"SARIMA(1, 1, 1)x(1, 0, 1, 12)",0.6817268587693963,3.1
+yoy,A,NOR,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.7219190008225413,1.6
+yoy,A,NOR,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.8741850752501945,3.3
+yoy,A,NOR,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.6453834872162103,5.4
+yoy,A,NOR,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.904446623534105,4.8
+yoy,A,NOR,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.7198976686020053,1.5
+yoy,A,NOR,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.8561499259886838,4.5
+yoy,A,NOR,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.6285195906890382,12.9
+yoy,A,NOR,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.8885837064604836,8.6
+yoy,A,NOR,sarima,"SARIMA(2, 1, 0)x(0, 0, 0, 12)",0.9179503559570164,0.8
+yoy,A,NOR,sarima,"SARIMA(2, 1, 0)x(0, 0, 1, 12)",0.6660101329555188,1.9
+yoy,A,NOR,sarima,"SARIMA(2, 1, 0)x(1, 0, 0, 12)",0.6522356177154245,1.6
+yoy,A,NOR,sarima,"SARIMA(2, 1, 0)x(1, 0, 1, 12)",0.6776722277104508,2.5
+yoy,A,NOR,sarima,"SARIMA(2, 1, 1)x(0, 0, 0, 12)",0.7170233262480767,2.1
+yoy,A,NOR,sarima,"SARIMA(2, 1, 1)x(0, 0, 1, 12)",0.6573715491127906,2.8
+yoy,A,NOR,sarima,"SARIMA(2, 1, 1)x(1, 0, 0, 12)",0.6666618148496918,1.9
+yoy,A,NOR,sarima,"SARIMA(2, 1, 1)x(1, 0, 1, 12)",0.6676919350292435,3.5
+yoy,A,NOR,ets,"ETS(A,N,N)",0.9121876273030498,
+yoy,A,NOR,ets,"ETS(A,N,A)",0.9104449313148169,
+yoy,A,NOR,ets,"ETS(A,A,N)",0.9121382403008964,
+yoy,A,NOR,ets,"ETS(A,A,A)",0.9102353476507379,
+yoy,A,NOR,ets,"ETS(A,Ad,N)",0.9122160912130424,
+yoy,A,NOR,ets,"ETS(A,Ad,A)",0.9105960028984148,
+yoy,A,NOR,fts,chen[average],0.8422683574409495,
+yoy,A,NOR,fts,chen[distribution],0.9500039547192027,
+yoy,A,NOR,fts,yu_equal[average],0.8783009501831096,
+yoy,A,NOR,fts,yu_equal[distribution],0.877165547402098,
+yoy,A,NOR,fts,yu_weighted[average],0.9643627478305778,
+yoy,A,NOR,fts,yu_weighted[distribution],0.8524743467805274,
+yoy,B,NOR,sarima,"SARIMA(0, 0, 0)x(0, 0, 1, 12)",1.3459253832862106,2.1
+yoy,B,NOR,sarima,"SARIMA(0, 0, 0)x(1, 0, 0, 12)",1.0481069647910997,2.5
+yoy,B,NOR,sarima,"SARIMA(0, 0, 0)x(1, 0, 1, 12)",1.230258308331149,4.1
+yoy,B,NOR,sarima,"SARIMA(0, 0, 1)x(0, 0, 0, 12)",0.9367401753541788,1.0
+yoy,B,NOR,sarima,"SARIMA(0, 0, 1)x(0, 0, 1, 12)",1.2460055377216435,3.2
+yoy,B,NOR,sarima,"SARIMA(0, 0, 1)x(1, 0, 0, 12)",0.9401603666876993,2.0
+yoy,B,NOR,sarima,"SARIMA(0, 0, 1)x(1, 0, 1, 12)",1.1116995581598466,4.8
+yoy,B,NOR,sarima,"SARIMA(0, 1, 0)x(0, 0, 0, 12)",0.9121847169061137,0.6
+yoy,B,NOR,sarima,"SARIMA(0, 1, 0)x(0, 0, 1, 12)",0.6593406248808699,1.3
+yoy,B,NOR,sarima,"SARIMA(0, 1, 0)x(1, 0, 0, 12)",0.6351355891510108,1.1
+yoy,B,NOR,sarima,"SARIMA(0, 1, 0)x(1, 0, 1, 12)",0.6412896363254994,2.0
+yoy,B,NOR,sarima,"SARIMA(0, 1, 1)x(0, 0, 0, 12)",0.9114866400463422,0.8
+yoy,B,NOR,sarima,"SARIMA(0, 1, 1)x(0, 0, 1, 12)",0.6587660717897452,1.6
+yoy,B,NOR,sarima,"SARIMA(0, 1, 1)x(1, 0, 0, 12)",0.6426820340002846,1.3
+yoy,B,NOR,sarima,"SARIMA(0, 1, 1)x(1, 0, 1, 12)",0.64017221637828,2.2
+yoy,B,NOR,sarima,"SARIMA(1, 0, 0)x(0, 0, 0, 12)",0.726217461948969,1.2
+yoy,B,NOR,sarima,"SARIMA(1, 0, 0)x(0, 0, 1, 12)",0.7911764353318975,2.8
+yoy,B,NOR,sarima,"SARIMA(1, 0, 0)x(1, 0, 0, 12)",0.5815793253995988,4.1
+yoy,B,NOR,sarima,"SARIMA(1, 0, 0)x(1, 0, 1, 12)",0.8087589100521306,5.7
+yoy,B,NOR,sarima,"SARIMA(1, 0, 1)x(0, 0, 0, 12)",0.7319341411602703,1.1
+yoy,B,NOR,sarima,"SARIMA(1, 0, 1)x(0, 0, 1, 12)",0.8245458702001283,3.5
+yoy,B,NOR,sarima,"SARIMA(1, 0, 1)x(1, 0, 0, 12)",0.6320644812250703,3.3
+yoy,B,NOR,sarima,"SARIMA(1, 0, 1)x(1, 0, 1, 12)",0.8511874618391424,5.5
+yoy,B,NOR,sarima,"SARIMA(1, 1, 0)x(0, 0, 0, 12)",0.9099518130317086,0.7
+yoy,B,NOR,sarima,"SARIMA(1, 1, 0)x(0, 0, 1, 12)",0.6594060570259801,1.7
+yoy,B,NOR,sarima,"SARIMA(1, 1, 0)x(1, 0, 0, 12)",0.6411629315332952,1.8
+yoy,B,NOR,sarima,"SARIMA(1, 1, 0)x(1, 0, 1, 12)",0.6408550234044745,1.9
+yoy,B,NOR,sarima,"SARIMA(1, 1, 1)x(0, 0, 0, 12)",0.9132876343578178,0.9
+yoy,B,NOR,sarima,"SARIMA(1, 1, 1)x(0, 0, 1, 12)",0.657347693003079,2.3
+yoy,B,NOR,sarima,"SARIMA(1, 1, 1)x(1, 0, 0, 12)",0.6423509032621085,2.9
+yoy,B,NOR,sarima,"SARIMA(1, 1, 1)x(1, 0, 1, 12)",0.6391936879549869,6.3
+yoy,B,NOR,sarima,"SARIMA(2, 0, 0)x(0, 0, 0, 12)",0.7404981342962722,1.3
+yoy,B,NOR,sarima,"SARIMA(2, 0, 0)x(0, 0, 1, 12)",0.8358379314243387,4.4
+yoy,B,NOR,sarima,"SARIMA(2, 0, 0)x(1, 0, 0, 12)",0.6468427888583898,7.6
+yoy,B,NOR,sarima,"SARIMA(2, 0, 0)x(1, 0, 1, 12)",0.8574356867801927,5.8
+yoy,B,NOR,sarima,"SARIMA(2, 0, 1)x(0, 0, 0, 12)",0.7408660954938247,1.2
+yoy,B,NOR,sarima,"SARIMA(2, 0, 1)x(0, 0, 1, 12)",0.8250625983213249,4.2
+yoy,B,NOR,sarima,"SARIMA(2, 0, 1)x(1, 0, 0, 12)",0.6341643753532487,5.9
+yoy,B,NOR,sarima,"SARIMA(2, 0, 1)x(1, 0, 1, 12)",0.8278302568023763,7.6
+yoy,B,NOR,sarima,"SARIMA(2, 1, 0)x(0, 0, 0, 12)",0.9155594893541814,0.7
+yoy,B,NOR,sarima,"SARIMA(2, 1, 0)x(0, 0, 1, 12)",0.6562403562357587,1.9
+yoy,B,NOR,sarima,"SARIMA(2, 1, 0)x(1, 0, 0, 12)",0.6422192176063655,1.5
+yoy,B,NOR,sarima,"SARIMA(2, 1, 0)x(1, 0, 1, 12)",0.6375176861091474,2.9
+yoy,B,NOR,sarima,"SARIMA(2, 1, 1)x(0, 0, 0, 12)",0.733605190879516,1.7
+yoy,B,NOR,sarima,"SARIMA(2, 1, 1)x(0, 0, 1, 12)",0.6596356287219203,2.8
+yoy,B,NOR,sarima,"SARIMA(2, 1, 1)x(1, 0, 0, 12)",0.6572080454201831,2.2
+yoy,B,NOR,sarima,"SARIMA(2, 1, 1)x(1, 0, 1, 12)",0.6481579080591284,3.4
+yoy,B,NOR,ets,"ETS(A,N,N)",0.9121876273030498,
+yoy,B,NOR,ets,"ETS(A,N,A)",0.9146262209780612,
+yoy,B,NOR,ets,"ETS(A,A,N)",0.9232888688469412,
+yoy,B,NOR,ets,"ETS(A,A,A)",0.9258241423774303,
+yoy,B,NOR,ets,"ETS(A,Ad,N)",0.9123052655609385,
+yoy,B,NOR,ets,"ETS(A,Ad,A)",0.915636841408926,
+yoy,B,NOR,fts,chen[average],1.0242473008962465,
+yoy,B,NOR,fts,chen[distribution],0.942157692472523,
+yoy,B,NOR,fts,yu_equal[average],1.019589514390331,
+yoy,B,NOR,fts,yu_equal[distribution],0.9286229770824348,
+yoy,B,NOR,fts,yu_weighted[average],1.0038346828058127,
+yoy,B,NOR,fts,yu_weighted[distribution],0.9524334273688613,

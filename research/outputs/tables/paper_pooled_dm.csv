@@ -1,0 +1,113 @@
+variable,loss,horizon,model,comparator,n_months,n_countries,mean_loss_diff,hln_stat,p_value,kernel,first_target,last_target,p_holm,conclusion
+mom,se,1,sarima,seasonal_naive,92,5,-0.27373572153798187,-2.3604714423884183,0.020387325777036645,rectangular,2019-01,2026-08,0.08154930310814658,not statistically distinguishable at 5%
+mom,se,1,ets,seasonal_naive,92,5,-0.24974289470034688,-1.6953885211361857,0.09342090519997917,rectangular,2019-01,2026-08,0.28026271559993754,not statistically distinguishable at 5%
+mom,se,1,yu_weighted_fts,seasonal_naive,92,5,-0.10536032732701138,-0.6595593922687756,0.5112023875053211,rectangular,2019-01,2026-08,0.5112023875053211,not statistically distinguishable at 5%
+mom,se,1,yu_weighted_fts,sarima,92,5,0.1683753942109705,2.6178783343186462,0.010362429329185734,rectangular,2019-01,2026-08,0.0621745759751144,not statistically distinguishable at 5%
+mom,se,1,yu_weighted_fts,ets,92,5,0.14438256737333555,3.6330979283846614,0.0004630461226279011,rectangular,2019-01,2026-08,0.0032413228583953076,comparator significantly more accurate
+mom,se,1,yu_weighted_fts,yu_equal_fts,92,5,0.01202478987772935,1.417586031964996,0.15972668113746868,rectangular,2019-01,2026-08,0.31945336227493737,not statistically distinguishable at 5%
+mom,se,1,yu_weighted_fts,chen_fts,92,5,-0.04745429721295371,-2.6133637253514204,0.010490431054466723,rectangular,2019-01,2026-08,0.0621745759751144,not statistically distinguishable at 5%
+mom,se,3,sarima,seasonal_naive,90,5,-0.24664996575572973,-2.030662502128941,0.045273617998029224,rectangular,2019-03,2026-08,0.18156589646347626,not statistically distinguishable at 5%
+mom,se,3,ets,seasonal_naive,90,5,-0.11731656672013542,-0.5900430804362756,0.5566569058793728,rectangular,2019-03,2026-08,1.0,not statistically distinguishable at 5%
+mom,se,3,yu_weighted_fts,seasonal_naive,90,5,0.06776358138954781,0.30042021972821165,0.7645572679057538,rectangular,2019-03,2026-08,1.0,not statistically distinguishable at 5%
+mom,se,3,yu_weighted_fts,sarima,90,5,0.31441354714527747,2.125524095469085,0.03631317929269525,rectangular,2019-03,2026-08,0.18156589646347626,not statistically distinguishable at 5%
+mom,se,3,yu_weighted_fts,ets,90,5,0.1850801481096833,2.730666451132539,0.007619665094195452,rectangular,2019-03,2026-08,0.045717990565172714,comparator significantly more accurate
+mom,se,3,yu_weighted_fts,yu_equal_fts,90,5,0.005791306221836444,0.3107210163686749,0.7567392551769576,rectangular,2019-03,2026-08,1.0,not statistically distinguishable at 5%
+mom,se,3,yu_weighted_fts,chen_fts,90,5,-0.1046421772828556,-3.352175525174961,0.0011786172275053903,rectangular,2019-03,2026-08,0.008250320592537733,model significantly more accurate
+mom,se,6,sarima,seasonal_naive,87,5,-0.25963071393402776,-1.9361826283588446,0.05612982370995036,rectangular,2019-06,2026-08,0.22451929483980143,not statistically distinguishable at 5%
+mom,se,6,ets,seasonal_naive,87,5,-0.06680646245249056,-0.31348017434838316,0.7546749325887254,rectangular,2019-06,2026-08,1.0,not statistically distinguishable at 5%
+mom,se,6,yu_weighted_fts,seasonal_naive,87,5,0.07685595568312938,0.34002053706168084,0.7346701391775746,rectangular,2019-06,2026-08,1.0,not statistically distinguishable at 5%
+mom,se,6,yu_weighted_fts,sarima,87,5,0.3364866696171571,2.331246789451062,0.022079551107951245,rectangular,2019-06,2026-08,0.13247730664770746,not statistically distinguishable at 5%
+mom,se,6,yu_weighted_fts,ets,87,5,0.14366241813561992,6.821098166643639,1.192127314934768e-09,rectangular,2019-06,2026-08,8.344891204543375e-09,comparator significantly more accurate
+mom,se,6,yu_weighted_fts,yu_equal_fts,87,5,-0.0028985507122253652,-0.19168181469149181,0.8484433048144243,rectangular,2019-06,2026-08,1.0,not statistically distinguishable at 5%
+mom,se,6,yu_weighted_fts,chen_fts,87,5,-0.07776610461019838,-2.158344591428493,0.03368783060504904,rectangular,2019-06,2026-08,0.1684391530252452,not statistically distinguishable at 5%
+mom,se,12,sarima,seasonal_naive,81,5,-0.2675928762250859,-1.8587020519602326,0.066747024524268,rectangular,2019-12,2026-08,0.266988098097072,not statistically distinguishable at 5%
+mom,se,12,ets,seasonal_naive,81,5,-0.11391656944738078,-4.958764747873732,3.9056378065183855e-06,rectangular,2019-12,2026-08,2.73394646456287e-05,model significantly more accurate
+mom,se,12,yu_weighted_fts,seasonal_naive,81,5,-0.02678351702114274,-0.4673158086974019,0.6415443398815521,rectangular,2019-12,2026-08,0.6415443398815521,not statistically distinguishable at 5%
+mom,se,12,yu_weighted_fts,sarima,81,5,0.24080935920394314,1.814408422876911,0.07336360790154015,rectangular,2019-12,2026-08,0.266988098097072,not statistically distinguishable at 5%
+mom,se,12,yu_weighted_fts,ets,81,5,0.08713305242623803,2.736216568131926,0.007653887282855664,rectangular,2019-12,2026-08,0.045923323697133984,comparator significantly more accurate
+mom,se,12,yu_weighted_fts,yu_equal_fts,81,5,0.01085019027152793,1.112943359867654,0.2690657755548779,rectangular,2019-12,2026-08,0.5381315511097557,not statistically distinguishable at 5%
+mom,se,12,yu_weighted_fts,chen_fts,81,5,-0.09668665009333871,-2.153491439236864,0.034291052065110225,rectangular,2019-12,2026-08,0.17145526032555114,not statistically distinguishable at 5%
+mom,ae,1,sarima,seasonal_naive,92,5,-0.14157465331565514,-6.317332180780534,9.625419615122139e-09,rectangular,2019-01,2026-08,6.737793730585497e-08,model significantly more accurate
+mom,ae,1,ets,seasonal_naive,92,5,-0.12713949614694994,-4.244081521517906,5.276858949205107e-05,rectangular,2019-01,2026-08,0.00026384294746025535,model significantly more accurate
+mom,ae,1,yu_weighted_fts,seasonal_naive,92,5,-0.06690201774212443,-2.0974332320063054,0.038728205780401474,rectangular,2019-01,2026-08,0.07745641156080295,not statistically distinguishable at 5%
+mom,ae,1,yu_weighted_fts,sarima,92,5,0.07467263557353072,4.653396534387829,1.1051037758197163e-05,rectangular,2019-01,2026-08,6.630622654918298e-05,comparator significantly more accurate
+mom,ae,1,yu_weighted_fts,ets,92,5,0.06023747840482553,3.7504241221219443,0.0003101169172746195,rectangular,2019-01,2026-08,0.001240467669098478,comparator significantly more accurate
+mom,ae,1,yu_weighted_fts,yu_equal_fts,92,5,0.00748139391444053,2.043875565215166,0.043856330611498885,rectangular,2019-01,2026-08,0.07745641156080295,not statistically distinguishable at 5%
+mom,ae,1,yu_weighted_fts,chen_fts,92,5,-0.03382951920196313,-3.5859558823017896,0.0005427353425317726,rectangular,2019-01,2026-08,0.0016282060275953178,model significantly more accurate
+mom,ae,3,sarima,seasonal_naive,90,5,-0.1109101541843614,-3.552994309238556,0.0006118233704800743,rectangular,2019-03,2026-08,0.003670940222880446,model significantly more accurate
+mom,ae,3,ets,seasonal_naive,90,5,-0.0584460853687354,-1.3232830514927023,0.18913075822411793,rectangular,2019-03,2026-08,0.5673922746723538,not statistically distinguishable at 5%
+mom,ae,3,yu_weighted_fts,seasonal_naive,90,5,0.005948272305505112,0.1250258829430027,0.9007850317317359,rectangular,2019-03,2026-08,1.0,not statistically distinguishable at 5%
+mom,ae,3,yu_weighted_fts,sarima,90,5,0.1168584264898665,4.0541660867791,0.00010753663906664194,rectangular,2019-03,2026-08,0.0007527564734664936,comparator significantly more accurate
+mom,ae,3,yu_weighted_fts,ets,90,5,0.0643943576742405,1.9372572243589377,0.05588532195113651,rectangular,2019-03,2026-08,0.22354128780454605,not statistically distinguishable at 5%
+mom,ae,3,yu_weighted_fts,yu_equal_fts,90,5,0.003682637918173767,0.40039548082389975,0.6898247409341983,rectangular,2019-03,2026-08,1.0,not statistically distinguishable at 5%
+mom,ae,3,yu_weighted_fts,chen_fts,90,5,-0.07447318954882035,-3.550398143781483,0.0006171271966694244,rectangular,2019-03,2026-08,0.003670940222880446,model significantly more accurate
+mom,ae,6,sarima,seasonal_naive,87,5,-0.10903637635302432,-2.553774646175224,0.01241869803321861,rectangular,2019-06,2026-08,0.06209349016609306,not statistically distinguishable at 5%
+mom,ae,6,ets,seasonal_naive,87,5,-0.0212606672807466,-0.41387488812194817,0.6799960856439943,rectangular,2019-06,2026-08,1.0,not statistically distinguishable at 5%
+mom,ae,6,yu_weighted_fts,seasonal_naive,87,5,0.03898186336148158,0.8399741676328006,0.4032519974989336,rectangular,2019-06,2026-08,1.0,not statistically distinguishable at 5%
+mom,ae,6,yu_weighted_fts,sarima,87,5,0.14801823971450592,8.209454492742651,1.9928056381177296e-12,rectangular,2019-06,2026-08,1.3949639466824107e-11,comparator significantly more accurate
+mom,ae,6,yu_weighted_fts,ets,87,5,0.06024253064222818,5.751035165987739,1.3268303019870366e-07,rectangular,2019-06,2026-08,7.96098181192222e-07,comparator significantly more accurate
+mom,ae,6,yu_weighted_fts,yu_equal_fts,87,5,-0.0006637709035489223,-0.09470373400413012,0.924770462024876,rectangular,2019-06,2026-08,1.0,not statistically distinguishable at 5%
+mom,ae,6,yu_weighted_fts,chen_fts,87,5,-0.04713874881479215,-1.783166154755177,0.07808746262009701,rectangular,2019-06,2026-08,0.31234985048038805,not statistically distinguishable at 5%
+mom,ae,12,sarima,seasonal_naive,81,5,-0.115516183213263,-2.3845516566447262,0.019466908544553702,rectangular,2019-12,2026-08,0.11680145126732222,not statistically distinguishable at 5%
+mom,ae,12,ets,seasonal_naive,81,5,-0.04664936835859379,-2.2851207825535274,0.024953936251696285,rectangular,2019-12,2026-08,0.12476968125848142,not statistically distinguishable at 5%
+mom,ae,12,yu_weighted_fts,seasonal_naive,81,5,-0.022448592859949903,-0.829194284002586,0.4094617769630871,rectangular,2019-12,2026-08,0.4994042885119318,not statistically distinguishable at 5%
+mom,ae,12,yu_weighted_fts,sarima,81,5,0.09306759035331312,2.906039303054888,0.004732834256217242,rectangular,2019-12,2026-08,0.033129839793520695,comparator significantly more accurate
+mom,ae,12,yu_weighted_fts,ets,81,5,0.02420077549864389,1.159498365730294,0.2497021442559659,rectangular,2019-12,2026-08,0.4994042885119318,not statistically distinguishable at 5%
+mom,ae,12,yu_weighted_fts,yu_equal_fts,81,5,0.012414242303081233,1.6828253623920564,0.09630801762177996,rectangular,2019-12,2026-08,0.3852320704871198,not statistically distinguishable at 5%
+mom,ae,12,yu_weighted_fts,chen_fts,81,5,-0.05085939683542873,-1.6442050226574485,0.10405822119472852,rectangular,2019-12,2026-08,0.3852320704871198,not statistically distinguishable at 5%
+yoy_implied,se,1,sarima,seasonal_naive,92,5,-0.3023484106481417,-2.3143438426527054,0.022899658750990464,rectangular,2019-01,2026-08,0.09159863500396186,not statistically distinguishable at 5%
+yoy_implied,se,1,ets,seasonal_naive,92,5,-0.2669770164482256,-1.5766777264687566,0.11833990120885107,rectangular,2019-01,2026-08,0.3550197036265532,not statistically distinguishable at 5%
+yoy_implied,se,1,yu_weighted_fts,seasonal_naive,92,5,-0.10165939808805712,-0.543218783693411,0.5883073616987926,rectangular,2019-01,2026-08,0.5883073616987926,not statistically distinguishable at 5%
+yoy_implied,se,1,yu_weighted_fts,sarima,92,5,0.2006890125600846,2.4635088225894433,0.015638618908213466,rectangular,2019-01,2026-08,0.0835251469030255,not statistically distinguishable at 5%
+yoy_implied,se,1,yu_weighted_fts,ets,92,5,0.16531761836016853,3.4915883407510373,0.0007428505292807406,rectangular,2019-01,2026-08,0.0051999537049651845,comparator significantly more accurate
+yoy_implied,se,1,yu_weighted_fts,yu_equal_fts,92,5,0.01418814188398211,1.4782692183099655,0.14278877039087284,rectangular,2019-01,2026-08,0.3550197036265532,not statistically distinguishable at 5%
+yoy_implied,se,1,yu_weighted_fts,chen_fts,92,5,-0.05041512608750446,-2.507805542374425,0.013920857817170916,rectangular,2019-01,2026-08,0.0835251469030255,not statistically distinguishable at 5%
+yoy_implied,se,3,sarima,seasonal_naive,90,5,-1.1860284569927464,-1.5578623853813443,0.1228148930901983,rectangular,2019-03,2026-08,0.4912595723607932,not statistically distinguishable at 5%
+yoy_implied,se,3,ets,seasonal_naive,90,5,-0.05884744001943284,-0.036443827300551145,0.9710100856090863,rectangular,2019-03,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,se,3,yu_weighted_fts,seasonal_naive,90,5,1.200781325947631,0.6158607192554164,0.5395583049088384,rectangular,2019-03,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,se,3,yu_weighted_fts,sarima,90,5,2.3868097829403774,1.6998700951636185,0.092647841194878,rectangular,2019-03,2026-08,0.46323920597439,not statistically distinguishable at 5%
+yoy_implied,se,3,yu_weighted_fts,ets,90,5,1.259628765967064,2.2302485130305993,0.028245907578236418,rectangular,2019-03,2026-08,0.1694754454694185,not statistically distinguishable at 5%
+yoy_implied,se,3,yu_weighted_fts,yu_equal_fts,90,5,0.14852388337441141,1.1038793717321467,0.2726211348095206,rectangular,2019-03,2026-08,0.8178634044285618,not statistically distinguishable at 5%
+yoy_implied,se,3,yu_weighted_fts,chen_fts,90,5,-0.5146665625487924,-2.436785255277909,0.016809051595328774,rectangular,2019-03,2026-08,0.11766336116730142,not statistically distinguishable at 5%
+yoy_implied,se,6,sarima,seasonal_naive,87,5,-2.9113090220081026,-1.071707868483546,0.28684959733986226,rectangular,2019-06,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,se,6,ets,seasonal_naive,87,5,5.283037992979919,0.6463958798142664,0.5197443303097289,rectangular,2019-06,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,se,6,yu_weighted_fts,seasonal_naive,87,5,9.19802871793588,0.8927912164617583,0.3744604240524443,rectangular,2019-06,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,se,6,yu_weighted_fts,sarima,87,5,12.10933773994398,1.4177106278035083,0.15988839034973762,rectangular,2019-06,2026-08,0.7994419517486882,not statistically distinguishable at 5%
+yoy_implied,se,6,yu_weighted_fts,ets,87,5,3.91499072495596,1.6441667940125284,0.10379267381196779,rectangular,2019-06,2026-08,0.7265487166837745,not statistically distinguishable at 5%
+yoy_implied,se,6,yu_weighted_fts,yu_equal_fts,87,5,0.4717970942856186,0.8072474407104867,0.42175096884941726,rectangular,2019-06,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,se,6,yu_weighted_fts,chen_fts,87,5,-1.7910873592001921,-1.6213760877557797,0.10859787018675296,rectangular,2019-06,2026-08,0.7265487166837745,not statistically distinguishable at 5%
+yoy_implied,se,12,sarima,seasonal_naive,81,5,-6.501786859736106,-1.055440663837483,0.2944008550736525,rectangular,2019-12,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,se,12,ets,seasonal_naive,81,5,36.04362949973912,0.9908130891537507,0.32476425084183363,rectangular,2019-12,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,se,12,yu_weighted_fts,seasonal_naive,81,5,54.84249072264518,1.1184953501978125,0.2667028552024025,rectangular,2019-12,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,se,12,yu_weighted_fts,sarima,81,5,61.34427758238129,1.244115741190056,0.2170898848114186,rectangular,2019-12,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,se,12,yu_weighted_fts,ets,81,5,18.798861222906066,1.4250098130763647,0.15804412787882993,rectangular,2019-12,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,se,12,yu_weighted_fts,yu_equal_fts,81,5,2.4523509445802705,0.696656242429158,0.48803729342364943,rectangular,2019-12,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,se,12,yu_weighted_fts,chen_fts,81,5,-6.311862711875338,-1.158682479860323,0.2500327293121736,rectangular,2019-12,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,ae,1,sarima,seasonal_naive,92,5,-0.1513735508435518,-6.258510225121427,1.2532849355429018e-08,rectangular,2019-01,2026-08,8.772994548800312e-08,model significantly more accurate
+yoy_implied,ae,1,ets,seasonal_naive,92,5,-0.1353052187912731,-4.182192120669949,6.636003931279042e-05,rectangular,2019-01,2026-08,0.0003318001965639521,model significantly more accurate
+yoy_implied,ae,1,yu_weighted_fts,seasonal_naive,92,5,-0.07114091482430437,-2.0768916892245906,0.0406303674095866,rectangular,2019-01,2026-08,0.07582118322494139,not statistically distinguishable at 5%
+yoy_implied,ae,1,yu_weighted_fts,sarima,92,5,0.08023263601924743,4.68820905770457,9.639894914425678e-06,rectangular,2019-01,2026-08,5.7839369486554064e-05,comparator significantly more accurate
+yoy_implied,ae,1,yu_weighted_fts,ets,92,5,0.0641643039669687,3.755331634685614,0.00030490717912144493,rectangular,2019-01,2026-08,0.0012196287164857797,comparator significantly more accurate
+yoy_implied,ae,1,yu_weighted_fts,yu_equal_fts,92,5,0.008208435106800504,2.106531439077793,0.03791059161247069,rectangular,2019-01,2026-08,0.07582118322494139,not statistically distinguishable at 5%
+yoy_implied,ae,1,yu_weighted_fts,chen_fts,92,5,-0.03493675375258022,-3.5288376426834573,0.0006567101768106472,rectangular,2019-01,2026-08,0.0019701305304319415,model significantly more accurate
+yoy_implied,ae,3,sarima,seasonal_naive,90,5,-0.28564959473617446,-2.4706253809471788,0.015393312355752812,rectangular,2019-03,2026-08,0.07696656177876406,not statistically distinguishable at 5%
+yoy_implied,ae,3,ets,seasonal_naive,90,5,-0.14112944524761595,-0.9040643286114726,0.3684019379360515,rectangular,2019-03,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,ae,3,yu_weighted_fts,seasonal_naive,90,5,-0.030075522455090344,-0.20565870426809627,0.8375272025066934,rectangular,2019-03,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,ae,3,yu_weighted_fts,sarima,90,5,0.25557407228108414,3.7479717450523693,0.0003163659258305905,rectangular,2019-03,2026-08,0.0018981955549835432,comparator significantly more accurate
+yoy_implied,ae,3,yu_weighted_fts,ets,90,5,0.11105392279252559,1.4438879599955774,0.15228152423192526,rectangular,2019-03,2026-08,0.609126096927701,not statistically distinguishable at 5%
+yoy_implied,ae,3,yu_weighted_fts,yu_equal_fts,90,5,0.017321391872387303,0.8442366613967808,0.400800765362721,rectangular,2019-03,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,ae,3,yu_weighted_fts,chen_fts,90,5,-0.17073269621590728,-3.856442001959869,0.0002171408654485412,rectangular,2019-03,2026-08,0.0015199860581397884,model significantly more accurate
+yoy_implied,ae,6,sarima,seasonal_naive,87,5,-0.4225241692822035,-1.3258550323600164,0.18839864905161516,rectangular,2019-06,2026-08,0.7535945962064606,not statistically distinguishable at 5%
+yoy_implied,ae,6,ets,seasonal_naive,87,5,0.021626228616297528,0.05665805976444772,0.954949014214242,rectangular,2019-06,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,ae,6,yu_weighted_fts,seasonal_naive,87,5,0.15440777286735902,0.4422030105411086,0.6594523903597853,rectangular,2019-06,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,ae,6,yu_weighted_fts,sarima,87,5,0.5769319421495626,5.031542996123654,2.636167632058546e-06,rectangular,2019-06,2026-08,1.845317342440982e-05,comparator significantly more accurate
+yoy_implied,ae,6,yu_weighted_fts,ets,87,5,0.1327815442510615,1.6432609577338935,0.10398032448970763,rectangular,2019-06,2026-08,0.5199016224485382,not statistically distinguishable at 5%
+yoy_implied,ae,6,yu_weighted_fts,yu_equal_fts,87,5,0.010958209418317762,0.24068090012506202,0.8103752819125593,rectangular,2019-06,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,ae,6,yu_weighted_fts,chen_fts,87,5,-0.36873351484034045,-2.3840334974960684,0.019323987604926204,rectangular,2019-06,2026-08,0.11594392562955722,not statistically distinguishable at 5%
+yoy_implied,ae,12,sarima,seasonal_naive,81,5,-0.5378517429319047,-0.8248255452400326,0.41192330471817235,rectangular,2019-12,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,ae,12,ets,seasonal_naive,81,5,0.361784272158886,0.56543064365102,0.5733633037548185,rectangular,2019-12,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,ae,12,yu_weighted_fts,seasonal_naive,81,5,0.6043768170606342,0.8480166002308578,0.3989588532731776,rectangular,2019-12,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,ae,12,yu_weighted_fts,sarima,81,5,1.1422285599925388,2.335660432711794,0.022014300849702902,rectangular,2019-12,2026-08,0.1541001059479203,not statistically distinguishable at 5%
+yoy_implied,ae,12,yu_weighted_fts,ets,81,5,0.2425925449017481,1.2718470267600934,0.2071123502608762,bartlett,2019-12,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,ae,12,yu_weighted_fts,yu_equal_fts,81,5,0.08812602496018725,0.6236504093746126,0.5346313871377935,rectangular,2019-12,2026-08,1.0,not statistically distinguishable at 5%
+yoy_implied,ae,12,yu_weighted_fts,chen_fts,81,5,-0.7756180801183618,-1.6045641464608462,0.1125305291375252,rectangular,2019-12,2026-08,0.6751831748251512,not statistically distinguishable at 5%
